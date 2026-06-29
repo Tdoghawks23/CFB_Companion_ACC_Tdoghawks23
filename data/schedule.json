@@ -1,0 +1,40 @@
+{
+  "2026": {
+    "6": {
+      "weekTitle": "Week 6",
+      "weekDate": "October 3-4, 2026",
+      "games": [
+        { "id": "2026-w6-g1", "homeTeamId": "clemson", "awayTeamId": "virginia-tech", "homeTeamName": "Clemson Tigers", "awayTeamName": "Virginia Tech Hokies", "gameTime": "3:30 PM ET", "network": "ABC", "location": "Memorial Stadium", "isConferenceGame": true, "isRivalry": false, "status": "final", "homeScore": 38, "awayScore": 14, "isFeatured": true },
+        { "id": "2026-w6-g2", "homeTeamId": "miami", "awayTeamId": "california", "homeTeamName": "Miami Hurricanes", "awayTeamName": "California Golden Bears", "gameTime": "12:00 PM ET", "network": "ACC Network", "location": "Hard Rock Stadium", "isConferenceGame": true, "isRivalry": false, "status": "final", "homeScore": 42, "awayScore": 17, "isFeatured": false },
+        { "id": "2026-w6-g3", "homeTeamId": "louisville", "awayTeamId": "duke", "homeTeamName": "Louisville Cardinals", "awayTeamName": "Duke Blue Devils", "gameTime": "7:30 PM ET", "network": "ESPN", "location": "L&N Stadium", "isConferenceGame": true, "isRivalry": false, "status": "final", "homeScore": 28, "awayScore": 24, "isFeatured": true },
+        { "id": "2026-w6-g4", "homeTeamId": "nc-state", "awayTeamId": "wake-forest", "homeTeamName": "NC State Wolfpack", "awayTeamName": "Wake Forest Demon Deacons", "gameTime": "12:00 PM ET", "network": "ESPNU", "location": "Carter-Finley Stadium", "isConferenceGame": true, "isRivalry": true, "rivalryName": "Textile Bowl", "status": "final", "homeScore": 35, "awayScore": 10, "isFeatured": false },
+        { "id": "2026-w6-g5", "homeTeamId": "smu", "awayTeamId": "stanford", "homeTeamName": "SMU Mustangs", "awayTeamName": "Stanford Cardinal", "gameTime": "3:30 PM ET", "network": "ESPN2", "location": "Gerald J. Ford Stadium", "isConferenceGame": true, "isRivalry": false, "status": "final", "homeScore": 31, "awayScore": 21, "isFeatured": false },
+        { "id": "2026-w6-g6", "homeTeamId": "georgia-tech", "awayTeamId": "north-carolina", "homeTeamName": "Georgia Tech Yellow Jackets", "awayTeamName": "North Carolina Tar Heels", "gameTime": "12:00 PM ET", "network": "ACC Network", "location": "Bobby Dodd Stadium", "isConferenceGame": true, "isRivalry": false, "status": "final", "homeScore": 27, "awayScore": 24, "isFeatured": false }
+      ]
+    },
+    "7": {
+      "weekTitle": "Week 7",
+      "weekDate": "October 10-11, 2026",
+      "games": [
+        { "id": "2026-w7-g1", "homeTeamId": "clemson", "awayTeamId": "florida-state", "homeTeamName": "Clemson Tigers", "awayTeamName": "Florida State Seminoles", "gameTime": "3:30 PM ET", "network": "ABC", "location": "Memorial Stadium", "isConferenceGame": true, "isRivalry": true, "rivalryName": "Bowden Bowl", "status": "final", "homeScore": 34, "awayScore": 21, "isFeatured": true },
+        { "id": "2026-w7-g2", "homeTeamId": "virginia", "awayTeamId": "miami", "homeTeamName": "Virginia Cavaliers", "awayTeamName": "Miami Hurricanes", "gameTime": "12:00 PM ET", "network": "ACC Network", "location": "Scott Stadium", "isConferenceGame": true, "isRivalry": false, "status": "final", "homeScore": 14, "awayScore": 31, "isFeatured": false },
+        { "id": "2026-w7-g3", "homeTeamId": "louisville", "awayTeamId": "pittsburgh", "homeTeamName": "Louisville Cardinals", "awayTeamName": "Pittsburgh Panthers", "gameTime": "7:30 PM ET", "network": "ESPN", "location": "L&N Stadium", "isConferenceGame": true, "isRivalry": false, "status": "final", "homeScore": 24, "awayScore": 17, "isFeatured": true },
+        { "id": "2026-w7-g4", "homeTeamId": "duke", "awayTeamId": "north-carolina", "homeTeamName": "Duke Blue Devils", "awayTeamName": "North Carolina Tar Heels", "gameTime": "3:30 PM ET", "network": "ESPN2", "location": "Wallace Wade Stadium", "isConferenceGame": true, "isRivalry": true, "rivalryName": "Victory Bell", "status": "final", "homeScore": 17, "awayScore": 21, "isFeatured": false },
+        { "id": "2026-w7-g5", "homeTeamId": "smu", "awayTeamId": "syracuse", "homeTeamName": "SMU Mustangs", "awayTeamName": "Syracuse Orange", "gameTime": "12:00 PM ET", "network": "ESPNU", "location": "Gerald J. Ford Stadium", "isConferenceGame": true, "isRivalry": false, "status": "final", "homeScore": 28, "awayScore": 14, "isFeatured": false },
+        { "id": "2026-w7-g6", "homeTeamId": "california", "awayTeamId": "boston-college", "homeTeamName": "California Golden Bears", "awayTeamName": "Boston College Eagles", "gameTime": "4:00 PM ET", "network": "ACC Network", "location": "California Memorial Stadium", "isConferenceGame": true, "isRivalry": false, "status": "final", "homeScore": 24, "awayScore": 20, "isFeatured": false }
+      ]
+    },
+    "8": {
+      "weekTitle": "Week 8",
+      "weekDate": "October 17-18, 2026",
+      "games": [
+        { "id": "2026-w8-g1", "homeTeamId": "nc-state", "awayTeamId": "clemson", "homeTeamName": "NC State Wolfpack", "awayTeamName": "Clemson Tigers", "gameTime": "3:30 PM ET", "network": "ABC", "location": "Carter-Finley Stadium", "isConferenceGame": true, "isRivalry": true, "rivalryName": "Textile Bowl", "status": "upcoming", "homeScore": null, "awayScore": null, "isFeatured": true },
+        { "id": "2026-w8-g2", "homeTeamId": "miami", "awayTeamId": "louisville", "homeTeamName": "Miami Hurricanes", "awayTeamName": "Louisville Cardinals", "gameTime": "7:30 PM ET", "network": "ESPN", "location": "Hard Rock Stadium", "isConferenceGame": true, "isRivalry": false, "status": "upcoming", "homeScore": null, "awayScore": null, "isFeatured": true },
+        { "id": "2026-w8-g3", "homeTeamId": "pittsburgh", "awayTeamId": "smu", "homeTeamName": "Pittsburgh Panthers", "awayTeamName": "SMU Mustangs", "gameTime": "12:00 PM ET", "network": "ACC Network", "location": "Acrisure Stadium", "isConferenceGame": true, "isRivalry": false, "status": "upcoming", "homeScore": null, "awayScore": null, "isFeatured": false },
+        { "id": "2026-w8-g4", "homeTeamId": "wake-forest", "awayTeamId": "duke", "homeTeamName": "Wake Forest Demon Deacons", "awayTeamName": "Duke Blue Devils", "gameTime": "12:00 PM ET", "network": "ESPNU", "location": "Allegacy Stadium", "isConferenceGame": true, "isRivalry": false, "status": "upcoming", "homeScore": null, "awayScore": null, "isFeatured": false },
+        { "id": "2026-w8-g5", "homeTeamId": "virginia-tech", "awayTeamId": "georgia-tech", "homeTeamName": "Virginia Tech Hokies", "awayTeamName": "Georgia Tech Yellow Jackets", "gameTime": "3:30 PM ET", "network": "ESPN2", "location": "Lane Stadium", "isConferenceGame": true, "isRivalry": false, "status": "upcoming", "homeScore": null, "awayScore": null, "isFeatured": false },
+        { "id": "2026-w8-g6", "homeTeamId": "stanford", "awayTeamId": "california", "homeTeamName": "Stanford Cardinal", "awayTeamName": "California Golden Bears", "gameTime": "10:30 PM ET", "network": "ACC Network", "location": "Stanford Stadium", "isConferenceGame": true, "isRivalry": true, "rivalryName": "Big Game", "status": "upcoming", "homeScore": null, "awayScore": null, "isFeatured": false }
+      ]
+    }
+  }
+}

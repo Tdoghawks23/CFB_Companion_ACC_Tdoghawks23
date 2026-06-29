@@ -1,0 +1,80 @@
+{
+  "2026": {
+    "6": {
+      "title": "Week 6 Recap: Clemson Cruises, Louisville Survives",
+      "subtitle": "The Tigers dominate Virginia Tech while the Cardinals hold off Duke in a thriller",
+      "author": "Tdoghawks23",
+      "publishDate": "2026-10-05",
+      "sections": [
+        {
+          "heading": "Game of the Week",
+          "content": "Louisville 28, Duke 24 — The Cardinals needed a late fourth-quarter drive to hold off a scrappy Duke squad in Louisville. Down 24-21 with 3:42 left, Louisville put together a 75-yard touchdown drive capped by a 12-yard scramble to seal the win. Duke's upset bid fell just short, but the Blue Devils proved they belong in the conversation.",
+          "type": "text"
+        },
+        {
+          "heading": "Top Performers",
+          "type": "stats",
+          "stats": [
+            { "playerName": "Cade Klubnik", "teamId": "clemson", "statLine": "18/24, 278 YDS, 3 TD, 0 INT" },
+            { "playerName": "Tyler Shough", "teamId": "louisville", "statLine": "26/34, 312 YDS, 2 TD, 1 INT" },
+            { "playerName": "Cam Ward Jr.", "teamId": "miami", "statLine": "21/29, 295 YDS, 4 TD" }
+          ]
+        },
+        {
+          "heading": "Upset Alert",
+          "content": "While no true upsets materialized this week, Duke pushed #7 Louisville to the brink. The Blue Devils led for most of the game and looked poised for a statement win before Louisville's late rally. Keep an eye on Duke as a dark horse in the conference race.",
+          "type": "highlight"
+        },
+        {
+          "heading": "Standings Impact",
+          "content": "Clemson remains the clear frontrunner at 6-0 in conference play. Miami, Louisville, and SMU are all bunched at 4-1. The logjam at the top could produce fireworks in the second half of the season when these teams start playing each other. At the bottom, Wake Forest continues to struggle at 0-5 in conference play.",
+          "type": "text"
+        },
+        {
+          "heading": "Looking Ahead to Week 7",
+          "content": "The marquee matchup is #1 Clemson hosting Florida State in the Bowden Bowl. FSU has struggled this season but always plays Clemson tough. Meanwhile, #7 Louisville hosts Pittsburgh in a game with major conference title implications. SMU takes on Syracuse in a cross-conference showdown.",
+          "type": "text"
+        }
+      ],
+      "tags": ["recap", "week-6", "clemson", "louisville", "duke"]
+    },
+    "7": {
+      "title": "Week 7 Recap: Clemson Stays Perfect, Chaos Elsewhere",
+      "subtitle": "The Tigers roll past FSU while North Carolina stuns Duke in the Victory Bell rivalry",
+      "author": "Tdoghawks23",
+      "publishDate": "2026-10-12",
+      "sections": [
+        {
+          "heading": "Game of the Week",
+          "content": "Clemson 34, Florida State 21 — The #1 Tigers handled the Seminoles convincingly in Death Valley. Clemson jumped out to a 21-7 halftime lead and never looked back. FSU showed some fight in the third quarter, cutting the lead to 21-14, but Clemson responded with two unanswered touchdowns to put the game away. The Tigers improve to 7-0 and continue their march toward a potential undefeated season.",
+          "type": "text"
+        },
+        {
+          "heading": "Top Performers",
+          "type": "stats",
+          "stats": [
+            { "playerName": "Cade Klubnik", "teamId": "clemson", "statLine": "22/31, 312 YDS, 3 TD, 0 INT" },
+            { "playerName": "Cam Ward Jr.", "teamId": "miami", "statLine": "19/27, 268 YDS, 3 TD" },
+            { "playerName": "Mack Brown IV", "teamId": "north-carolina", "statLine": "145 RUSH YDS, 2 TD" }
+          ]
+        },
+        {
+          "heading": "Upset of the Week",
+          "content": "North Carolina 21, #15 Duke 17 — The Tar Heels pulled off the shocker in the Victory Bell rivalry! Duke had won three straight in the series, but UNC's ground game controlled the clock and their defense came up with two crucial turnovers. Duke drops from #15 to outside the Top 25 conversation after the loss.",
+          "type": "highlight"
+        },
+        {
+          "heading": "Standings Impact",
+          "content": "Clemson is running away with the conference at 5-0. Miami stays in second at 4-1 after a comfortable road win at Virginia. The big news is Duke dropping to 3-2 in conference play after the upset loss to UNC. Syracuse falls to 3-3 after getting handled by SMU in Dallas. Virginia Tech enters the Top 25 at #25 despite their 2-3 conference record, buoyed by strong non-conference wins.",
+          "type": "text"
+        },
+        {
+          "heading": "Looking Ahead to Week 8",
+          "content": "Two massive games headline Week 8: #1 Clemson travels to #12 NC State in a Textile Bowl showdown, and #4 Miami hosts #7 Louisville in a game that could decide who finishes second in the conference. Both games have major ACC Championship implications.",
+          "type": "text"
+        }
+      ],
+      "tags": ["recap", "week-7", "clemson", "florida-state", "north-carolina", "duke", "upset"]
+    }
+  }
+}
