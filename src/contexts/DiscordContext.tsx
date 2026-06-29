@@ -65,6 +65,10 @@ export function DiscordProvider({ children }: { children: ReactNode }) {
       try {
         await discordSdk.ready();
 
+        patchUrlMappings([
+          { prefix: "/", target: "cfb-companion-acc.vercel.app" },
+        ]);
+
         const { code } = await discordSdk.commands.authorize({
           client_id: clientId!,
           response_type: "code",
