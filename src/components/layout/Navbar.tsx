@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { clsx } from "clsx";
 import {
@@ -29,11 +28,11 @@ export default function Navbar() {
       <nav className="hidden md:block sticky top-0 z-50 bg-acc-navy/95 backdrop-blur-md border-b border-acc-blue/20">
         <div className="max-w-7xl mx-auto px-6 flex items-center h-16">
           <Link href="/" className="flex items-center gap-3 mr-10">
-            <Image
-              src="/assets/acc-logo.png"
+            <img
+              src="/assets/acc-logo.svg"
               alt="ACC Logo"
               width={48}
-              height={32}
+              height={14}
               className="object-contain"
             />
             <span className="font-[family-name:var(--font-oswald)] text-xl font-bold tracking-wide text-text-primary">

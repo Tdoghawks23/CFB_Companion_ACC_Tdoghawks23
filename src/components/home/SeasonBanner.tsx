@@ -1,4 +1,3 @@
-import Image from "next/image";
 import type { SeasonMeta } from "@/lib/types";
 
 export default function SeasonBanner({ meta }: { meta: SeasonMeta }) {
@@ -23,13 +22,12 @@ export default function SeasonBanner({ meta }: { meta: SeasonMeta }) {
       </div>
 
       <div className="relative flex flex-col md:flex-row items-center gap-6">
-        <Image
-          src="/assets/acc-logo.png"
+        <img
+          src="/assets/acc-logo.svg"
           alt="ACC Conference"
-          width={100}
-          height={68}
+          width={120}
+          height={35}
           className="object-contain"
-          priority
         />
         <div className="text-center md:text-left">
           <h1 className="font-[family-name:var(--font-oswald)] text-4xl md:text-5xl font-bold tracking-wide uppercase text-text-primary">

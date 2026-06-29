@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 interface PageHeaderProps {
   title: string;
   subtitle?: string;
@@ -10,11 +8,11 @@ export default function PageHeader({ title, subtitle, showLogo = true }: PageHea
   return (
     <div className="flex items-center gap-4 mb-8">
       {showLogo && (
-        <Image
-          src="/assets/acc-logo.png"
+        <img
+          src="/assets/acc-logo.svg"
           alt="ACC"
           width={56}
-          height={38}
+          height={16}
           className="object-contain"
         />
       )}
