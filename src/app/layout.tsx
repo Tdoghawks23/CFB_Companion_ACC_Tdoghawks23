@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Oswald } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
@@ -14,10 +14,22 @@ const oswald = Oswald({
   subsets: ["latin"],
 });
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: "#0A0E1A",
+};
+
 export const metadata: Metadata = {
   title: "CFB Companion ACC",
   description:
     "College Football Companion App for the ACC Dynasty League — standings, rankings, schedules, and weekly recaps.",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "CFB Companion",
+  },
 };
 
 export default function RootLayout({

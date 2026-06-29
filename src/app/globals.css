@@ -74,3 +74,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-acc-blue);
 }
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
