@@ -1,5 +1,6 @@
-import { getSeasonMeta, getStandings, getRankings, getSchedule, getWeeklyPost, getTeamsMap } from "@/lib/data";
+import { getSeasonMeta, getStandings, getRankings, getSchedule, getWeeklyPost, getTeamsMap, getCoaches } from "@/lib/data";
 import SeasonBanner from "@/components/home/SeasonBanner";
+import CoachRoster from "@/components/home/CoachRoster";
 import QuickStandings from "@/components/home/QuickStandings";
 import QuickRankings from "@/components/home/QuickRankings";
 import UpcomingGames from "@/components/home/UpcomingGames";
@@ -11,6 +12,7 @@ export default async function HomePage() {
   const standings = await getStandings(meta.currentSeason);
   const rankings = await getRankings(meta.currentSeason, meta.currentWeek);
   const schedule = await getSchedule(meta.currentSeason, meta.currentWeek);
+  const coaches = await getCoaches();
 
   let latestPost = await getWeeklyPost(meta.currentSeason, meta.currentWeek);
   let postWeek = meta.currentWeek;
@@ -39,6 +41,8 @@ export default async function HomePage() {
           <QuickRankings rankings={rankings.rankings} teamsMap={teamsMap} />
         )}
       </div>
+
+      <CoachRoster coaches={coaches} teamsMap={teamsMap} />
 
       {latestPost && <RecentPost post={latestPost} week={postWeek} />}
     </div>
