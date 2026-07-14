@@ -2,6 +2,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import type {
   Team,
+  TeamCoach,
   SeasonMeta,
   SeasonStandings,
   WeekRankings,
@@ -34,6 +35,11 @@ export async function getTeamById(teamId: string): Promise<Team | undefined> {
 export async function getTeamsMap(): Promise<Map<string, Team>> {
   const teams = await getTeams();
   return new Map(teams.map((t) => [t.id, t]));
+}
+
+export async function getCoaches(): Promise<TeamCoach[]> {
+  const data = await readJSON<{ coaches: TeamCoach[] }>('coaches.json');
+  return data.coaches;
 }
 
 export async function getStandings(season: number): Promise<SeasonStandings | null> {

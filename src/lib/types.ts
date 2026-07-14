@@ -12,6 +12,11 @@ export interface Team {
   conference: string;
 }
 
+export interface TeamCoach {
+  teamId: string;
+  coachName: string;
+}
+
 export interface SeasonMeta {
   currentSeason: number;
   currentWeek: number;
