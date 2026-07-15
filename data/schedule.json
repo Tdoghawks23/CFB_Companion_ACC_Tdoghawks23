@@ -1,16 +1,3 @@
 {
-  "2026": {
-    "0": {
-      "weekTitle": "Week 0 — Season Kickoff",
-      "weekDate": "August 29-30, 2026",
-      "games": [
-        { "id": "2026-w0-g1", "homeTeamId": "clemson", "awayTeamId": "miami", "homeTeamName": "Clemson Tigers", "awayTeamName": "Miami Hurricanes", "gameTime": "3:30 PM ET", "network": "ABC", "location": "Memorial Stadium", "isConferenceGame": true, "isRivalry": false, "status": "upcoming", "homeScore": null, "awayScore": null, "isFeatured": true },
-        { "id": "2026-w0-g2", "homeTeamId": "louisville", "awayTeamId": "smu", "homeTeamName": "Louisville Cardinals", "awayTeamName": "SMU Mustangs", "gameTime": "7:30 PM ET", "network": "ESPN", "location": "L&N Stadium", "isConferenceGame": true, "isRivalry": false, "status": "upcoming", "homeScore": null, "awayScore": null, "isFeatured": true },
-        { "id": "2026-w0-g3", "homeTeamId": "virginia", "awayTeamId": "virginia-tech", "homeTeamName": "Virginia Cavaliers", "awayTeamName": "Virginia Tech Hokies", "gameTime": "12:00 PM ET", "network": "ACC Network", "location": "Scott Stadium", "isConferenceGame": true, "isRivalry": true, "rivalryName": "Commonwealth Clash", "status": "upcoming", "homeScore": null, "awayScore": null, "isFeatured": false },
-        { "id": "2026-w0-g4", "homeTeamId": "nc-state", "awayTeamId": "north-carolina", "homeTeamName": "NC State Wolfpack", "awayTeamName": "North Carolina Tar Heels", "gameTime": "3:30 PM ET", "network": "ESPN2", "location": "Carter-Finley Stadium", "isConferenceGame": true, "isRivalry": true, "rivalryName": "Battle of the Blues", "status": "upcoming", "homeScore": null, "awayScore": null, "isFeatured": false },
-        { "id": "2026-w0-g5", "homeTeamId": "california", "awayTeamId": "stanford", "homeTeamName": "California Golden Bears", "awayTeamName": "Stanford Cardinal", "gameTime": "10:30 PM ET", "network": "ACC Network", "location": "California Memorial Stadium", "isConferenceGame": true, "isRivalry": true, "rivalryName": "Big Game", "status": "upcoming", "homeScore": null, "awayScore": null, "isFeatured": false },
-        { "id": "2026-w0-g6", "homeTeamId": "wake-forest", "awayTeamId": "duke", "homeTeamName": "Wake Forest Demon Deacons", "awayTeamName": "Duke Blue Devils", "gameTime": "12:00 PM ET", "network": "ESPNU", "location": "Allegacy Stadium", "isConferenceGame": true, "isRivalry": false, "status": "upcoming", "homeScore": null, "awayScore": null, "isFeatured": false }
-      ]
-    }
-  }
+  "2026": {}
 }
