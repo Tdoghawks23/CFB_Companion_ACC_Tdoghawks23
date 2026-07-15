@@ -8,7 +8,7 @@
       "sections": [
         {
           "heading": "Season Outlook",
-          "content": "Opening day is finally here. Every team in the conference sits at 0-0, and for one more week, everyone can dream about hoisting the ACC Championship trophy. Clemson opens the season at the top of the preseason Dynasty Poll and enters as the team to beat, but Miami, Louisville, and SMU all have legitimate title aspirations. With a 15-week road to the conference championship, the margin for error is thin — early stumbles in September have a way of haunting teams come November.",
+          "content": "A new season is finally here. Every team in the conference sits at 0-0, and until the games kick off, everyone can dream about hoisting the ACC Championship trophy. Clemson opens the season at the top of the preseason Dynasty Poll and enters as the team to beat, but Miami, Louisville, and SMU all have legitimate title aspirations. With a 15-week road to the conference championship, the margin for error is thin — early stumbles in September have a way of haunting teams come November.",
           "type": "text"
         },
         {
@@ -17,12 +17,12 @@
           "type": "highlight"
         },
         {
-          "heading": "Week 0 Kickoff Slate",
-          "content": "The season wastes no time: #1 Clemson hosts #5 Miami in Death Valley in a blockbuster opener with early conference-race implications, and #9 Louisville welcomes #11 SMU for a primetime clash of Top-25 contenders. Rivalry season starts immediately too — Virginia Tech travels to Virginia for the Commonwealth Clash, North Carolina visits NC State, and Stanford heads to Berkeley for the Big Game. Duke at Wake Forest rounds out the slate. Buckle up.",
+          "heading": "Schedule on the Way",
+          "content": "The Week 0 slate hasn't been set just yet — the league is still working through the transfer portal, and the full schedule will be generated in-game once rosters are locked. Check the Schedule page once matchups are announced to see who opens the season against whom. In the meantime, the preseason Dynasty Poll is live and the standings are wiped clean — all seventeen teams start from zero.",
           "type": "text"
         }
       ],
-      "tags": ["preview", "week-0", "season-kickoff", "clemson", "miami"]
+      "tags": ["preview", "week-0", "season-kickoff", "transfer-portal"]
     }
   }
 }
