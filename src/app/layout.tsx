@@ -3,6 +3,7 @@ import { Inter, Oswald } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import DiscordActivityProvider from "@/components/discord/DiscordActivityProvider";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -40,9 +41,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${oswald.variable}`}>
       <body className="min-h-screen flex flex-col bg-bg-primary text-text-primary font-[family-name:var(--font-inter)]">
-        <Navbar />
-        <main className="flex-1 pb-20 md:pb-0">{children}</main>
-        <Footer />
+        <DiscordActivityProvider>
+          <Navbar />
+          <main className="flex-1 pb-20 md:pb-0">{children}</main>
+          <Footer />
+        </DiscordActivityProvider>
       </body>
     </html>
   );
