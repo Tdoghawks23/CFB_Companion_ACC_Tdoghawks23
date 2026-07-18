@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="hidden md:block bg-acc-navy/80 border-t border-acc-blue/10 py-6">
@@ -14,9 +16,15 @@ export default function Footer() {
             CFB Companion ACC &middot; Dynasty League
           </span>
         </div>
-        <span className="text-text-muted text-xs">
-          Season data updated manually via JSON
-        </span>
+        <div className="flex items-center gap-4 text-text-muted text-xs">
+          <Link href="/privacy" className="hover:text-acc-blue transition-colors">
+            Privacy
+          </Link>
+          <Link href="/terms" className="hover:text-acc-blue transition-colors">
+            Terms
+          </Link>
+          <span>Season data updated manually via JSON</span>
+        </div>
       </div>
     </footer>
   );
