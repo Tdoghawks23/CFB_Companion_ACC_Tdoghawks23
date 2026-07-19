@@ -1,21 +1,21 @@
 {
   "coaches": [
-    { "teamId": "boston-college", "coachName": "Coach 1" },
-    { "teamId": "california", "coachName": "Coach 2" },
+    { "teamId": "boston-college", "coachName": "Jadin" },
+    { "teamId": "california", "coachName": "Armando" },
     { "teamId": "clemson", "coachName": "CPU" },
-    { "teamId": "duke", "coachName": "Coach 3" },
-    { "teamId": "florida-state", "coachName": "Coach 4" },
-    { "teamId": "georgia-tech", "coachName": "Coach 5" },
-    { "teamId": "louisville", "coachName": "Coach 6" },
+    { "teamId": "duke", "coachName": "Nick" },
+    { "teamId": "florida-state", "coachName": "CPU" },
+    { "teamId": "georgia-tech", "coachName": "Colby" },
+    { "teamId": "louisville", "coachName": "Marv" },
     { "teamId": "miami", "coachName": "CPU" },
-    { "teamId": "north-carolina", "coachName": "Coach 7" },
-    { "teamId": "nc-state", "coachName": "Coach 8" },
-    { "teamId": "pittsburgh", "coachName": "Coach 9" },
-    { "teamId": "smu", "coachName": "Coach 10" },
-    { "teamId": "stanford", "coachName": "Coach 11" },
-    { "teamId": "syracuse", "coachName": "Coach 12" },
-    { "teamId": "virginia", "coachName": "Coach 13" },
-    { "teamId": "virginia-tech", "coachName": "Coach 14" },
-    { "teamId": "wake-forest", "coachName": "Coach 15" }
+    { "teamId": "north-carolina", "coachName": "Kenny" },
+    { "teamId": "nc-state", "coachName": "Cam" },
+    { "teamId": "pittsburgh", "coachName": "Peyton" },
+    { "teamId": "smu", "coachName": "CPU" },
+    { "teamId": "stanford", "coachName": "Jacob" },
+    { "teamId": "syracuse", "coachName": "Taylor" },
+    { "teamId": "virginia", "coachName": "McKinley" },
+    { "teamId": "virginia-tech", "coachName": "CPU" },
+    { "teamId": "wake-forest", "coachName": "Tatum" }
   ]
 }
