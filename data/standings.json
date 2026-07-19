@@ -5,20 +5,18 @@
       { "teamId": "clemson", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 1 },
       { "teamId": "miami", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 2 },
       { "teamId": "louisville", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 3 },
-      { "teamId": "smu", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 4 },
-      { "teamId": "duke", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 5 },
-      { "teamId": "pittsburgh", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 6 },
-      { "teamId": "nc-state", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 7 },
-      { "teamId": "syracuse", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 8 },
-      { "teamId": "georgia-tech", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 9 },
-      { "teamId": "virginia-tech", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 10 },
-      { "teamId": "florida-state", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 11 },
-      { "teamId": "north-carolina", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 12 },
-      { "teamId": "california", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 13 },
-      { "teamId": "boston-college", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 14 },
-      { "teamId": "virginia", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 15 },
-      { "teamId": "stanford", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 16 },
-      { "teamId": "wake-forest", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 17 }
+      { "teamId": "duke", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 4 },
+      { "teamId": "pittsburgh", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 5 },
+      { "teamId": "nc-state", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 6 },
+      { "teamId": "syracuse", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 7 },
+      { "teamId": "georgia-tech", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 8 },
+      { "teamId": "virginia-tech", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 9 },
+      { "teamId": "north-carolina", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 10 },
+      { "teamId": "california", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 11 },
+      { "teamId": "boston-college", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 12 },
+      { "teamId": "virginia", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 13 },
+      { "teamId": "stanford", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 14 },
+      { "teamId": "wake-forest", "conferenceWins": 0, "conferenceLosses": 0, "overallWins": 0, "overallLosses": 0, "streak": "—", "pointsFor": 0, "pointsAgainst": 0, "conferenceRank": 15 }
     ]
   }
 }

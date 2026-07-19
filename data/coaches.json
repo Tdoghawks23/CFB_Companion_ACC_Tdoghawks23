@@ -4,18 +4,16 @@
     { "teamId": "california", "coachName": "Armando" },
     { "teamId": "clemson", "coachName": "CPU" },
     { "teamId": "duke", "coachName": "Nick" },
-    { "teamId": "florida-state", "coachName": "CPU" },
     { "teamId": "georgia-tech", "coachName": "Colby" },
     { "teamId": "louisville", "coachName": "Marv" },
     { "teamId": "miami", "coachName": "CPU" },
     { "teamId": "north-carolina", "coachName": "Kenny" },
     { "teamId": "nc-state", "coachName": "Cam" },
     { "teamId": "pittsburgh", "coachName": "Peyton" },
-    { "teamId": "smu", "coachName": "CPU" },
     { "teamId": "stanford", "coachName": "Jacob" },
     { "teamId": "syracuse", "coachName": "Taylor" },
     { "teamId": "virginia", "coachName": "McKinley" },
-    { "teamId": "virginia-tech", "coachName": "CPU" },
+    { "teamId": "virginia-tech", "coachName": "Kieran" },
     { "teamId": "wake-forest", "coachName": "Tatum" }
   ]
 }

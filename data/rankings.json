@@ -13,7 +13,7 @@
         { "rank": 8, "teamId": "", "teamName": "Alabama Crimson Tide", "record": "0-0", "previousRank": null, "points": 1080, "firstPlaceVotes": 0, "isACC": false },
         { "rank": 9, "teamId": "louisville", "teamName": "Louisville Cardinals", "record": "0-0", "previousRank": null, "points": 1010, "firstPlaceVotes": 0, "isACC": true },
         { "rank": 10, "teamId": "", "teamName": "Notre Dame Fighting Irish", "record": "0-0", "previousRank": null, "points": 960, "firstPlaceVotes": 0, "isACC": false },
-        { "rank": 11, "teamId": "smu", "teamName": "SMU Mustangs", "record": "0-0", "previousRank": null, "points": 900, "firstPlaceVotes": 0, "isACC": true },
+        { "rank": 11, "teamId": "", "teamName": "SMU Mustangs", "record": "0-0", "previousRank": null, "points": 900, "firstPlaceVotes": 0, "isACC": false },
         { "rank": 12, "teamId": "", "teamName": "Ole Miss Rebels", "record": "0-0", "previousRank": null, "points": 840, "firstPlaceVotes": 0, "isACC": false },
         { "rank": 13, "teamId": "", "teamName": "Tennessee Volunteers", "record": "0-0", "previousRank": null, "points": 780, "firstPlaceVotes": 0, "isACC": false },
         { "rank": 14, "teamId": "", "teamName": "LSU Tigers", "record": "0-0", "previousRank": null, "points": 720, "firstPlaceVotes": 0, "isACC": false },

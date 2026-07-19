@@ -53,19 +53,6 @@
       "conference": "ACC"
     },
     {
-      "id": "florida-state",
-      "name": "Florida State",
-      "mascot": "Seminoles",
-      "fullName": "Florida State Seminoles",
-      "abbreviation": "FSU",
-      "primaryColor": "#782F40",
-      "secondaryColor": "#CEB888",
-      "logo": "/assets/teams/florida-state.png",
-      "location": "Tallahassee, FL",
-      "stadium": "Doak Campbell Stadium",
-      "conference": "ACC"
-    },
-    {
       "id": "georgia-tech",
       "name": "Georgia Tech",
       "mascot": "Yellow Jackets",
@@ -141,19 +128,6 @@
       "logo": "/assets/teams/pittsburgh.png",
       "location": "Pittsburgh, PA",
       "stadium": "Acrisure Stadium",
-      "conference": "ACC"
-    },
-    {
-      "id": "smu",
-      "name": "SMU",
-      "mascot": "Mustangs",
-      "fullName": "SMU Mustangs",
-      "abbreviation": "SMU",
-      "primaryColor": "#0033A0",
-      "secondaryColor": "#C8102E",
-      "logo": "/assets/teams/smu.png",
-      "location": "Dallas, TX",
-      "stadium": "Gerald J. Ford Stadium",
       "conference": "ACC"
     },
     {
