@@ -36,9 +36,11 @@ export default function GameCard({ game, teamsMap }: GameCardProps) {
             Final
           </span>
         ) : (
-          <div className="flex items-center gap-1 text-text-muted text-[10px]">
-            <Tv size={10} /> {game.network}
-          </div>
+          game.network && (
+            <div className="flex items-center gap-1 text-text-muted text-[10px]">
+              <Tv size={10} /> {game.network}
+            </div>
+          )
         )}
       </div>
 
@@ -84,7 +86,7 @@ export default function GameCard({ game, teamsMap }: GameCardProps) {
       {/* Bottom info */}
       {!isFinal && (
         <div className="px-4 pb-3 text-text-muted text-xs text-center">
-          {game.gameTime} &middot; {game.location}
+          {[game.gameTime, game.location].filter(Boolean).join(" · ")}
         </div>
       )}
     </div>

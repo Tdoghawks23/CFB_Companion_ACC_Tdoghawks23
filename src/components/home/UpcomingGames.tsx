@@ -90,9 +90,11 @@ export default function UpcomingGames({ games, teamsMap, week }: UpcomingGamesPr
                       <span className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-text-muted">
                         VS
                       </span>
-                      <span className="text-[10px] text-text-muted mt-1">
-                        {game.gameTime}
-                      </span>
+                      {game.gameTime && (
+                        <span className="text-[10px] text-text-muted mt-1">
+                          {game.gameTime}
+                        </span>
+                      )}
                     </>
                   )}
                 </div>
@@ -110,7 +112,7 @@ export default function UpcomingGames({ games, teamsMap, week }: UpcomingGamesPr
                 </div>
               </div>
 
-              {!isFinal && (
+              {!isFinal && game.network && (
                 <div className="flex items-center justify-center gap-1 mt-3 text-text-muted text-[10px]">
                   <Tv size={10} />
                   {game.network}
