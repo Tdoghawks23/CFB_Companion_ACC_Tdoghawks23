@@ -3,7 +3,6 @@
     "0": {
       "weekTitle": "Week 0",
       "weekDate": "August 28-29, 2026",
-      "byeTeamIds": [],
       "games": [
         {
           "id": "2026-w0-g1",
@@ -51,7 +50,7 @@
           "status": "upcoming",
           "homeScore": null,
           "awayScore": null,
-          "isFeatured": true
+          "isFeatured": false
         },
         {
           "id": "2026-w0-g4",
@@ -83,7 +82,7 @@
           "status": "upcoming",
           "homeScore": null,
           "awayScore": null,
-          "isFeatured": true
+          "isFeatured": false
         },
         {
           "id": "2026-w0-g6",
@@ -99,7 +98,7 @@
           "status": "upcoming",
           "homeScore": null,
           "awayScore": null,
-          "isFeatured": true
+          "isFeatured": false
         },
         {
           "id": "2026-w0-g7",
@@ -202,7 +201,6 @@
     "1": {
       "weekTitle": "Week 1",
       "weekDate": "September 4-5, 2026",
-      "byeTeamIds": [],
       "games": [
         {
           "id": "2026-w1-g1",
@@ -298,7 +296,7 @@
           "status": "upcoming",
           "homeScore": null,
           "awayScore": null,
-          "isFeatured": true
+          "isFeatured": false
         },
         {
           "id": "2026-w1-g7",
@@ -314,7 +312,7 @@
           "status": "upcoming",
           "homeScore": null,
           "awayScore": null,
-          "isFeatured": true
+          "isFeatured": false
         },
         {
           "id": "2026-w1-g8",
@@ -385,9 +383,6 @@
     "2": {
       "weekTitle": "Week 2",
       "weekDate": "September 11-12, 2026",
-      "byeTeamIds": [
-        "stanford"
-      ],
       "games": [
         {
           "id": "2026-w2-g1",
@@ -435,7 +430,7 @@
           "status": "upcoming",
           "homeScore": null,
           "awayScore": null,
-          "isFeatured": true
+          "isFeatured": false
         },
         {
           "id": "2026-w2-g4",
@@ -467,7 +462,7 @@
           "status": "upcoming",
           "homeScore": null,
           "awayScore": null,
-          "isFeatured": true
+          "isFeatured": false
         },
         {
           "id": "2026-w2-g6",
@@ -554,7 +549,6 @@
     "3": {
       "weekTitle": "Week 3",
       "weekDate": "September 18-19, 2026",
-      "byeTeamIds": [],
       "games": [
         {
           "id": "2026-w3-g1",
@@ -673,7 +667,6 @@
     "4": {
       "weekTitle": "Week 4",
       "weekDate": "September 25-26, 2026",
-      "byeTeamIds": [],
       "games": [
         {
           "id": "2026-w4-g1",
@@ -808,10 +801,6 @@
     "5": {
       "weekTitle": "Week 5",
       "weekDate": "October 2-3, 2026",
-      "byeTeamIds": [
-        "georgia-tech",
-        "louisville"
-      ],
       "games": [
         {
           "id": "2026-w5-g1",
@@ -946,9 +935,6 @@
     "6": {
       "weekTitle": "Week 6",
       "weekDate": "October 9-10, 2026",
-      "byeTeamIds": [
-        "wake-forest"
-      ],
       "games": [
         {
           "id": "2026-w6-g1",
@@ -1068,11 +1054,6 @@
     "7": {
       "weekTitle": "Week 7",
       "weekDate": "October 16-17, 2026",
-      "byeTeamIds": [
-        "boston-college",
-        "nc-state",
-        "north-carolina"
-      ],
       "games": [
         {
           "id": "2026-w7-g1",
@@ -1159,11 +1140,6 @@
     "8": {
       "weekTitle": "Week 8",
       "weekDate": "October 23-24, 2026",
-      "byeTeamIds": [
-        "duke",
-        "stanford",
-        "virginia"
-      ],
       "games": [
         {
           "id": "2026-w8-g1",
@@ -1266,11 +1242,6 @@
     "9": {
       "weekTitle": "Week 9",
       "weekDate": "October 30-31, 2026",
-      "byeTeamIds": [
-        "california",
-        "nc-state",
-        "north-carolina"
-      ],
       "games": [
         {
           "id": "2026-w9-g1",
@@ -1389,12 +1360,6 @@
     "10": {
       "weekTitle": "Week 10",
       "weekDate": "November 6-7, 2026",
-      "byeTeamIds": [
-        "georgia-tech",
-        "louisville",
-        "pittsburgh",
-        "syracuse"
-      ],
       "games": [
         {
           "id": "2026-w10-g1",
@@ -1482,9 +1447,6 @@
     "11": {
       "weekTitle": "Week 11",
       "weekDate": "November 13-14, 2026",
-      "byeTeamIds": [
-        "boston-college"
-      ],
       "games": [
         {
           "id": "2026-w11-g1",
@@ -1603,11 +1565,6 @@
     "12": {
       "weekTitle": "Week 12",
       "weekDate": "November 20-21, 2026",
-      "byeTeamIds": [
-        "duke",
-        "pittsburgh",
-        "virginia"
-      ],
       "games": [
         {
           "id": "2026-w12-g1",
@@ -1710,11 +1667,6 @@
     "13": {
       "weekTitle": "Week 13",
       "weekDate": "November 27-28, 2026",
-      "byeTeamIds": [
-        "california",
-        "syracuse",
-        "wake-forest"
-      ],
       "games": [
         {
           "id": "2026-w13-g1",

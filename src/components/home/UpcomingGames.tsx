@@ -54,7 +54,7 @@ export default function UpcomingGames({ games, teamsMap, week }: UpcomingGamesPr
                     size={48}
                   />
                   <span className="text-xs font-medium text-center leading-tight">
-                    {away?.name || game.awayTeamName}
+                    {away?.name || game.awayTeamName.split(" ").slice(0, -1).join(" ")}
                   </span>
                 </div>
 
@@ -105,7 +105,7 @@ export default function UpcomingGames({ games, teamsMap, week }: UpcomingGamesPr
                     size={48}
                   />
                   <span className="text-xs font-medium text-center leading-tight">
-                    {home?.name || game.homeTeamName}
+                    {home?.name || game.homeTeamName.split(" ").slice(0, -1).join(" ")}
                   </span>
                 </div>
               </div>
