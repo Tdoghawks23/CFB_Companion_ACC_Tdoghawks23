@@ -88,6 +88,7 @@ export interface Game {
 export interface WeekSchedule {
   weekTitle: string;
   weekDate: string;
+  byeTeamIds?: string[];
   games: Game[];
 }
 
