@@ -1,12 +1,12 @@
 {
-  "2026": {
+  "2027": {
     "0": {
       "weekTitle": "Week 0",
-      "weekDate": "August 28-29, 2026",
+      "weekDate": "August 28-29, 2027",
       "byeTeamIds": [],
       "games": [
         {
-          "id": "2026-w0-g1",
+          "id": "2027-w0-g1",
           "homeTeamId": "boston-college",
           "awayTeamId": "middle-tennessee",
           "homeTeamName": "Boston College Eagles",
@@ -22,7 +22,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w0-g2",
+          "id": "2027-w0-g2",
           "homeTeamId": "california",
           "awayTeamId": "buffalo",
           "homeTeamName": "California Golden Bears",
@@ -38,7 +38,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w0-g3",
+          "id": "2027-w0-g3",
           "homeTeamId": "duke",
           "awayTeamId": "ul-monroe",
           "homeTeamName": "Duke Blue Devils",
@@ -54,7 +54,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w0-g4",
+          "id": "2027-w0-g4",
           "homeTeamId": "georgia-tech",
           "awayTeamId": "ohio",
           "homeTeamName": "Georgia Tech Yellow Jackets",
@@ -70,7 +70,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w0-g5",
+          "id": "2027-w0-g5",
           "homeTeamId": "louisville",
           "awayTeamId": "charlotte",
           "homeTeamName": "Louisville Cardinals",
@@ -86,7 +86,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w0-g6",
+          "id": "2027-w0-g6",
           "homeTeamId": "nc-state",
           "awayTeamId": "louisiana",
           "homeTeamName": "NC State Wolfpack",
@@ -102,7 +102,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w0-g7",
+          "id": "2027-w0-g7",
           "homeTeamId": "north-carolina",
           "awayTeamId": "georgia-southern",
           "homeTeamName": "North Carolina Tar Heels",
@@ -118,7 +118,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w0-g8",
+          "id": "2027-w0-g8",
           "homeTeamId": "pittsburgh",
           "awayTeamId": "new-mexico",
           "homeTeamName": "Pittsburgh Panthers",
@@ -134,7 +134,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w0-g9",
+          "id": "2027-w0-g9",
           "homeTeamId": "stanford",
           "awayTeamId": "air-force",
           "homeTeamName": "Stanford Cardinal",
@@ -150,7 +150,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w0-g10",
+          "id": "2027-w0-g10",
           "homeTeamId": "syracuse",
           "awayTeamId": "sacramento-state",
           "homeTeamName": "Syracuse Orange",
@@ -166,7 +166,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w0-g11",
+          "id": "2027-w0-g11",
           "homeTeamId": "virginia",
           "awayTeamId": "arkansas-state",
           "homeTeamName": "Virginia Cavaliers",
@@ -182,7 +182,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w0-g12",
+          "id": "2027-w0-g12",
           "homeTeamId": "wake-forest",
           "awayTeamId": "san-diego-state",
           "homeTeamName": "Wake Forest Demon Deacons",
@@ -201,11 +201,11 @@
     },
     "1": {
       "weekTitle": "Week 1",
-      "weekDate": "September 4-5, 2026",
+      "weekDate": "September 4-5, 2027",
       "byeTeamIds": [],
       "games": [
         {
-          "id": "2026-w1-g1",
+          "id": "2027-w1-g1",
           "homeTeamId": "pittsburgh",
           "awayTeamId": "wake-forest",
           "homeTeamName": "Pittsburgh Panthers",
@@ -221,7 +221,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w1-g2",
+          "id": "2027-w1-g2",
           "homeTeamId": "boston-college",
           "awayTeamId": "hawaii",
           "homeTeamName": "Boston College Eagles",
@@ -237,7 +237,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w1-g3",
+          "id": "2027-w1-g3",
           "homeTeamId": "california",
           "awayTeamId": "ul-monroe",
           "homeTeamName": "California Golden Bears",
@@ -253,7 +253,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w1-g4",
+          "id": "2027-w1-g4",
           "homeTeamId": "duke",
           "awayTeamId": "utep",
           "homeTeamName": "Duke Blue Devils",
@@ -269,7 +269,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w1-g5",
+          "id": "2027-w1-g5",
           "homeTeamId": "georgia-tech",
           "awayTeamId": "ball-state",
           "homeTeamName": "Georgia Tech Yellow Jackets",
@@ -285,7 +285,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w1-g6",
+          "id": "2027-w1-g6",
           "homeTeamId": "louisville",
           "awayTeamId": "missouri-state",
           "homeTeamName": "Louisville Cardinals",
@@ -301,7 +301,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w1-g7",
+          "id": "2027-w1-g7",
           "homeTeamId": "nc-state",
           "awayTeamId": "kent-state",
           "homeTeamName": "NC State Wolfpack",
@@ -317,7 +317,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w1-g8",
+          "id": "2027-w1-g8",
           "homeTeamId": "north-carolina",
           "awayTeamId": "texas-state",
           "homeTeamName": "North Carolina Tar Heels",
@@ -333,7 +333,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w1-g9",
+          "id": "2027-w1-g9",
           "homeTeamId": "stanford",
           "awayTeamId": "utsa",
           "homeTeamName": "Stanford Cardinal",
@@ -349,7 +349,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w1-g10",
+          "id": "2027-w1-g10",
           "homeTeamId": "syracuse",
           "awayTeamId": "sam-houston",
           "homeTeamName": "Syracuse Orange",
@@ -365,7 +365,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w1-g11",
+          "id": "2027-w1-g11",
           "homeTeamId": "virginia",
           "awayTeamId": "fresno-state",
           "homeTeamName": "Virginia Cavaliers",
@@ -384,13 +384,13 @@
     },
     "2": {
       "weekTitle": "Week 2",
-      "weekDate": "September 11-12, 2026",
+      "weekDate": "September 11-12, 2027",
       "byeTeamIds": [
         "stanford"
       ],
       "games": [
         {
-          "id": "2026-w2-g1",
+          "id": "2027-w2-g1",
           "homeTeamId": "california",
           "awayTeamId": "nc-state",
           "homeTeamName": "California Golden Bears",
@@ -406,7 +406,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w2-g2",
+          "id": "2027-w2-g2",
           "homeTeamId": "boston-college",
           "awayTeamId": "troy",
           "homeTeamName": "Boston College Eagles",
@@ -422,7 +422,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w2-g3",
+          "id": "2027-w2-g3",
           "homeTeamId": "duke",
           "awayTeamId": "bowling-green",
           "homeTeamName": "Duke Blue Devils",
@@ -438,7 +438,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w2-g4",
+          "id": "2027-w2-g4",
           "homeTeamId": "georgia-tech",
           "awayTeamId": "fcs-southeast",
           "homeTeamName": "Georgia Tech Yellow Jackets",
@@ -454,7 +454,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w2-g5",
+          "id": "2027-w2-g5",
           "homeTeamId": "louisville",
           "awayTeamId": "nevada",
           "homeTeamName": "Louisville Cardinals",
@@ -470,7 +470,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w2-g6",
+          "id": "2027-w2-g6",
           "homeTeamId": "north-carolina",
           "awayTeamId": "coastal-carolina",
           "homeTeamName": "North Carolina Tar Heels",
@@ -486,7 +486,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w2-g7",
+          "id": "2027-w2-g7",
           "homeTeamId": "pittsburgh",
           "awayTeamId": "colorado-state",
           "homeTeamName": "Pittsburgh Panthers",
@@ -502,7 +502,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w2-g8",
+          "id": "2027-w2-g8",
           "homeTeamId": "syracuse",
           "awayTeamId": "delaware",
           "homeTeamName": "Syracuse Orange",
@@ -518,7 +518,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w2-g9",
+          "id": "2027-w2-g9",
           "homeTeamId": "virginia",
           "awayTeamId": "cincinnati",
           "homeTeamName": "Virginia Cavaliers",
@@ -534,7 +534,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w2-g10",
+          "id": "2027-w2-g10",
           "homeTeamId": "wake-forest",
           "awayTeamId": "utah-state",
           "homeTeamName": "Wake Forest Demon Deacons",
@@ -553,11 +553,11 @@
     },
     "3": {
       "weekTitle": "Week 3",
-      "weekDate": "September 18-19, 2026",
+      "weekDate": "September 18-19, 2027",
       "byeTeamIds": [],
       "games": [
         {
-          "id": "2026-w3-g1",
+          "id": "2027-w3-g1",
           "homeTeamId": "california",
           "awayTeamId": "virginia",
           "homeTeamName": "California Golden Bears",
@@ -573,7 +573,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w3-g2",
+          "id": "2027-w3-g2",
           "homeTeamId": "duke",
           "awayTeamId": "nc-state",
           "homeTeamName": "Duke Blue Devils",
@@ -589,7 +589,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w3-g3",
+          "id": "2027-w3-g3",
           "homeTeamId": "georgia-tech",
           "awayTeamId": "boston-college",
           "homeTeamName": "Georgia Tech Yellow Jackets",
@@ -605,7 +605,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w3-g4",
+          "id": "2027-w3-g4",
           "homeTeamId": "north-carolina",
           "awayTeamId": "pittsburgh",
           "homeTeamName": "North Carolina Tar Heels",
@@ -621,7 +621,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w3-g5",
+          "id": "2027-w3-g5",
           "homeTeamId": "stanford",
           "awayTeamId": "louisville",
           "homeTeamName": "Stanford Cardinal",
@@ -637,7 +637,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w3-g6",
+          "id": "2027-w3-g6",
           "homeTeamId": "syracuse",
           "awayTeamId": "clemson",
           "homeTeamName": "Syracuse Orange",
@@ -653,7 +653,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w3-g7",
+          "id": "2027-w3-g7",
           "homeTeamId": "wake-forest",
           "awayTeamId": "unlv",
           "homeTeamName": "Wake Forest Demon Deacons",
@@ -672,11 +672,11 @@
     },
     "4": {
       "weekTitle": "Week 4",
-      "weekDate": "September 25-26, 2026",
+      "weekDate": "September 25-26, 2027",
       "byeTeamIds": [],
       "games": [
         {
-          "id": "2026-w4-g1",
+          "id": "2027-w4-g1",
           "homeTeamId": "duke",
           "awayTeamId": "syracuse",
           "homeTeamName": "Duke Blue Devils",
@@ -692,7 +692,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w4-g2",
+          "id": "2027-w4-g2",
           "homeTeamId": "georgia-tech",
           "awayTeamId": "virginia",
           "homeTeamName": "Georgia Tech Yellow Jackets",
@@ -708,7 +708,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w4-g3",
+          "id": "2027-w4-g3",
           "homeTeamId": "pittsburgh",
           "awayTeamId": "louisville",
           "homeTeamName": "Pittsburgh Panthers",
@@ -724,7 +724,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w4-g4",
+          "id": "2027-w4-g4",
           "homeTeamId": "stanford",
           "awayTeamId": "miami",
           "homeTeamName": "Stanford Cardinal",
@@ -740,7 +740,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w4-g5",
+          "id": "2027-w4-g5",
           "homeTeamId": "wake-forest",
           "awayTeamId": "boston-college",
           "homeTeamName": "Wake Forest Demon Deacons",
@@ -756,7 +756,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w4-g6",
+          "id": "2027-w4-g6",
           "homeTeamId": "california",
           "awayTeamId": "james-madison",
           "homeTeamName": "California Golden Bears",
@@ -772,7 +772,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w4-g7",
+          "id": "2027-w4-g7",
           "homeTeamId": "nc-state",
           "awayTeamId": "old-dominion",
           "homeTeamName": "NC State Wolfpack",
@@ -788,7 +788,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w4-g8",
+          "id": "2027-w4-g8",
           "homeTeamId": "north-carolina",
           "awayTeamId": "uab",
           "homeTeamName": "North Carolina Tar Heels",
@@ -807,14 +807,14 @@
     },
     "5": {
       "weekTitle": "Week 5",
-      "weekDate": "October 2-3, 2026",
+      "weekDate": "October 2-3, 2027",
       "byeTeamIds": [
         "georgia-tech",
         "louisville"
       ],
       "games": [
         {
-          "id": "2026-w5-g1",
+          "id": "2027-w5-g1",
           "homeTeamId": "boston-college",
           "awayTeamId": "north-carolina",
           "homeTeamName": "Boston College Eagles",
@@ -830,7 +830,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w5-g2",
+          "id": "2027-w5-g2",
           "homeTeamId": "clemson",
           "awayTeamId": "duke",
           "homeTeamName": "Clemson Tigers",
@@ -846,7 +846,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w5-g3",
+          "id": "2027-w5-g3",
           "homeTeamId": "miami",
           "awayTeamId": "pittsburgh",
           "homeTeamName": "Miami Hurricanes",
@@ -862,7 +862,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w5-g4",
+          "id": "2027-w5-g4",
           "homeTeamId": "stanford",
           "awayTeamId": "virginia-tech",
           "homeTeamName": "Stanford Cardinal",
@@ -878,7 +878,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w5-g5",
+          "id": "2027-w5-g5",
           "homeTeamId": "wake-forest",
           "awayTeamId": "virginia",
           "homeTeamName": "Wake Forest Demon Deacons",
@@ -894,7 +894,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w5-g6",
+          "id": "2027-w5-g6",
           "homeTeamId": "california",
           "awayTeamId": "troy",
           "homeTeamName": "California Golden Bears",
@@ -910,7 +910,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w5-g7",
+          "id": "2027-w5-g7",
           "homeTeamId": "nc-state",
           "awayTeamId": "western-kentucky",
           "homeTeamName": "NC State Wolfpack",
@@ -926,7 +926,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w5-g8",
+          "id": "2027-w5-g8",
           "homeTeamId": "syracuse",
           "awayTeamId": "old-dominion",
           "homeTeamName": "Syracuse Orange",
@@ -945,13 +945,13 @@
     },
     "6": {
       "weekTitle": "Week 6",
-      "weekDate": "October 9-10, 2026",
+      "weekDate": "October 9-10, 2027",
       "byeTeamIds": [
         "wake-forest"
       ],
       "games": [
         {
-          "id": "2026-w6-g1",
+          "id": "2027-w6-g1",
           "homeTeamId": "boston-college",
           "awayTeamId": "louisville",
           "homeTeamName": "Boston College Eagles",
@@ -967,7 +967,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w6-g2",
+          "id": "2027-w6-g2",
           "homeTeamId": "california",
           "awayTeamId": "syracuse",
           "homeTeamName": "California Golden Bears",
@@ -983,7 +983,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w6-g3",
+          "id": "2027-w6-g3",
           "homeTeamId": "nc-state",
           "awayTeamId": "georgia-tech",
           "homeTeamName": "NC State Wolfpack",
@@ -999,7 +999,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w6-g4",
+          "id": "2027-w6-g4",
           "homeTeamId": "north-carolina",
           "awayTeamId": "virginia",
           "homeTeamName": "North Carolina Tar Heels",
@@ -1016,7 +1016,7 @@
           "rivalryName": "South's Oldest Rivalry"
         },
         {
-          "id": "2026-w6-g5",
+          "id": "2027-w6-g5",
           "homeTeamId": "stanford",
           "awayTeamId": "clemson",
           "homeTeamName": "Stanford Cardinal",
@@ -1032,7 +1032,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w6-g6",
+          "id": "2027-w6-g6",
           "homeTeamId": "virginia-tech",
           "awayTeamId": "pittsburgh",
           "homeTeamName": "Virginia Tech Hokies",
@@ -1048,7 +1048,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w6-g7",
+          "id": "2027-w6-g7",
           "homeTeamId": "duke",
           "awayTeamId": "eastern-michigan",
           "homeTeamName": "Duke Blue Devils",
@@ -1067,7 +1067,7 @@
     },
     "7": {
       "weekTitle": "Week 7",
-      "weekDate": "October 16-17, 2026",
+      "weekDate": "October 16-17, 2027",
       "byeTeamIds": [
         "boston-college",
         "nc-state",
@@ -1075,7 +1075,7 @@
       ],
       "games": [
         {
-          "id": "2026-w7-g1",
+          "id": "2027-w7-g1",
           "homeTeamId": "clemson",
           "awayTeamId": "california",
           "homeTeamName": "Clemson Tigers",
@@ -1091,7 +1091,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w7-g2",
+          "id": "2027-w7-g2",
           "homeTeamId": "georgia-tech",
           "awayTeamId": "duke",
           "homeTeamName": "Georgia Tech Yellow Jackets",
@@ -1107,7 +1107,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w7-g3",
+          "id": "2027-w7-g3",
           "homeTeamId": "pittsburgh",
           "awayTeamId": "stanford",
           "homeTeamName": "Pittsburgh Panthers",
@@ -1123,7 +1123,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w7-g4",
+          "id": "2027-w7-g4",
           "homeTeamId": "syracuse",
           "awayTeamId": "wake-forest",
           "homeTeamName": "Syracuse Orange",
@@ -1139,7 +1139,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w7-g5",
+          "id": "2027-w7-g5",
           "homeTeamId": "virginia",
           "awayTeamId": "louisville",
           "homeTeamName": "Virginia Cavaliers",
@@ -1158,7 +1158,7 @@
     },
     "8": {
       "weekTitle": "Week 8",
-      "weekDate": "October 23-24, 2026",
+      "weekDate": "October 23-24, 2027",
       "byeTeamIds": [
         "duke",
         "stanford",
@@ -1166,7 +1166,7 @@
       ],
       "games": [
         {
-          "id": "2026-w8-g1",
+          "id": "2027-w8-g1",
           "homeTeamId": "georgia-tech",
           "awayTeamId": "california",
           "homeTeamName": "Georgia Tech Yellow Jackets",
@@ -1182,7 +1182,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w8-g2",
+          "id": "2027-w8-g2",
           "homeTeamId": "louisville",
           "awayTeamId": "nc-state",
           "homeTeamName": "Louisville Cardinals",
@@ -1198,7 +1198,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w8-g3",
+          "id": "2027-w8-g3",
           "homeTeamId": "miami",
           "awayTeamId": "boston-college",
           "homeTeamName": "Miami Hurricanes",
@@ -1214,7 +1214,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w8-g4",
+          "id": "2027-w8-g4",
           "homeTeamId": "pittsburgh",
           "awayTeamId": "clemson",
           "homeTeamName": "Pittsburgh Panthers",
@@ -1230,7 +1230,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w8-g5",
+          "id": "2027-w8-g5",
           "homeTeamId": "syracuse",
           "awayTeamId": "north-carolina",
           "homeTeamName": "Syracuse Orange",
@@ -1246,7 +1246,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w8-g6",
+          "id": "2027-w8-g6",
           "homeTeamId": "wake-forest",
           "awayTeamId": "san-jose-state",
           "homeTeamName": "Wake Forest Demon Deacons",
@@ -1265,7 +1265,7 @@
     },
     "9": {
       "weekTitle": "Week 9",
-      "weekDate": "October 30-31, 2026",
+      "weekDate": "October 30-31, 2027",
       "byeTeamIds": [
         "california",
         "nc-state",
@@ -1273,7 +1273,7 @@
       ],
       "games": [
         {
-          "id": "2026-w9-g1",
+          "id": "2027-w9-g1",
           "homeTeamId": "clemson",
           "awayTeamId": "georgia-tech",
           "homeTeamName": "Clemson Tigers",
@@ -1289,7 +1289,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w9-g2",
+          "id": "2027-w9-g2",
           "homeTeamId": "duke",
           "awayTeamId": "wake-forest",
           "homeTeamName": "Duke Blue Devils",
@@ -1305,7 +1305,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w9-g3",
+          "id": "2027-w9-g3",
           "homeTeamId": "louisville",
           "awayTeamId": "syracuse",
           "homeTeamName": "Louisville Cardinals",
@@ -1321,7 +1321,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w9-g4",
+          "id": "2027-w9-g4",
           "homeTeamId": "virginia",
           "awayTeamId": "miami",
           "homeTeamName": "Virginia Cavaliers",
@@ -1337,7 +1337,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w9-g5",
+          "id": "2027-w9-g5",
           "homeTeamId": "virginia-tech",
           "awayTeamId": "boston-college",
           "homeTeamName": "Virginia Tech Hokies",
@@ -1353,7 +1353,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w9-g6",
+          "id": "2027-w9-g6",
           "homeTeamId": "pittsburgh",
           "awayTeamId": "temple",
           "homeTeamName": "Pittsburgh Panthers",
@@ -1369,7 +1369,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w9-g7",
+          "id": "2027-w9-g7",
           "homeTeamId": "stanford",
           "awayTeamId": "north-texas",
           "homeTeamName": "Stanford Cardinal",
@@ -1388,7 +1388,7 @@
     },
     "10": {
       "weekTitle": "Week 10",
-      "weekDate": "November 6-7, 2026",
+      "weekDate": "November 6-7, 2027",
       "byeTeamIds": [
         "georgia-tech",
         "louisville",
@@ -1397,7 +1397,7 @@
       ],
       "games": [
         {
-          "id": "2026-w10-g1",
+          "id": "2027-w10-g1",
           "homeTeamId": "boston-college",
           "awayTeamId": "stanford",
           "homeTeamName": "Boston College Eagles",
@@ -1413,7 +1413,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w10-g2",
+          "id": "2027-w10-g2",
           "homeTeamId": "duke",
           "awayTeamId": "north-carolina",
           "homeTeamName": "Duke Blue Devils",
@@ -1430,7 +1430,7 @@
           "rivalryName": "Victory Bell"
         },
         {
-          "id": "2026-w10-g3",
+          "id": "2027-w10-g3",
           "homeTeamId": "nc-state",
           "awayTeamId": "miami",
           "homeTeamName": "NC State Wolfpack",
@@ -1446,7 +1446,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w10-g4",
+          "id": "2027-w10-g4",
           "homeTeamId": "wake-forest",
           "awayTeamId": "california",
           "homeTeamName": "Wake Forest Demon Deacons",
@@ -1462,7 +1462,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w10-g5",
+          "id": "2027-w10-g5",
           "homeTeamId": "virginia",
           "awayTeamId": "kent-state",
           "homeTeamName": "Virginia Cavaliers",
@@ -1481,13 +1481,13 @@
     },
     "11": {
       "weekTitle": "Week 11",
-      "weekDate": "November 13-14, 2026",
+      "weekDate": "November 13-14, 2027",
       "byeTeamIds": [
         "boston-college"
       ],
       "games": [
         {
-          "id": "2026-w11-g1",
+          "id": "2027-w11-g1",
           "homeTeamId": "california",
           "awayTeamId": "north-carolina",
           "homeTeamName": "California Golden Bears",
@@ -1503,7 +1503,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w11-g2",
+          "id": "2027-w11-g2",
           "homeTeamId": "louisville",
           "awayTeamId": "duke",
           "homeTeamName": "Louisville Cardinals",
@@ -1519,7 +1519,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w11-g3",
+          "id": "2027-w11-g3",
           "homeTeamId": "miami",
           "awayTeamId": "syracuse",
           "homeTeamName": "Miami Hurricanes",
@@ -1535,7 +1535,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w11-g4",
+          "id": "2027-w11-g4",
           "homeTeamId": "nc-state",
           "awayTeamId": "virginia-tech",
           "homeTeamName": "NC State Wolfpack",
@@ -1551,7 +1551,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w11-g5",
+          "id": "2027-w11-g5",
           "homeTeamId": "virginia",
           "awayTeamId": "stanford",
           "homeTeamName": "Virginia Cavaliers",
@@ -1567,7 +1567,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w11-g6",
+          "id": "2027-w11-g6",
           "homeTeamId": "wake-forest",
           "awayTeamId": "georgia-tech",
           "homeTeamName": "Wake Forest Demon Deacons",
@@ -1583,7 +1583,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w11-g7",
+          "id": "2027-w11-g7",
           "homeTeamId": "pittsburgh",
           "awayTeamId": "washington-state",
           "homeTeamName": "Pittsburgh Panthers",
@@ -1602,7 +1602,7 @@
     },
     "12": {
       "weekTitle": "Week 12",
-      "weekDate": "November 20-21, 2026",
+      "weekDate": "November 20-21, 2027",
       "byeTeamIds": [
         "duke",
         "pittsburgh",
@@ -1610,7 +1610,7 @@
       ],
       "games": [
         {
-          "id": "2026-w12-g1",
+          "id": "2027-w12-g1",
           "homeTeamId": "clemson",
           "awayTeamId": "wake-forest",
           "homeTeamName": "Clemson Tigers",
@@ -1626,7 +1626,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w12-g2",
+          "id": "2027-w12-g2",
           "homeTeamId": "louisville",
           "awayTeamId": "california",
           "homeTeamName": "Louisville Cardinals",
@@ -1642,7 +1642,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w12-g3",
+          "id": "2027-w12-g3",
           "homeTeamId": "nc-state",
           "awayTeamId": "stanford",
           "homeTeamName": "NC State Wolfpack",
@@ -1658,7 +1658,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w12-g4",
+          "id": "2027-w12-g4",
           "homeTeamId": "north-carolina",
           "awayTeamId": "georgia-tech",
           "homeTeamName": "North Carolina Tar Heels",
@@ -1674,7 +1674,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w12-g5",
+          "id": "2027-w12-g5",
           "homeTeamId": "syracuse",
           "awayTeamId": "virginia-tech",
           "homeTeamName": "Syracuse Orange",
@@ -1690,7 +1690,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w12-g6",
+          "id": "2027-w12-g6",
           "homeTeamId": "boston-college",
           "awayTeamId": "ndsu",
           "homeTeamName": "Boston College Eagles",
@@ -1709,7 +1709,7 @@
     },
     "13": {
       "weekTitle": "Week 13",
-      "weekDate": "November 27-28, 2026",
+      "weekDate": "November 27-28, 2027",
       "byeTeamIds": [
         "california",
         "syracuse",
@@ -1717,7 +1717,7 @@
       ],
       "games": [
         {
-          "id": "2026-w13-g1",
+          "id": "2027-w13-g1",
           "homeTeamId": "boston-college",
           "awayTeamId": "pittsburgh",
           "homeTeamName": "Boston College Eagles",
@@ -1733,7 +1733,7 @@
           "isFeatured": false
         },
         {
-          "id": "2026-w13-g2",
+          "id": "2027-w13-g2",
           "homeTeamId": "miami",
           "awayTeamId": "duke",
           "homeTeamName": "Miami Hurricanes",
@@ -1749,7 +1749,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w13-g3",
+          "id": "2027-w13-g3",
           "homeTeamId": "north-carolina",
           "awayTeamId": "nc-state",
           "homeTeamName": "North Carolina Tar Heels",
@@ -1765,7 +1765,7 @@
           "isFeatured": true
         },
         {
-          "id": "2026-w13-g4",
+          "id": "2027-w13-g4",
           "homeTeamId": "virginia",
           "awayTeamId": "virginia-tech",
           "homeTeamName": "Virginia Cavaliers",
@@ -1782,7 +1782,7 @@
           "rivalryName": "Commonwealth Cup"
         },
         {
-          "id": "2026-w13-g5",
+          "id": "2027-w13-g5",
           "homeTeamId": "georgia-tech",
           "awayTeamId": "georgia",
           "homeTeamName": "Georgia Tech Yellow Jackets",
@@ -1799,7 +1799,7 @@
           "rivalryName": "Clean, Old-Fashioned Hate"
         },
         {
-          "id": "2026-w13-g6",
+          "id": "2027-w13-g6",
           "homeTeamId": "kentucky",
           "awayTeamId": "louisville",
           "homeTeamName": "Kentucky",
@@ -1816,7 +1816,7 @@
           "rivalryName": "Governor's Cup"
         },
         {
-          "id": "2026-w13-g7",
+          "id": "2027-w13-g7",
           "homeTeamId": "stanford",
           "awayTeamId": "notre-dame",
           "homeTeamName": "Stanford Cardinal",
