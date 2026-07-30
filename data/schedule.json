@@ -3,7 +3,11 @@
     "0": {
       "weekTitle": "Week 0",
       "weekDate": "August 28-29, 2027",
-      "byeTeamIds": [],
+      "byeTeamIds": [
+        "clemson",
+        "miami",
+        "virginia-tech"
+      ],
       "games": [
         {
           "id": "2027-w0-g1",
@@ -16,9 +20,9 @@
           "location": "Alumni Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 14,
+          "awayScore": 24,
           "isFeatured": false
         },
         {
@@ -32,9 +36,9 @@
           "location": "California Memorial Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 21,
+          "awayScore": 35,
           "isFeatured": false
         },
         {
@@ -48,9 +52,9 @@
           "location": "Wallace Wade Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 36,
+          "awayScore": 28,
           "isFeatured": false
         },
         {
@@ -64,9 +68,9 @@
           "location": "Bobby Dodd Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 3,
+          "awayScore": 23,
           "isFeatured": false
         },
         {
@@ -80,9 +84,9 @@
           "location": "L&N Federal Credit Union Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 35,
+          "awayScore": 13,
           "isFeatured": false
         },
         {
@@ -96,9 +100,9 @@
           "location": "Carter-Finley Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 16,
+          "awayScore": 28,
           "isFeatured": false
         },
         {
@@ -112,9 +116,9 @@
           "location": "Kenan Memorial Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 35,
+          "awayScore": 38,
           "isFeatured": false
         },
         {
@@ -128,9 +132,9 @@
           "location": "Acrisure Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 21,
+          "awayScore": 14,
           "isFeatured": false
         },
         {
@@ -144,9 +148,9 @@
           "location": "Stanford Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 32,
+          "awayScore": 29,
           "isFeatured": false
         },
         {
@@ -160,9 +164,9 @@
           "location": "JMA Wireless Dome",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 20,
+          "awayScore": 14,
           "isFeatured": false
         },
         {
@@ -176,9 +180,9 @@
           "location": "Scott Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 0,
+          "awayScore": 38,
           "isFeatured": false
         },
         {
@@ -192,9 +196,9 @@
           "location": "Allegacy Federal Credit Union Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 30,
+          "awayScore": 20,
           "isFeatured": false
         }
       ]
@@ -379,6 +383,22 @@
           "homeScore": null,
           "awayScore": null,
           "isFeatured": false
+        },
+        {
+          "id": "2027-w1-g12",
+          "homeTeamId": "virginia-tech",
+          "awayTeamId": "liberty",
+          "homeTeamName": "Virginia Tech Hokies",
+          "awayTeamName": "Liberty",
+          "gameTime": "Sat 3:30 PM ET",
+          "network": "",
+          "location": "Lane Stadium",
+          "isConferenceGame": false,
+          "isRivalry": false,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "isFeatured": false
         }
       ]
     },
@@ -548,6 +568,22 @@
           "homeScore": null,
           "awayScore": null,
           "isFeatured": false
+        },
+        {
+          "id": "2027-w2-g11",
+          "homeTeamId": "texas-state",
+          "awayTeamId": "virginia-tech",
+          "homeTeamName": "Texas State",
+          "awayTeamName": "Virginia Tech Hokies",
+          "gameTime": "Sat 2:15 PM ET",
+          "network": "",
+          "location": "UFCU Stadium",
+          "isConferenceGame": false,
+          "isRivalry": false,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "isFeatured": false
         }
       ]
     },
@@ -661,6 +697,22 @@
           "gameTime": "",
           "network": "",
           "location": "Allegacy Federal Credit Union Stadium",
+          "isConferenceGame": false,
+          "isRivalry": false,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "isFeatured": false
+        },
+        {
+          "id": "2027-w3-g8",
+          "homeTeamId": "virginia-tech",
+          "awayTeamId": "maryland",
+          "homeTeamName": "Virginia Tech Hokies",
+          "awayTeamName": "Maryland",
+          "gameTime": "Sat 7:30 PM ET",
+          "network": "",
+          "location": "Lane Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
           "status": "upcoming",
@@ -802,6 +854,22 @@
           "homeScore": null,
           "awayScore": null,
           "isFeatured": false
+        },
+        {
+          "id": "2027-w4-g9",
+          "homeTeamId": "virginia-tech",
+          "awayTeamId": "clemson",
+          "homeTeamName": "Virginia Tech Hokies",
+          "awayTeamName": "Clemson Tigers",
+          "gameTime": "Sat 1:00 PM ET",
+          "network": "",
+          "location": "Lane Stadium",
+          "isConferenceGame": true,
+          "isRivalry": false,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "isFeatured": false
         }
       ]
     },
@@ -867,7 +935,7 @@
           "awayTeamId": "virginia-tech",
           "homeTeamName": "Stanford Cardinal",
           "awayTeamName": "Virginia Tech Hokies",
-          "gameTime": "",
+          "gameTime": "Sat 2:00 PM ET",
           "network": "",
           "location": "Stanford Stadium",
           "isConferenceGame": true,
@@ -1037,7 +1105,7 @@
           "awayTeamId": "pittsburgh",
           "homeTeamName": "Virginia Tech Hokies",
           "awayTeamName": "Pittsburgh Panthers",
-          "gameTime": "",
+          "gameTime": "Sat 3:30 PM ET",
           "network": "",
           "location": "Lane Stadium",
           "isConferenceGame": true,
@@ -1153,6 +1221,22 @@
           "homeScore": null,
           "awayScore": null,
           "isFeatured": true
+        },
+        {
+          "id": "2027-w7-g6",
+          "homeTeamId": "virginia-tech",
+          "awayTeamId": "miami",
+          "homeTeamName": "Virginia Tech Hokies",
+          "awayTeamName": "Miami Hurricanes",
+          "gameTime": "Sat 4:00 PM ET",
+          "network": "",
+          "location": "Lane Stadium",
+          "isConferenceGame": true,
+          "isRivalry": false,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "isFeatured": false
         }
       ]
     },
@@ -1162,7 +1246,8 @@
       "byeTeamIds": [
         "duke",
         "stanford",
-        "virginia"
+        "virginia",
+        "virginia-tech"
       ],
       "games": [
         {
@@ -1342,7 +1427,7 @@
           "awayTeamId": "boston-college",
           "homeTeamName": "Virginia Tech Hokies",
           "awayTeamName": "Boston College Eagles",
-          "gameTime": "",
+          "gameTime": "Sat 12:30 PM ET",
           "network": "",
           "location": "Lane Stadium",
           "isConferenceGame": true,
@@ -1476,6 +1561,22 @@
           "homeScore": null,
           "awayScore": null,
           "isFeatured": false
+        },
+        {
+          "id": "2027-w10-g6",
+          "homeTeamId": "notre-dame",
+          "awayTeamId": "virginia-tech",
+          "homeTeamName": "Notre Dame",
+          "awayTeamName": "Virginia Tech Hokies",
+          "gameTime": "Sat 12:00 PM ET",
+          "network": "",
+          "location": "Notre Dame Stadium",
+          "isConferenceGame": false,
+          "isRivalry": false,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "isFeatured": false
         }
       ]
     },
@@ -1540,7 +1641,7 @@
           "awayTeamId": "virginia-tech",
           "homeTeamName": "NC State Wolfpack",
           "awayTeamName": "Virginia Tech Hokies",
-          "gameTime": "",
+          "gameTime": "Thu 7:00 PM ET",
           "network": "",
           "location": "Carter-Finley Stadium",
           "isConferenceGame": true,
@@ -1679,7 +1780,7 @@
           "awayTeamId": "virginia-tech",
           "homeTeamName": "Syracuse Orange",
           "awayTeamName": "Virginia Tech Hokies",
-          "gameTime": "",
+          "gameTime": "Sat 7:30 PM ET",
           "network": "",
           "location": "JMA Wireless Dome",
           "isConferenceGame": true,
@@ -1770,7 +1871,7 @@
           "awayTeamId": "virginia-tech",
           "homeTeamName": "Virginia Cavaliers",
           "awayTeamName": "Virginia Tech Hokies",
-          "gameTime": "",
+          "gameTime": "Sat 12:00 PM ET",
           "network": "",
           "location": "Scott Stadium",
           "isConferenceGame": true,

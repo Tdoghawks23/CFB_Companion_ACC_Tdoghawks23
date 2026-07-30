@@ -34,7 +34,7 @@ All league data lives in the `/data` directory as JSON files:
 | File | Purpose |
 |------|---------|
 | `season-meta.json` | Current season, week, and phase |
-| `teams.json` | All 17 ACC team metadata (colors, names, stadiums) |
+| `teams.json` | All 15 ACC team metadata (colors, names, stadiums) |
 | `standings.json` | Conference standings by season |
 | `rankings.json` | Top 25 poll by season and week |
 | `schedule.json` | Game schedule by season and week |

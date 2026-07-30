@@ -2,27 +2,87 @@
   "2027": {
     "0": {
       "title": "2027 Season Preview: A Clean Slate in the ACC",
-      "subtitle": "Fifteen teams, zero losses, and one trophy — the dynasty league kicks off Week 0",
+      "subtitle": "Fifteen teams, zero losses, and one trophy \u2014 the dynasty league kicks off Week 0",
       "author": "Tdoghawks23",
       "publishDate": "2027-08-24",
       "sections": [
         {
           "heading": "Season Outlook",
-          "content": "A new season is finally here. Every team in the conference sits at 0-0, and until the games kick off, everyone can dream about hoisting the ACC Championship trophy. Clemson opens the season at the top of the preseason Dynasty Poll and enters as the team to beat, but Miami and Louisville both have legitimate title aspirations. With a 15-week road to the conference championship, the margin for error is thin — early stumbles in September have a way of haunting teams come November.",
+          "content": "A new season is finally here. Every team in the conference sits at 0-0, and until the games kick off, everyone can dream about hoisting the ACC Championship trophy. Clemson opens the season at the top of the preseason Dynasty Poll and enters as the team to beat, but Miami and Louisville both have legitimate title aspirations. With a 15-week road to the conference championship, the margin for error is thin \u2014 early stumbles in September have a way of haunting teams come November.",
           "type": "text"
         },
         {
           "heading": "Teams to Watch",
-          "content": "Clemson carries the preseason #1 tag and the pressure that comes with it. Miami boasts the most explosive offense on paper, while Louisville's balanced roster makes the Cardinals a trendy title pick. Don't sleep on the middle of the pack either — NC State, Duke, and Pittsburgh all cracked the preseason Top 25, and Georgia Tech and Virginia Tech are lurking just behind them. At the bottom, Wake Forest and Stanford are looking to prove the projections wrong.",
+          "content": "Clemson carries the preseason #1 tag and the pressure that comes with it. Miami boasts the most explosive offense on paper, while Louisville's balanced roster makes the Cardinals a trendy title pick. Don't sleep on the middle of the pack either \u2014 NC State, Duke, and Pittsburgh all cracked the preseason Top 25, and Georgia Tech and Virginia Tech are lurking just behind them. At the bottom, Wake Forest and Stanford are looking to prove the projections wrong.",
           "type": "highlight"
         },
         {
           "heading": "Schedule on the Way",
-          "content": "The Week 0 slate hasn't been set just yet — the league is still working through the transfer portal, and the full schedule will be generated in-game once rosters are locked. Check the Schedule page once matchups are announced to see who opens the season against whom. In the meantime, the preseason Dynasty Poll is live and the standings are wiped clean — all fifteen teams start from zero.",
+          "content": "The Week 0 slate hasn't been set just yet \u2014 the league is still working through the transfer portal, and the full schedule will be generated in-game once rosters are locked. Check the Schedule page once matchups are announced to see who opens the season against whom. In the meantime, the preseason Dynasty Poll is live and the standings are wiped clean \u2014 all fifteen teams start from zero.",
           "type": "text"
         }
       ],
-      "tags": ["preview", "week-0", "season-kickoff", "transfer-portal"]
+      "tags": [
+        "preview",
+        "week-0",
+        "season-kickoff",
+        "transfer-portal"
+      ]
+    },
+    "1": {
+      "title": "Week 1: Arkansas State Stuns Virginia as the ACC Splits Opening Weekend",
+      "subtitle": "A 38\u20130 shutout in Charlottesville, a .500 opening slate, and a brand-new No. 1 \u2014 the 2027 season wasted no time getting weird",
+      "author": "Tdoghawks23",
+      "publishDate": "2027-09-01",
+      "sections": [
+        {
+          "heading": "Opening Weekend Recap",
+          "content": "The ACC's opening slate ended in a perfect split \u2014 six wins, six losses \u2014 and almost none of it went according to script. Louisville looked the sharpest of anyone, handling Charlotte 35\u201313 for the conference's biggest win of the weekend. Duke, Wake Forest, Pittsburgh, Syracuse, and Stanford all took care of business at home, with the Cardinal surviving a 32\u201329 scare from Air Force. But the other half of the conference has some soul-searching to do: Georgia Tech managed just a field goal in a 23\u20133 home loss to Ohio, NC State fell flat against Louisiana, and Boston College, California, and North Carolina all dropped home games they were expected to win. Clemson, Miami, and Virginia Tech sat out the opening weekend and watched the chaos from the couch.",
+          "type": "text"
+        },
+        {
+          "heading": "Upset of the Week: Arkansas State 38, Virginia 0",
+          "content": "There are losses, and then there's whatever happened in Charlottesville. Virginia \u2014 ranked No. 19 in the country \u2014 didn't just lose to Arkansas State, they got shut out 38\u20130 at home in the worst opening-week result anyone in this league can remember. The Cavaliers somehow clung to their No. 19 ranking in this week's poll, but nobody's buying it until they show signs of life. Honorable mention to Georgia Southern, who walked into Chapel Hill and beat North Carolina 38\u201335.",
+          "type": "highlight"
+        },
+        {
+          "heading": "Week 0 Standouts",
+          "type": "stats",
+          "stats": [
+            {
+              "playerName": "Kaelan Chudzinski",
+              "teamId": "duke",
+              "statLine": "15 rec, 207 yds, 3 TD"
+            },
+            {
+              "playerName": "Marquise Davis",
+              "teamId": "louisville",
+              "statLine": "14 car, 140 yds, 2 TD, 10.0 ypc"
+            },
+            {
+              "playerName": "Mason Heintschel",
+              "teamId": "pittsburgh",
+              "statLine": "27/38, 287 yds, 2 TD, 1 INT"
+            }
+          ]
+        },
+        {
+          "heading": "Poll Shakeup: A New No. 1",
+          "content": "The voters hit the reset button. LSU rocketed from No. 14 all the way to the top spot without playing a down, while preseason No. 1 Clemson tumbled out of the Top 25 entirely \u2014 the Tigers will get their first chance to answer when they finally take the field. The ACC places four teams in the new poll: Miami climbs to No. 2, Pittsburgh jumps nine spots to No. 11, Wake Forest debuts at No. 12 after dispatching San Diego State, and Virginia hangs on at No. 19 by a thread. Louisville's 22-point win somehow wasn't enough to crack the list \u2014 file that one under motivation.",
+          "type": "text"
+        },
+        {
+          "heading": "Week 1 Games to Watch",
+          "content": "The marquee matchup is obvious: No. 12 Wake Forest travels to Acrisure Stadium to face No. 11 Pittsburgh in a top-15, 1-0 vs. 1-0 conference clash that will hand someone an early inside track in the ACC race. Elsewhere, Virginia Tech finally opens its season at home against Liberty (Saturday, 3:30 PM ET at Lane Stadium), North Carolina gets a shot at redemption against Texas State, and California tries to wash out the Buffalo loss against UL Monroe. Clemson and Miami remain idle \u2014 the wait for the preseason heavyweights continues.",
+          "type": "text"
+        }
+      ],
+      "tags": [
+        "recap",
+        "week-1",
+        "upsets",
+        "poll-shakeup"
+      ]
     }
   }
 }
