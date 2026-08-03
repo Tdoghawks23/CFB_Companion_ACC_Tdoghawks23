@@ -83,6 +83,66 @@
         "upsets",
         "poll-shakeup"
       ]
+    },
+    "2": {
+      "title": "Week 2: Wake Forest Rises to the Top of the ACC",
+      "subtitle": "The Demon Deacons are 2\u20130, they knocked off Pitt on the road, and they're now the conference's highest-ranked team \u2014 while Miami free-falls and the ACC treads water at 6\u20136 again",
+      "author": "Tdoghawks23",
+      "publishDate": "2027-09-08",
+      "sections": [
+        {
+          "heading": "Week 1 Recap",
+          "content": "Wake Forest is the story of the weekend. The Demon Deacons walked into Acrisure Stadium, knocked off No. 20 Pittsburgh 26\u201316 in the ACC's only conference game, and moved to 2\u20130 \u2014 the lone league team with a win that actually counts in the standings. They now headline a four-team pack of unbeatens alongside Stanford, Louisville, and Duke. For the second straight weekend the conference landed right on the .500 line at 6\u20136 against non-conference foes: Louisville (42\u20133 over Missouri State) and NC State (45\u20133 over Kent State) posted the most lopsided wins, while Syracuse got tripped up at home by Sam Houston 28\u201320, Liberty rolled Virginia Tech 41\u201325, Ball State stunned Georgia Tech 20\u201313, and Fresno State handled Virginia 30\u201312. And Clemson? Still waiting to play its first snap of 2027.",
+          "type": "text"
+        },
+        {
+          "heading": "Team of the Week: Wake Forest",
+          "content": "Nobody else in the ACC can say what the Demon Deacons can: 2\u20130, a conference win already in the pocket, and a road takedown of a ranked team. Wake climbed to No. 11 in the new poll \u2014 the highest-ranked team in the league \u2014 and did it the hard way, silencing Acrisure Stadium against a Pittsburgh squad that entered the week in the Top 15. If there's an early front-runner in the ACC race, it's wearing old gold and black.",
+          "type": "highlight"
+        },
+        {
+          "heading": "ACC Stat Leaders (Through Two Games)",
+          "type": "stats",
+          "stats": [
+            {
+              "playerName": "Marquise Davis",
+              "teamId": "louisville",
+              "statLine": "27 car, 344 yds, 4 TD, 12.7 ypc"
+            },
+            {
+              "playerName": "Kaelan Chudzinski",
+              "teamId": "duke",
+              "statLine": "29 rec, 498 yds, 5 TD"
+            },
+            {
+              "playerName": "Kenny Minchey",
+              "teamId": "duke",
+              "statLine": "49/89, 699 yds, 7 TD, 6 INT"
+            },
+            {
+              "playerName": "Zach Johnson",
+              "teamId": "stanford",
+              "statLine": "19 tkl, 3 TFL"
+            }
+          ]
+        },
+        {
+          "heading": "Poll Check: Miami's Free-Fall",
+          "content": "While Wake was rising, Miami was in free-fall. Two weeks ago the Hurricanes sat at No. 2 in the country; now they're No. 13 after a 22\u201313 loss to No. 8 Utah \u2014 an 11-spot tumble. Pittsburgh slid from No. 11 to No. 20 after the Wake Forest defeat, and Virginia dropped out of the Top 25 entirely, sitting at 0\u20132 and outscored 68\u201312 across two games. That leaves the ACC with just three ranked teams: Wake Forest (11), Miami (13), and Pittsburgh (20).",
+          "type": "text"
+        },
+        {
+          "heading": "Week 2 Games to Watch",
+          "content": "The one that matters most: NC State travels to California in the week's lone ACC conference clash, a 1\u20131 vs. 1\u20131 tilt that hands the winner an early tiebreaker. Wake Forest hosts Utah State trying to stay unbeaten and ranked, Louisville and Duke look to keep rolling against Nevada and Bowling Green, and Virginia Tech hits the road at Texas State to chase its first win. Stanford is on a bye. Miami sits idle \u2014 and yes, Clemson's debut is still on hold.",
+          "type": "text"
+        }
+      ],
+      "tags": [
+        "recap",
+        "week-2",
+        "wake-forest",
+        "poll-shakeup"
+      ]
     }
   }
 }
