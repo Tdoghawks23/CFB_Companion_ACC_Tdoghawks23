@@ -26,11 +26,16 @@ export default function CoachRoster({ coaches, teamsMap }: CoachRosterProps) {
     });
 
   return (
-    <div className="bg-bg-card rounded-xl border border-acc-blue/10 overflow-hidden mb-8">
-      <div className="flex items-center justify-between px-5 py-3 border-b border-acc-blue/10">
-        <h2 className="font-[family-name:var(--font-oswald)] text-lg font-semibold uppercase tracking-wide">
-          Dynasty Coaches
-        </h2>
+    <div className="bg-bg-card rounded-2xl border border-acc-blue/12 overflow-hidden mb-8">
+      <div className="flex items-center justify-between px-5 py-4 border-b border-acc-blue/10">
+        <div>
+          <div className="font-[family-name:var(--font-oswald)] text-[10px] tracking-[0.18em] uppercase text-acc-gold font-semibold mb-0.5">
+            {rows.length} Programs
+          </div>
+          <h2 className="font-[family-name:var(--font-oswald)] text-[17px] font-semibold uppercase tracking-[0.04em]">
+            Dynasty Coaches
+          </h2>
+        </div>
       </div>
       <div className="divide-y divide-white/5 md:grid md:grid-cols-2">
         {rows.map(({ coach, team }, index) => {

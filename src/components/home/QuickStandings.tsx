@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { ChevronRight } from "lucide-react";
 import type { TeamStanding, Team } from "@/lib/types";
 import TeamLogo from "@/components/shared/TeamLogo";
 
@@ -12,29 +11,41 @@ export default function QuickStandings({ standings, teamsMap }: QuickStandingsPr
   const top5 = standings.slice(0, 5);
 
   return (
-    <div className="bg-bg-card rounded-xl border border-acc-blue/10 overflow-hidden">
-      <div className="flex items-center justify-between px-5 py-3 border-b border-acc-blue/10">
-        <h2 className="font-[family-name:var(--font-oswald)] text-lg font-semibold uppercase tracking-wide">
-          Conference Standings
-        </h2>
-        <Link
-          href="/standings"
-          className="flex items-center gap-1 text-acc-blue text-sm hover:underline"
-        >
-          Full Standings <ChevronRight size={14} />
+    <div className="bg-bg-card rounded-2xl border border-acc-blue/12 overflow-hidden">
+      <div className="flex items-center justify-between px-5 py-4 border-b border-acc-blue/10">
+        <div>
+          <div className="font-[family-name:var(--font-oswald)] text-[10px] tracking-[0.18em] uppercase text-acc-gold font-semibold mb-0.5">
+            ACC
+          </div>
+          <h2 className="font-[family-name:var(--font-oswald)] text-[17px] font-semibold uppercase tracking-[0.04em]">
+            Conference Standings
+          </h2>
+        </div>
+        <Link href="/standings" className="text-acc-blue text-[13px] hover:underline">
+          Full ›
         </Link>
       </div>
-      <div className="divide-y divide-white/5">
+
+      {/* Column header */}
+      <div className="flex items-center gap-3.5 px-5 pt-2.5 pb-1.5 text-[9px] tracking-[0.12em] uppercase text-text-muted">
+        <span className="w-[22px]" />
+        <span className="w-8" />
+        <span className="flex-1" />
+        <span className="w-9 text-right">Overall</span>
+        <span className="w-14 text-right">Conf</span>
+      </div>
+
+      <div>
         {top5.map((s) => {
           const team = teamsMap.get(s.teamId);
           if (!team) return null;
           return (
             <div
               key={s.teamId}
-              className="flex items-center gap-3 px-5 py-3 hover:bg-bg-card-hover transition-colors"
+              className="flex items-center gap-3.5 px-5 py-3 border-t border-white/5 hover:bg-bg-card-hover transition-colors"
               style={{ borderLeft: `3px solid ${team.primaryColor}` }}
             >
-              <span className="text-text-muted text-sm w-5 text-right font-medium">
+              <span className="flex items-center justify-center w-[22px] h-[22px] rounded-full bg-white/5 font-[family-name:var(--font-oswald)] text-[12px] font-semibold text-text-secondary shrink-0">
                 {s.conferenceRank}
               </span>
               <TeamLogo
@@ -42,8 +53,11 @@ export default function QuickStandings({ standings, teamsMap }: QuickStandingsPr
                 primaryColor={team.primaryColor}
                 size={32}
               />
-              <span className="flex-1 font-medium text-sm">{team.name}</span>
-              <span className="font-[family-name:var(--font-oswald)] text-sm text-text-secondary">
+              <span className="flex-1 font-medium text-sm truncate">{team.name}</span>
+              <span className="font-[family-name:var(--font-oswald)] text-[15px] font-bold w-9 text-right">
+                {s.overallWins}-{s.overallLosses}
+              </span>
+              <span className="text-[11px] text-text-muted w-14 text-right">
                 {s.conferenceWins}-{s.conferenceLosses}
               </span>
             </div>
