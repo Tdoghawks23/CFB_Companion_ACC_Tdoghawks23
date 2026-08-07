@@ -143,6 +143,56 @@
         "wake-forest",
         "poll-shakeup"
       ]
+    },
+    "3": {
+      "title": "Week 3: Clemson Crashes the Party as Conference Play Arrives",
+      "subtitle": "The Tigers finally debut with a 62–7 haymaker, Wake Forest keeps rolling into the national top 10, and the ACC opens its first real week of league games",
+      "author": "Tdoghawks23",
+      "publishDate": "2027-09-15",
+      "sections": [
+        {
+          "heading": "Week 2 Recap",
+          "content": "Clemson has entered the chat. After sitting out the first two weekends, the Tigers made their 2027 debut count, burying Arizona 62–7 for the most lopsided result the ACC has posted all year. They weren't the only ones feasting: Duke hung 58 on Bowling Green, Louisville handled Nevada 29–17, and Wake Forest stayed perfect with a 21–10 win over Utah State. In the conference's lone league game, California went to work on NC State 25–12 to grab an early tiebreaker in the standings, and Syracuse shook off its Week 1 stumble with a clean 20–0 shutout of Delaware. The bottom of the league, though, had a miserable Saturday: Pittsburgh got upset at home by Colorado State 28–27, North Carolina couldn't hold off Coastal Carolina in a 41–31 track meet, Boston College fell to Troy to drop to 0–3, Georgia Tech lost to FCS Southeast 27–24 for an ugly FCS defeat, Virginia dropped an overtime heartbreaker to Cincinnati 32–26, and Virginia Tech let one slip at Texas State 18–14.",
+          "type": "text"
+        },
+        {
+          "heading": "Team of the Week: Wake Forest",
+          "content": "The Demon Deacons just keep answering the bell. At 3–0 with a conference win already banked, Wake is the only unbeaten in the ACC that also owns a league victory, and the voters rewarded them — Wake climbed to No. 9 in the new poll, cracking the national top 10 and standing alone as the highest-ranked team in the conference. Clemson's blowout will grab the headlines, but until someone knocks the Deacons off, the road to the ACC race still runs through Winston-Salem.",
+          "type": "highlight"
+        },
+        {
+          "heading": "ACC Players of the Week",
+          "type": "stats",
+          "stats": [
+            {
+              "playerName": "Kaelan Chudzinski (Off.)",
+              "teamId": "duke",
+              "statLine": "17 rec, 303 yds, 5 TD"
+            },
+            {
+              "playerName": "Chris Joe (Def.)",
+              "teamId": "wake-forest",
+              "statLine": "5 tkl, 2 PBU, 1 FF"
+            }
+          ]
+        },
+        {
+          "heading": "Poll Check: Three Ranked, and a New No. 1",
+          "content": "The ACC now has three teams in the poll for the first time this season. Wake Forest leads the way at No. 9, Miami quietly climbed back to No. 11 despite sitting idle at 0–1 as the teams around them stumbled, and Louisville finally broke through, debuting at No. 24 on the strength of a 3–0 start. The bad news came out of Pittsburgh: the Panthers tumbled out of the Top 25 entirely after the Colorado State upset. Nationally, the top of the board reshuffled — Oklahoma jumped to No. 1, bumping LSU to No. 2 and Ohio State to No. 3.",
+          "type": "text"
+        },
+        {
+          "heading": "Week 3 Games to Watch",
+          "content": "Conference play arrives in force — six of the eight games on the slate are league matchups. The one circled on our calendar: Syracuse hosts Clemson at the JMA Wireless Dome, and the Orange get the unenviable job of trying to cool off a Tigers team fresh off a 55-point debut. Elsewhere, No. 24 Louisville travels to Stanford in a battle of unbeatens, Duke hosts NC State with both teams looking to prove their fast start is real, and North Carolina welcomes Pittsburgh in a matchup of teams desperate to steady the ship. Down at the bottom, Georgia Tech and Boston College meet in a 0–3 vs. 0–3 scrap where somebody finally gets in the win column. Wake Forest (vs. UNLV) and Virginia Tech (vs. Maryland) round out the week in non-conference play.",
+          "type": "text"
+        }
+      ],
+      "tags": [
+        "recap",
+        "week-3",
+        "conference-play",
+        "clemson-debut"
+      ]
     }
   }
 }

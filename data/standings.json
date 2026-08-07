@@ -1,17 +1,28 @@
 {
   "2027": {
-    "week": 2,
+    "week": 3,
     "teams": [
       {
         "teamId": "wake-forest",
         "conferenceWins": 1,
         "conferenceLosses": 0,
-        "overallWins": 2,
+        "overallWins": 3,
         "overallLosses": 0,
-        "streak": "W2",
-        "pointsFor": 56,
-        "pointsAgainst": 36,
+        "streak": "W3",
+        "pointsFor": 77,
+        "pointsAgainst": 46,
         "conferenceRank": 1
+      },
+      {
+        "teamId": "clemson",
+        "conferenceWins": 0,
+        "conferenceLosses": 0,
+        "overallWins": 1,
+        "overallLosses": 0,
+        "streak": "W1",
+        "pointsFor": 62,
+        "pointsAgainst": 7,
+        "conferenceRank": 2
       },
       {
         "teamId": "stanford",
@@ -22,105 +33,94 @@
         "streak": "W2",
         "pointsFor": 67,
         "pointsAgainst": 50,
-        "conferenceRank": 2
+        "conferenceRank": 3
       },
       {
         "teamId": "louisville",
         "conferenceWins": 0,
         "conferenceLosses": 0,
-        "overallWins": 2,
+        "overallWins": 3,
         "overallLosses": 0,
-        "streak": "W2",
-        "pointsFor": 77,
-        "pointsAgainst": 16,
-        "conferenceRank": 3
+        "streak": "W3",
+        "pointsFor": 106,
+        "pointsAgainst": 33,
+        "conferenceRank": 4
       },
       {
         "teamId": "duke",
         "conferenceWins": 0,
         "conferenceLosses": 0,
-        "overallWins": 2,
+        "overallWins": 3,
         "overallLosses": 0,
-        "streak": "W2",
-        "pointsFor": 72,
-        "pointsAgainst": 45,
-        "conferenceRank": 4
+        "streak": "W3",
+        "pointsFor": 130,
+        "pointsAgainst": 69,
+        "conferenceRank": 5
       },
       {
-        "teamId": "nc-state",
-        "conferenceWins": 0,
+        "teamId": "california",
+        "conferenceWins": 1,
         "conferenceLosses": 0,
-        "overallWins": 1,
+        "overallWins": 2,
         "overallLosses": 1,
-        "streak": "W1",
-        "pointsFor": 61,
-        "pointsAgainst": 31,
-        "conferenceRank": 5
+        "streak": "W2",
+        "pointsFor": 80,
+        "pointsAgainst": 61,
+        "conferenceRank": 6
       },
       {
         "teamId": "syracuse",
         "conferenceWins": 0,
         "conferenceLosses": 0,
-        "overallWins": 1,
+        "overallWins": 2,
         "overallLosses": 1,
-        "streak": "L1",
-        "pointsFor": 40,
+        "streak": "W1",
+        "pointsFor": 60,
         "pointsAgainst": 42,
-        "conferenceRank": 6
+        "conferenceRank": 7
       },
       {
         "teamId": "north-carolina",
         "conferenceWins": 0,
         "conferenceLosses": 0,
         "overallWins": 1,
-        "overallLosses": 1,
-        "streak": "W1",
-        "pointsFor": 74,
-        "pointsAgainst": 52,
-        "conferenceRank": 7
+        "overallLosses": 2,
+        "streak": "L1",
+        "pointsFor": 105,
+        "pointsAgainst": 93,
+        "conferenceRank": 8
       },
       {
-        "teamId": "california",
+        "teamId": "nc-state",
         "conferenceWins": 0,
-        "conferenceLosses": 0,
+        "conferenceLosses": 1,
         "overallWins": 1,
-        "overallLosses": 1,
-        "streak": "W1",
-        "pointsFor": 55,
-        "pointsAgainst": 49,
-        "conferenceRank": 8
+        "overallLosses": 2,
+        "streak": "L1",
+        "pointsFor": 73,
+        "pointsAgainst": 56,
+        "conferenceRank": 9
       },
       {
         "teamId": "pittsburgh",
         "conferenceWins": 0,
         "conferenceLosses": 1,
         "overallWins": 1,
-        "overallLosses": 1,
-        "streak": "L1",
-        "pointsFor": 37,
-        "pointsAgainst": 40,
-        "conferenceRank": 9
+        "overallLosses": 2,
+        "streak": "L2",
+        "pointsFor": 64,
+        "pointsAgainst": 68,
+        "conferenceRank": 10
       },
       {
         "teamId": "boston-college",
         "conferenceWins": 0,
         "conferenceLosses": 0,
         "overallWins": 0,
-        "overallLosses": 2,
-        "streak": "L2",
-        "pointsFor": 41,
-        "pointsAgainst": 65,
-        "conferenceRank": 10
-      },
-      {
-        "teamId": "clemson",
-        "conferenceWins": 0,
-        "conferenceLosses": 0,
-        "overallWins": 0,
-        "overallLosses": 0,
-        "streak": "\u2014",
-        "pointsFor": 0,
-        "pointsAgainst": 0,
+        "overallLosses": 3,
+        "streak": "L3",
+        "pointsFor": 55,
+        "pointsAgainst": 89,
         "conferenceRank": 11
       },
       {
@@ -128,10 +128,10 @@
         "conferenceWins": 0,
         "conferenceLosses": 0,
         "overallWins": 0,
-        "overallLosses": 2,
-        "streak": "L2",
-        "pointsFor": 16,
-        "pointsAgainst": 43,
+        "overallLosses": 3,
+        "streak": "L3",
+        "pointsFor": 40,
+        "pointsAgainst": 70,
         "conferenceRank": 12
       },
       {
@@ -150,10 +150,10 @@
         "conferenceWins": 0,
         "conferenceLosses": 0,
         "overallWins": 0,
-        "overallLosses": 2,
-        "streak": "L2",
-        "pointsFor": 12,
-        "pointsAgainst": 68,
+        "overallLosses": 3,
+        "streak": "L3",
+        "pointsFor": 38,
+        "pointsAgainst": 100,
         "conferenceRank": 14
       },
       {
@@ -161,10 +161,10 @@
         "conferenceWins": 0,
         "conferenceLosses": 0,
         "overallWins": 0,
-        "overallLosses": 1,
-        "streak": "L1",
-        "pointsFor": 25,
-        "pointsAgainst": 41,
+        "overallLosses": 2,
+        "streak": "L2",
+        "pointsFor": 39,
+        "pointsAgainst": 59,
         "conferenceRank": 15
       }
     ]
