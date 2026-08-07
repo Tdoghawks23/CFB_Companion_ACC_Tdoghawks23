@@ -1,6 +1,6 @@
 {
   "currentSeason": 2027,
-  "currentWeek": 2,
+  "currentWeek": 3,
   "seasonPhase": "regular",
   "seasons": [
     2027
@@ -8,5 +8,5 @@
   "totalWeeks": 15,
   "conferenceChampionshipWeek": 14,
   "bowlWeek": 15,
-  "lastUpdated": "2027-09-08T12:00:00Z"
+  "lastUpdated": "2027-09-15T12:00:00Z"
 }

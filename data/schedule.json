@@ -420,9 +420,9 @@
           "location": "California Memorial Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 25,
+          "awayScore": 12,
           "isFeatured": true
         },
         {
@@ -436,9 +436,9 @@
           "location": "Alumni Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 14,
+          "awayScore": 24,
           "isFeatured": false
         },
         {
@@ -452,9 +452,9 @@
           "location": "Wallace Wade Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 58,
+          "awayScore": 24,
           "isFeatured": false
         },
         {
@@ -468,9 +468,9 @@
           "location": "Bobby Dodd Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 24,
+          "awayScore": 27,
           "isFeatured": false
         },
         {
@@ -484,9 +484,9 @@
           "location": "L&N Federal Credit Union Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 29,
+          "awayScore": 17,
           "isFeatured": false
         },
         {
@@ -500,9 +500,9 @@
           "location": "Kenan Memorial Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 31,
+          "awayScore": 41,
           "isFeatured": false
         },
         {
@@ -516,9 +516,9 @@
           "location": "Acrisure Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 27,
+          "awayScore": 28,
           "isFeatured": false
         },
         {
@@ -532,9 +532,9 @@
           "location": "JMA Wireless Dome",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 20,
+          "awayScore": 0,
           "isFeatured": false
         },
         {
@@ -548,9 +548,9 @@
           "location": "Scott Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 26,
+          "awayScore": 32,
           "isFeatured": false
         },
         {
@@ -564,9 +564,9 @@
           "location": "Allegacy Federal Credit Union Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 21,
+          "awayScore": 10,
           "isFeatured": false
         },
         {
@@ -580,9 +580,25 @@
           "location": "UFCU Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 18,
+          "awayScore": 14,
+          "isFeatured": false
+        },
+        {
+          "id": "2027-w2-g12",
+          "homeTeamId": "clemson",
+          "awayTeamId": "arizona",
+          "homeTeamName": "Clemson Tigers",
+          "awayTeamName": "Arizona",
+          "gameTime": "",
+          "network": "",
+          "location": "Memorial Stadium",
+          "isConferenceGame": false,
+          "isRivalry": false,
+          "status": "final",
+          "homeScore": 62,
+          "awayScore": 7,
           "isFeatured": false
         }
       ]
