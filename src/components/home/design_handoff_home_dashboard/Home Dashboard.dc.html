@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #0A0E1A; color: #F9FAFB; font-family: "Inter", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: #4B9CD3; text-decoration: none; }
+  a:hover { color: #7CBBE3; }
+</style>
+</helmet>
+<div style="min-height:100vh;">
+
+  <!-- navbar -->
+  <div style="background:rgba(19,41,75,0.95); border-bottom:1px solid rgba(75,156,211,0.2); position:sticky; top:0; z-index:20; backdrop-filter:blur(8px);">
+    <div style="max-width:1180px; margin:0 auto; height:66px; display:flex; align-items:center; padding:0 44px;">
+      <div style="display:flex; align-items:center; gap:12px; margin-right:44px;">
+        <img src="public/assets/acc-logo.svg" alt="ACC" style="height:20px; width:auto; object-fit:contain;">
+        <span style="font-family:'Oswald'; font-size:19px; font-weight:700; letter-spacing:0.06em;">CFB COMPANION</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:4px;">
+        <span style="position:relative; padding:8px 16px; border-radius:9px; font-size:14px; font-weight:500; color:#4B9CD3; background:rgba(75,156,211,0.1);">Home<span style="position:absolute; bottom:1px; left:50%; transform:translateX(-50%); width:22px; height:2px; background:#4B9CD3; border-radius:2px;"></span></span>
+        <span style="padding:8px 16px; border-radius:9px; font-size:14px; font-weight:500; color:#9CA3AF;">Standings</span>
+        <span style="padding:8px 16px; border-radius:9px; font-size:14px; font-weight:500; color:#9CA3AF;">Top 25</span>
+        <span style="padding:8px 16px; border-radius:9px; font-size:14px; font-weight:500; color:#9CA3AF;">Schedule</span>
+        <span style="padding:8px 16px; border-radius:9px; font-size:14px; font-weight:500; color:#9CA3AF;">Weekly</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- game of the week hero -->
+  <div style="position:relative; overflow:hidden; background:linear-gradient(115deg, #003087 0%, #13294B 46%, #7a0d0d 100%);">
+    <div style="position:absolute; inset:0; background:radial-gradient(90% 140% at 50% -10%, rgba(255,255,255,0.08), transparent 60%);"></div>
+    <div style="position:relative; max-width:1180px; margin:0 auto; padding:34px 44px 32px;">
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:22px;">
+        <div>
+          <div style="font-family:'Oswald'; font-size:12px; letter-spacing:0.22em; text-transform:uppercase; color:#C99700; font-weight:600;">Game of the Week · ACC Conference</div>
+          <div style="font-family:'Oswald'; font-size:14px; color:rgba(255,255,255,0.7); margin-top:4px; letter-spacing:0.04em;">Saturday · Wallace Wade Stadium, Durham</div>
+        </div>
+        <span style="font-family:'Oswald'; font-size:12px; letter-spacing:0.12em; text-transform:uppercase; background:rgba(245,158,11,0.9); color:#0A0E1A; font-weight:700; padding:5px 12px; border-radius:6px;">Upcoming</span>
+      </div>
+      <div style="display:flex; align-items:center; justify-content:center; gap:48px;">
+        <div style="display:flex; align-items:center; gap:20px; flex:1; justify-content:flex-end;">
+          <div style="text-align:right;">
+            <div style="font-family:'Oswald'; font-size:12px; color:rgba(255,255,255,0.65); letter-spacing:0.1em; text-transform:uppercase;">Away · 1-2</div>
+            <div style="font-family:'Oswald'; font-size:32px; font-weight:700; line-height:1.05; color:#fff;">NC State</div>
+            <div style="font-size:13px; color:rgba(255,255,255,0.6);">Wolfpack</div>
+          </div>
+          <div style="width:76px; height:76px; border-radius:18px; background:#CC0000; color:#fff; font-family:'Oswald'; font-weight:700; font-size:22px; display:flex; align-items:center; justify-content:center; box-shadow:0 12px 30px -8px rgba(0,0,0,0.6);">NCST</div>
+        </div>
+        <div style="font-family:'Oswald'; font-size:26px; font-weight:600; color:rgba(255,255,255,0.5); letter-spacing:0.1em;">VS</div>
+        <div style="display:flex; align-items:center; gap:20px; flex:1;">
+          <div style="width:76px; height:76px; border-radius:18px; background:#003087; color:#fff; font-family:'Oswald'; font-weight:700; font-size:22px; display:flex; align-items:center; justify-content:center; box-shadow:0 12px 30px -8px rgba(0,0,0,0.6);">DUKE</div>
+          <div>
+            <div style="font-family:'Oswald'; font-size:12px; color:rgba(255,255,255,0.65); letter-spacing:0.1em; text-transform:uppercase;">Home · 3-0</div>
+            <div style="font-family:'Oswald'; font-size:32px; font-weight:700; line-height:1.05; color:#fff;">Duke</div>
+            <div style="font-size:13px; color:rgba(255,255,255,0.6);">Blue Devils</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- stat ribbon -->
+  <sc-if value="{{ showRibbon }}" hint-placeholder-val="{{ true }}">
+  <div style="background:#13294B; border-bottom:1px solid rgba(75,156,211,0.15);">
+    <div style="max-width:1180px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));">
+      <div style="padding:18px 24px; border-right:1px solid rgba(75,156,211,0.12);">
+        <div style="font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:#9CA3AF; margin-bottom:6px;">ACC Top Ranked</div>
+        <div style="display:flex; align-items:baseline; gap:8px;"><span style="font-family:'Oswald'; font-size:24px; font-weight:700;">Wake Forest</span><span style="font-family:'Oswald'; font-size:16px; font-weight:700; color:#C99700;">#9</span></div>
+      </div>
+      <div style="padding:18px 24px; border-right:1px solid rgba(75,156,211,0.12);">
+        <div style="font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:#9CA3AF; margin-bottom:6px;">Ranked ACC Teams</div>
+        <div style="font-family:'Oswald'; font-size:24px; font-weight:700;">3 <span style="font-size:14px; color:#6B7280; font-weight:500;">of 15</span></div>
+      </div>
+      <div style="padding:18px 24px; border-right:1px solid rgba(75,156,211,0.12);">
+        <div style="font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:#9CA3AF; margin-bottom:6px;">Top Scoring Offense</div>
+        <div style="display:flex; align-items:baseline; gap:8px;"><span style="font-family:'Oswald'; font-size:24px; font-weight:700;">Duke</span><span style="font-family:'Oswald'; font-size:16px; font-weight:700; color:#22C55E;">130 PF</span></div>
+      </div>
+      <div style="padding:18px 24px;">
+        <div style="font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:#9CA3AF; margin-bottom:6px;">Stingiest Defense</div>
+        <div style="display:flex; align-items:baseline; gap:8px;"><span style="font-family:'Oswald'; font-size:24px; font-weight:700;">Clemson</span><span style="font-family:'Oswald'; font-size:16px; font-weight:700; color:#4B9CD3;">7 PA</span></div>
+      </div>
+    </div>
+  </div>
+  </sc-if>
+
+  <!-- main content -->
+  <div style="max-width:1180px; margin:0 auto; padding:44px 44px 88px;">
+
+    <!-- also this week -->
+    <sc-if value="{{ showAlsoThisWeek }}" hint-placeholder-val="{{ true }}">
+    <div style="margin-bottom:40px;">
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:14px;">
+        <h2 style="font-family:'Oswald'; font-size:15px; font-weight:600; text-transform:uppercase; letter-spacing:0.14em; color:#9CA3AF; margin:0;">Also This Week</h2>
+        <a href="#" style="font-size:13px; color:#4B9CD3;">Full Schedule ›</a>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:16px;">
+        <div style="display:flex; align-items:center; gap:16px; background:#111827; border:1px solid rgba(75,156,211,0.12); border-radius:14px; padding:16px 20px;">
+          <div style="display:flex; align-items:center; gap:10px; flex:1;">
+            <div style="width:40px; height:40px; border-radius:10px; background:#AD0000; color:#fff; font-family:'Oswald'; font-weight:700; font-size:13px; display:flex; align-items:center; justify-content:center;">LOU</div>
+            <span style="font-family:'Oswald'; font-size:17px; font-weight:600;">Louisville</span>
+          </div>
+          <span style="font-family:'Oswald'; font-size:13px; color:#6B7280;">@</span>
+          <div style="display:flex; align-items:center; gap:10px; flex:1; justify-content:flex-end;">
+            <span style="font-family:'Oswald'; font-size:17px; font-weight:600;">Stanford</span>
+            <div style="width:40px; height:40px; border-radius:10px; background:#8C1515; color:#fff; font-family:'Oswald'; font-weight:700; font-size:12px; display:flex; align-items:center; justify-content:center;">STAN</div>
+          </div>
+        </div>
+        <div style="display:flex; align-items:center; gap:16px; background:#111827; border:1px solid rgba(75,156,211,0.12); border-radius:14px; padding:16px 20px;">
+          <div style="display:flex; align-items:center; gap:10px; flex:1;">
+            <div style="width:40px; height:40px; border-radius:10px; background:#F56600; color:#fff; font-family:'Oswald'; font-weight:700; font-size:12px; display:flex; align-items:center; justify-content:center;">CLEM</div>
+            <span style="font-family:'Oswald'; font-size:17px; font-weight:600;">Clemson</span>
+          </div>
+          <span style="font-family:'Oswald'; font-size:13px; color:#6B7280;">@</span>
+          <div style="display:flex; align-items:center; gap:10px; flex:1; justify-content:flex-end;">
+            <span style="font-family:'Oswald'; font-size:17px; font-weight:600;">Syracuse</span>
+            <div style="width:40px; height:40px; border-radius:10px; background:#F76900; color:#fff; font-family:'Oswald'; font-weight:700; font-size:13px; display:flex; align-items:center; justify-content:center;">SYR</div>
+          </div>
+        </div>
+        <a href="#" style="display:flex; align-items:center; justify-content:center; gap:8px; background:#111827; border:1px dashed rgba(75,156,211,0.25); border-radius:14px; padding:16px 20px; font-family:'Oswald'; font-size:14px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:#4B9CD3;">+5 More This Week ›</a>
+      </div>
+    </div>
+    </sc-if>
+
+    <!-- standings + rankings -->
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-bottom:40px;">
+      <div style="background:#111827; border:1px solid rgba(75,156,211,0.12); border-radius:16px; overflow:hidden;">
+        <div style="display:flex; align-items:center; justify-content:space-between; padding:16px 22px; border-bottom:1px solid rgba(75,156,211,0.1);">
+          <div>
+            <div style="font-family:'Oswald'; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#C99700; font-weight:600; margin-bottom:2px;">ACC</div>
+            <h2 style="font-family:'Oswald'; font-size:17px; font-weight:600; text-transform:uppercase; letter-spacing:0.04em; margin:0;">Conference Standings</h2>
+          </div>
+          <a href="#" style="font-size:13px; color:#4B9CD3;">Full ›</a>
+        </div>
+        <div>
+          <div style="display:flex; align-items:center; gap:14px; padding:9px 22px 7px; font-size:9px; letter-spacing:0.12em; text-transform:uppercase; color:#6B7280;"><span style="width:22px;"></span><span style="width:32px;"></span><span style="flex:1;"></span><span style="width:36px; text-align:right;">Overall</span><span style="width:56px; text-align:right;">Conf</span></div>
+          <div style="display:flex; align-items:center; gap:14px; padding:12px 22px; border-left:3px solid #9E7E38; border-top:1px solid rgba(255,255,255,0.05);">
+            <span style="width:22px; height:22px; border-radius:50%; background:rgba(255,255,255,0.05); font-family:'Oswald'; font-size:12px; font-weight:600; color:#9CA3AF; display:flex; align-items:center; justify-content:center;">1</span>
+            <div style="width:32px; height:32px; border-radius:9px; background:#9E7E38; color:#fff; font-family:'Oswald'; font-weight:700; font-size:11px; display:flex; align-items:center; justify-content:center;">WAKE</div>
+            <span style="flex:1; font-size:14px; font-weight:500;">Wake Forest</span>
+            <span style="font-family:'Oswald'; font-size:15px; font-weight:700; width:36px; text-align:right;">3-0</span>
+            <span style="font-size:11px; color:#6B7280; width:56px; text-align:right;">1-0</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:14px; padding:12px 22px; border-left:3px solid #F56600; border-top:1px solid rgba(255,255,255,0.05);">
+            <span style="width:22px; height:22px; border-radius:50%; background:rgba(255,255,255,0.05); font-family:'Oswald'; font-size:12px; font-weight:600; color:#9CA3AF; display:flex; align-items:center; justify-content:center;">2</span>
+            <div style="width:32px; height:32px; border-radius:9px; background:#F56600; color:#fff; font-family:'Oswald'; font-weight:700; font-size:10px; display:flex; align-items:center; justify-content:center;">CLEM</div>
+            <span style="flex:1; font-size:14px; font-weight:500;">Clemson</span>
+            <span style="font-family:'Oswald'; font-size:15px; font-weight:700; width:36px; text-align:right;">1-0</span>
+            <span style="font-size:11px; color:#6B7280; width:56px; text-align:right;">0-0</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:14px; padding:12px 22px; border-left:3px solid #8C1515; border-top:1px solid rgba(255,255,255,0.05);">
+            <span style="width:22px; height:22px; border-radius:50%; background:rgba(255,255,255,0.05); font-family:'Oswald'; font-size:12px; font-weight:600; color:#9CA3AF; display:flex; align-items:center; justify-content:center;">3</span>
+            <div style="width:32px; height:32px; border-radius:9px; background:#8C1515; color:#fff; font-family:'Oswald'; font-weight:700; font-size:10px; display:flex; align-items:center; justify-content:center;">STAN</div>
+            <span style="flex:1; font-size:14px; font-weight:500;">Stanford</span>
+            <span style="font-family:'Oswald'; font-size:15px; font-weight:700; width:36px; text-align:right;">2-0</span>
+            <span style="font-size:11px; color:#6B7280; width:56px; text-align:right;">0-0</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:14px; padding:12px 22px; border-left:3px solid #AD0000; border-top:1px solid rgba(255,255,255,0.05);">
+            <span style="width:22px; height:22px; border-radius:50%; background:rgba(255,255,255,0.05); font-family:'Oswald'; font-size:12px; font-weight:600; color:#9CA3AF; display:flex; align-items:center; justify-content:center;">4</span>
+            <div style="width:32px; height:32px; border-radius:9px; background:#AD0000; color:#fff; font-family:'Oswald'; font-weight:700; font-size:11px; display:flex; align-items:center; justify-content:center;">LOU</div>
+            <span style="flex:1; font-size:14px; font-weight:500;">Louisville</span>
+            <span style="font-family:'Oswald'; font-size:15px; font-weight:700; width:36px; text-align:right;">3-0</span>
+            <span style="font-size:11px; color:#6B7280; width:56px; text-align:right;">0-0</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:14px; padding:12px 22px; border-left:3px solid #003087; border-top:1px solid rgba(255,255,255,0.05);">
+            <span style="width:22px; height:22px; border-radius:50%; background:rgba(255,255,255,0.05); font-family:'Oswald'; font-size:12px; font-weight:600; color:#9CA3AF; display:flex; align-items:center; justify-content:center;">5</span>
+            <div style="width:32px; height:32px; border-radius:9px; background:#003087; color:#fff; font-family:'Oswald'; font-weight:700; font-size:11px; display:flex; align-items:center; justify-content:center;">DUKE</div>
+            <span style="flex:1; font-size:14px; font-weight:500;">Duke</span>
+            <span style="font-family:'Oswald'; font-size:15px; font-weight:700; width:36px; text-align:right;">3-0</span>
+            <span style="font-size:11px; color:#6B7280; width:56px; text-align:right;">0-0</span>
+          </div>
+        </div>
+      </div>
+
+      <div style="background:#111827; border:1px solid rgba(75,156,211,0.12); border-radius:16px; overflow:hidden;">
+        <div style="display:flex; align-items:center; justify-content:space-between; padding:16px 22px; border-bottom:1px solid rgba(75,156,211,0.1);">
+          <div>
+            <div style="font-family:'Oswald'; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#C99700; font-weight:600; margin-bottom:2px;">Dynasty Poll</div>
+            <h2 style="font-family:'Oswald'; font-size:17px; font-weight:600; text-transform:uppercase; letter-spacing:0.04em; margin:0;">Top 25</h2>
+          </div>
+          <a href="#" style="font-size:13px; color:#4B9CD3;">Full ›</a>
+        </div>
+        <div>
+          <div style="display:flex; align-items:center; gap:14px; padding:9px 22px;"><span style="font-family:'Oswald'; font-size:14px; font-weight:700; color:#6B7280; width:22px; text-align:right;">1</span><span style="flex:1; font-size:13.5px;">Oklahoma</span><span style="font-size:11px; color:#6B7280;">2-0</span><span style="font-size:11px; font-weight:700; color:#22C55E; width:28px; text-align:right;">▲ 2</span></div>
+          <div style="display:flex; align-items:center; gap:14px; padding:9px 22px; border-top:1px solid rgba(255,255,255,0.04);"><span style="font-family:'Oswald'; font-size:14px; font-weight:700; color:#6B7280; width:22px; text-align:right;">2</span><span style="flex:1; font-size:13.5px;">LSU</span><span style="font-size:11px; color:#6B7280;">2-0</span><span style="font-size:11px; font-weight:700; color:#EF4444; width:28px; text-align:right;">▼ 1</span></div>
+          <div style="display:flex; align-items:center; gap:14px; padding:9px 22px; border-top:1px solid rgba(255,255,255,0.04);"><span style="font-family:'Oswald'; font-size:14px; font-weight:700; color:#6B7280; width:22px; text-align:right;">3</span><span style="flex:1; font-size:13.5px;">Ohio State</span><span style="font-size:11px; color:#6B7280;">2-0</span><span style="font-size:11px; font-weight:700; color:#EF4444; width:28px; text-align:right;">▼ 1</span></div>
+          <div style="display:flex; align-items:center; gap:14px; padding:9px 22px; border-top:1px solid rgba(255,255,255,0.04);"><span style="font-family:'Oswald'; font-size:14px; font-weight:700; color:#6B7280; width:22px; text-align:right;">4</span><span style="flex:1; font-size:13.5px;">UCLA</span><span style="font-size:11px; color:#6B7280;">2-0</span><span style="color:#6B7280; font-size:12px; width:28px; text-align:right;">—</span></div>
+          <div style="display:flex; align-items:center; gap:14px; padding:9px 22px; border-top:1px solid rgba(255,255,255,0.04);"><span style="font-family:'Oswald'; font-size:14px; font-weight:700; color:#6B7280; width:22px; text-align:right;">5</span><span style="flex:1; font-size:13.5px;">Oregon</span><span style="font-size:11px; color:#6B7280;">2-0</span><span style="color:#6B7280; font-size:12px; width:28px; text-align:right;">—</span></div>
+          <div style="display:flex; align-items:center; gap:14px; padding:9px 22px; border-top:1px solid rgba(255,255,255,0.04);"><span style="font-family:'Oswald'; font-size:14px; font-weight:700; color:#6B7280; width:22px; text-align:right;">6</span><span style="flex:1; font-size:13.5px;">Penn State</span><span style="font-size:11px; color:#6B7280;">2-0</span><span style="font-size:11px; font-weight:700; color:#22C55E; width:28px; text-align:right;">▲ 1</span></div>
+          <div style="display:flex; align-items:center; gap:14px; padding:9px 22px; border-top:1px solid rgba(255,255,255,0.04);"><span style="font-family:'Oswald'; font-size:14px; font-weight:700; color:#6B7280; width:22px; text-align:right;">7</span><span style="flex:1; font-size:13.5px;">Utah</span><span style="font-size:11px; color:#6B7280;">2-0</span><span style="font-size:11px; font-weight:700; color:#22C55E; width:28px; text-align:right;">▲ 1</span></div>
+          <div style="display:flex; align-items:center; gap:14px; padding:9px 22px; border-top:1px solid rgba(255,255,255,0.04);"><span style="font-family:'Oswald'; font-size:14px; font-weight:700; color:#6B7280; width:22px; text-align:right;">8</span><span style="flex:1; font-size:13.5px;">Texas Tech</span><span style="font-size:11px; color:#6B7280;">3-0</span><span style="font-size:11px; font-weight:700; color:#22C55E; width:28px; text-align:right;">▲ 1</span></div>
+          <div style="display:flex; align-items:center; gap:14px; padding:9px 22px; border-top:1px solid rgba(255,255,255,0.04); background:linear-gradient(90deg, rgba(201,151,0,0.12), transparent); border-left:3px solid #C99700;"><span style="font-family:'Oswald'; font-size:14px; font-weight:700; color:#C99700; width:22px; text-align:right;">9</span><div style="width:26px; height:26px; border-radius:7px; background:#9E7E38; display:flex; align-items:center; justify-content:center; font-size:8px; color:#fff; font-weight:700;">WAKE</div><span style="flex:1; font-size:13.5px; font-weight:600;">Wake Forest</span><span style="font-size:11px; color:#9CA3AF;">3-0</span><span style="font-size:11px; font-weight:700; color:#22C55E; width:28px; text-align:right;">▲ 2</span></div>
+          <div style="display:flex; align-items:center; gap:14px; padding:9px 22px; border-top:1px solid rgba(255,255,255,0.04);"><span style="font-family:'Oswald'; font-size:14px; font-weight:700; color:#6B7280; width:22px; text-align:right;">10</span><span style="flex:1; font-size:13.5px;">Georgia</span><span style="font-size:11px; color:#6B7280;">2-0</span><span style="font-size:11px; font-weight:700; color:#22C55E; width:28px; text-align:right;">▲ 2</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- coaches -->
+    <div style="background:#111827; border:1px solid rgba(75,156,211,0.12); border-radius:16px; overflow:hidden; margin-bottom:40px;">
+      <div style="display:flex; align-items:center; justify-content:space-between; padding:16px 22px; border-bottom:1px solid rgba(75,156,211,0.1);">
+        <div>
+          <div style="font-family:'Oswald'; font-size:10px; letter-spacing:0.18em; text-transform:uppercase; color:#C99700; font-weight:600; margin-bottom:2px;">15 Programs</div>
+          <h2 style="font-family:'Oswald'; font-size:17px; font-weight:600; text-transform:uppercase; letter-spacing:0.04em; margin:0;">Dynasty Coaches</h2>
+        </div>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr;">
+        <div style="display:flex; align-items:center; gap:12px; padding:12px 22px; border-left:3px solid #8C2633;"><div style="width:30px; height:30px; border-radius:8px; background:#8C2633; color:#fff; font-family:'Oswald'; font-weight:700; font-size:11px; display:flex; align-items:center; justify-content:center;">BC</div><span style="flex:1; font-size:13.5px; font-weight:500;">Boston College</span><span style="font-size:13px; color:#9CA3AF;">Jadin</span></div>
+        <div style="display:flex; align-items:center; gap:12px; padding:12px 22px; border-left:3px solid #003262;"><div style="width:30px; height:30px; border-radius:8px; background:#003262; color:#fff; font-family:'Oswald'; font-weight:700; font-size:11px; display:flex; align-items:center; justify-content:center;">CAL</div><span style="flex:1; font-size:13.5px; font-weight:500;">California</span><span style="font-size:13px; color:#9CA3AF;">Armando</span></div>
+        <div style="display:flex; align-items:center; gap:12px; padding:12px 22px; border-left:3px solid #003087;"><div style="width:30px; height:30px; border-radius:8px; background:#003087; color:#fff; font-family:'Oswald'; font-weight:700; font-size:11px; display:flex; align-items:center; justify-content:center;">DUKE</div><span style="flex:1; font-size:13.5px; font-weight:500;">Duke</span><span style="font-size:13px; color:#9CA3AF;">Nick</span></div>
+        <div style="display:flex; align-items:center; gap:12px; padding:12px 22px; border-left:3px solid #B3A369;"><div style="width:30px; height:30px; border-radius:8px; background:#B3A369; color:#13294B; font-family:'Oswald'; font-weight:700; font-size:12px; display:flex; align-items:center; justify-content:center;">GT</div><span style="flex:1; font-size:13.5px; font-weight:500;">Georgia Tech</span><span style="font-size:13px; color:#9CA3AF;">Colby</span></div>
+        <div style="display:flex; align-items:center; gap:12px; padding:12px 22px; border-left:3px solid #AD0000;"><div style="width:30px; height:30px; border-radius:8px; background:#AD0000; color:#fff; font-family:'Oswald'; font-weight:700; font-size:11px; display:flex; align-items:center; justify-content:center;">LOU</div><span style="flex:1; font-size:13.5px; font-weight:500;">Louisville</span><span style="font-size:13px; color:#9CA3AF;">Marv</span></div>
+        <div style="display:flex; align-items:center; gap:12px; padding:12px 22px; border-left:3px solid #CC0000;"><div style="width:30px; height:30px; border-radius:8px; background:#CC0000; color:#fff; font-family:'Oswald'; font-weight:700; font-size:10px; display:flex; align-items:center; justify-content:center;">NCST</div><span style="flex:1; font-size:13.5px; font-weight:500;">NC State</span><span style="font-size:13px; color:#9CA3AF;">Cam</span></div>
+        <div style="display:flex; align-items:center; gap:12px; padding:12px 22px; border-left:3px solid #7BAFD4;"><div style="width:30px; height:30px; border-radius:8px; background:#7BAFD4; color:#13294B; font-family:'Oswald'; font-weight:700; font-size:11px; display:flex; align-items:center; justify-content:center;">UNC</div><span style="flex:1; font-size:13.5px; font-weight:500;">North Carolina</span><span style="font-size:13px; color:#9CA3AF;">Kenny</span></div>
+        <div style="display:flex; align-items:center; gap:12px; padding:12px 22px; border-left:3px solid #003594;"><div style="width:30px; height:30px; border-radius:8px; background:#003594; color:#fff; font-family:'Oswald'; font-weight:700; font-size:10px; display:flex; align-items:center; justify-content:center;">PITT</div><span style="flex:1; font-size:13.5px; font-weight:500;">Pittsburgh</span><span style="font-size:13px; color:#9CA3AF;">Peyton</span></div>
+        <div style="display:flex; align-items:center; gap:12px; padding:12px 22px; border-left:3px solid #8C1515;"><div style="width:30px; height:30px; border-radius:8px; background:#8C1515; color:#fff; font-family:'Oswald'; font-weight:700; font-size:10px; display:flex; align-items:center; justify-content:center;">STAN</div><span style="flex:1; font-size:13.5px; font-weight:500;">Stanford</span><span style="font-size:13px; color:#9CA3AF;">Jacob</span></div>
+        <div style="display:flex; align-items:center; gap:12px; padding:12px 22px; border-left:3px solid #F76900;"><div style="width:30px; height:30px; border-radius:8px; background:#F76900; color:#fff; font-family:'Oswald'; font-weight:700; font-size:11px; display:flex; align-items:center; justify-content:center;">SYR</div><span style="flex:1; font-size:13.5px; font-weight:500;">Syracuse</span><span style="font-size:13px; color:#9CA3AF;">Taylor</span></div>
+        <div style="display:flex; align-items:center; gap:12px; padding:12px 22px; border-left:3px solid #232D4B;"><div style="width:30px; height:30px; border-radius:8px; background:#232D4B; color:#fff; font-family:'Oswald'; font-weight:700; font-size:11px; display:flex; align-items:center; justify-content:center;">UVA</div><span style="flex:1; font-size:13.5px; font-weight:500;">Virginia</span><span style="font-size:13px; color:#9CA3AF;">McKinley</span></div>
+        <div style="display:flex; align-items:center; gap:12px; padding:12px 22px; border-left:3px solid #630031;"><div style="width:30px; height:30px; border-radius:8px; background:#630031; color:#fff; font-family:'Oswald'; font-weight:700; font-size:12px; display:flex; align-items:center; justify-content:center;">VT</div><span style="flex:1; font-size:13.5px; font-weight:500;">Virginia Tech</span><span style="font-size:13px; color:#9CA3AF;">Kieran</span></div>
+        <div style="display:flex; align-items:center; gap:12px; padding:12px 22px; border-left:3px solid #9E7E38;"><div style="width:30px; height:30px; border-radius:8px; background:#9E7E38; color:#fff; font-family:'Oswald'; font-weight:700; font-size:10px; display:flex; align-items:center; justify-content:center;">WAKE</div><span style="flex:1; font-size:13.5px; font-weight:500;">Wake Forest</span><span style="font-size:13px; color:#9CA3AF;">Tatum</span></div>
+        <div style="display:flex; align-items:center; gap:12px; padding:12px 22px; border-left:3px solid #F56600;"><div style="width:30px; height:30px; border-radius:8px; background:#F56600; color:#fff; font-family:'Oswald'; font-weight:700; font-size:10px; display:flex; align-items:center; justify-content:center;">CLEM</div><span style="flex:1; font-size:13.5px; font-weight:500;">Clemson</span><span style="font-size:13px; color:#6B7280; font-style:italic;">CPU</span></div>
+        <div style="display:flex; align-items:center; gap:12px; padding:12px 22px; border-left:3px solid #F47321;"><div style="width:30px; height:30px; border-radius:8px; background:#F47321; color:#fff; font-family:'Oswald'; font-weight:700; font-size:11px; display:flex; align-items:center; justify-content:center;">MIA</div><span style="flex:1; font-size:13.5px; font-weight:500;">Miami</span><span style="font-size:13px; color:#6B7280; font-style:italic;">CPU</span></div>
+      </div>
+    </div>
+
+    <!-- recent post -->
+    <div style="background:#111827; border:1px solid rgba(75,156,211,0.12); border-radius:16px; overflow:hidden;">
+      <div style="display:flex; align-items:center; justify-content:space-between; padding:16px 22px; border-bottom:1px solid rgba(75,156,211,0.1);">
+        <h2 style="font-family:'Oswald'; font-size:17px; font-weight:600; text-transform:uppercase; letter-spacing:0.04em; margin:0;">Latest Weekly Post</h2>
+        <a href="#" style="font-size:13px; color:#4B9CD3;">Read Full Post ›</a>
+      </div>
+      <div style="padding:24px 22px;">
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+          <span style="background:rgba(201,151,0,0.16); color:#C99700; font-size:10px; font-weight:700; padding:3px 10px; border-radius:20px; text-transform:uppercase; letter-spacing:0.08em;">Week 3</span>
+          <span style="color:#6B7280; font-size:12px;">2027-09-15</span>
+        </div>
+        <h3 style="font-family:'Oswald'; font-size:23px; font-weight:600; margin:0 0 6px; line-height:1.15;">Clemson Crashes the Party as Conference Play Arrives</h3>
+        <p style="color:#9CA3AF; font-size:14px; margin:0 0 14px; line-height:1.5;">The Tigers finally debut with a 62–7 haymaker, Wake Forest keeps rolling into the national top 10, and the ACC opens its first real week of league games.</p>
+        <p style="color:#6B7280; font-size:13.5px; line-height:1.6; margin:0; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;">Clemson has entered the chat. After sitting out the first two weekends, the Tigers made their 2027 debut count, burying Arizona 62–7 for the most lopsided result the ACC has posted all year. They weren't the only ones feasting: Duke hung 58 on Bowling Green, Louisville handled Nevada 29–17, and Wake Forest stayed perfect with a 21–10 win over Utah State.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showRibbon&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Layout&quot;},&quot;showAlsoThisWeek&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Layout&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      showRibbon: this.props.showRibbon ?? true,
+      showAlsoThisWeek: this.props.showAlsoThisWeek ?? true,
+    };
+  }
+}
+</script>
+</body>
+</html>
