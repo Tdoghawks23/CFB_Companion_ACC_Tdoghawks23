@@ -1,10 +1,15 @@
 import { getSeasonMeta, getStandings, getRankings, getSchedule, getWeeklyPost, getTeamsMap, getCoaches } from "@/lib/data";
-import SeasonBanner from "@/components/home/SeasonBanner";
+import GameOfWeekHero from "@/components/home/GameOfWeekHero";
+import SeasonStatRibbon from "@/components/home/SeasonStatRibbon";
 import CoachRoster from "@/components/home/CoachRoster";
 import QuickStandings from "@/components/home/QuickStandings";
 import QuickRankings from "@/components/home/QuickRankings";
 import UpcomingGames from "@/components/home/UpcomingGames";
 import RecentPost from "@/components/home/RecentPost";
+
+// Optional layout flags from the design handoff — both default on.
+const showRibbon = true;
+const showAlsoThisWeek = true;
 
 export default async function HomePage() {
   const meta = await getSeasonMeta();
@@ -21,30 +26,46 @@ export default async function HomePage() {
     postWeek = meta.currentWeek - 1;
   }
 
-  return (
-    <div className="max-w-7xl mx-auto px-4 md:px-6 py-6 md:py-10">
-      <SeasonBanner meta={meta} />
+  const heroGame = schedule?.games.find((g) => g.isFeatured);
 
-      {schedule && (
-        <UpcomingGames
-          games={schedule.games}
+  return (
+    <div>
+      {/* Full-bleed hero + stat ribbon */}
+      {heroGame && standings && (
+        <GameOfWeekHero
+          game={heroGame}
           teamsMap={teamsMap}
-          week={meta.currentWeek}
+          standings={standings.teams}
         />
       )}
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-        {standings && (
-          <QuickStandings standings={standings.teams} teamsMap={teamsMap} />
+      {showRibbon && standings && rankings && (
+        <SeasonStatRibbon
+          standings={standings.teams}
+          rankings={rankings.rankings}
+          teamsMap={teamsMap}
+        />
+      )}
+
+      {/* Constrained content */}
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-10">
+        {showAlsoThisWeek && schedule && (
+          <UpcomingGames games={schedule.games} teamsMap={teamsMap} />
         )}
-        {rankings && (
-          <QuickRankings rankings={rankings.rankings} teamsMap={teamsMap} />
-        )}
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+          {standings && (
+            <QuickStandings standings={standings.teams} teamsMap={teamsMap} />
+          )}
+          {rankings && (
+            <QuickRankings rankings={rankings.rankings} teamsMap={teamsMap} />
+          )}
+        </div>
+
+        <CoachRoster coaches={coaches} teamsMap={teamsMap} />
+
+        {latestPost && <RecentPost post={latestPost} week={postWeek} />}
       </div>
-
-      <CoachRoster coaches={coaches} teamsMap={teamsMap} />
-
-      {latestPost && <RecentPost post={latestPost} week={postWeek} />}
     </div>
   );
 }
