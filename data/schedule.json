@@ -206,7 +206,9 @@
     "1": {
       "weekTitle": "Week 1",
       "weekDate": "September 4-5, 2027",
-      "byeTeamIds": [],
+      "byeTeamIds": [
+        "clemson"
+      ],
       "games": [
         {
           "id": "2027-w1-g1",
@@ -399,6 +401,22 @@
           "homeScore": 25,
           "awayScore": 41,
           "isFeatured": false
+        },
+        {
+          "id": "2027-w1-g13",
+          "homeTeamId": "utah",
+          "awayTeamId": "miami",
+          "homeTeamName": "Utah Utes",
+          "awayTeamName": "Miami Hurricanes",
+          "gameTime": "",
+          "network": "",
+          "location": "Rice-Eccles Stadium",
+          "isConferenceGame": false,
+          "isRivalry": false,
+          "status": "final",
+          "homeScore": 22,
+          "awayScore": 13,
+          "isFeatured": false
         }
       ]
     },
@@ -406,6 +424,7 @@
       "weekTitle": "Week 2",
       "weekDate": "September 11-12, 2027",
       "byeTeamIds": [
+        "miami",
         "stanford"
       ],
       "games": [
@@ -619,9 +638,9 @@
           "location": "California Memorial Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 48,
+          "awayScore": 14,
           "isFeatured": false
         },
         {
@@ -635,9 +654,9 @@
           "location": "Wallace Wade Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 48,
+          "awayScore": 28,
           "isFeatured": true
         },
         {
@@ -651,9 +670,9 @@
           "location": "Bobby Dodd Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 6,
+          "awayScore": 32,
           "isFeatured": false
         },
         {
@@ -667,9 +686,9 @@
           "location": "Kenan Memorial Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 9,
+          "awayScore": 32,
           "isFeatured": false
         },
         {
@@ -683,9 +702,9 @@
           "location": "Stanford Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 6,
+          "awayScore": 36,
           "isFeatured": true
         },
         {
@@ -699,9 +718,9 @@
           "location": "JMA Wireless Dome",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 9,
+          "awayScore": 14,
           "isFeatured": true
         },
         {
@@ -715,9 +734,9 @@
           "location": "Allegacy Federal Credit Union Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 30,
+          "awayScore": 24,
           "isFeatured": false
         },
         {
@@ -731,9 +750,25 @@
           "location": "Lane Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 15,
+          "awayScore": 34,
+          "isFeatured": false
+        },
+        {
+          "id": "2027-w3-g9",
+          "homeTeamId": "miami",
+          "awayTeamId": "fcs-east",
+          "homeTeamName": "Miami Hurricanes",
+          "awayTeamName": "FCS East",
+          "gameTime": "",
+          "network": "",
+          "location": "Hard Rock Stadium",
+          "isConferenceGame": false,
+          "isRivalry": false,
+          "status": "final",
+          "homeScore": 55,
+          "awayScore": 7,
           "isFeatured": false
         }
       ]
