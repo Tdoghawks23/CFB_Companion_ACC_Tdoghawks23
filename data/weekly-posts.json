@@ -248,6 +248,67 @@
         "louisville",
         "heisman-watch"
       ]
+    },
+    "5": {
+      "title": "Week 5: Clemson Crashes the Poll and the ACC Puts Four in the Top 25",
+      "subtitle": "Three teams are still unbeaten at 5–0, a Duke tight end is still the Heisman favorite, and two Group of Five teams walked into ACC stadiums and left with wins",
+      "author": "Tdoghawks23",
+      "publishDate": "2027-09-29",
+      "sections": [
+        {
+          "heading": "Week 4 Recap",
+          "content": "The top of this league is starting to look like a real pecking order. Duke, Louisville, and Wake Forest all won again and all sit at 5–0 and 2–0 in conference play, and none of them had to sweat it. Duke handled Syracuse 22–9 in Durham, Louisville went into Acrisure Stadium and buried Pittsburgh 30–8, and Wake Forest beat Boston College 29–19 to stay perfect at home. Clemson made the loudest statement of the day, hanging 37 on Virginia Tech in Blacksburg and holding the Hokies to a touchdown; the Tigers are 3–0 and have outscored people 113–23. Miami got its trip to Palo Alto right, running past Stanford 47–22 behind a defense that turned the game around by itself. The rest of the slate was uglier. UAB walked into Kenan Memorial Stadium and beat North Carolina 38–24, James Madison stole one at California 14–13, and Georgia Tech finally got in the win column by the width of a made kick, 15–14 over Virginia. NC State handled Old Dominion 16–7. The Cavaliers are now 0–5 and have been outscored 163–66, the worst mark in the league by a wide margin.",
+          "type": "text"
+        },
+        {
+          "heading": "Team of the Week: Clemson",
+          "content": "Louisville and Duke are both 5–0, but Clemson had the most impressive Saturday and the most impressive month. The Tigers went to Lane Stadium and won 37–7 — a 30-point road win over a conference opponent — and they have now played three games and given up 23 points total. That is an average margin of 30.0 a game, best in the ACC and one of the best in the country. The poll finally noticed: Clemson enters at No. 24, the fourth ACC team on the board. The bye weeks have kept the Tigers' game count down and their profile quiet, but the number that matters is the one on the scoreboard, and nobody has been within three scores of them yet. They get their first real test this week.",
+          "type": "highlight"
+        },
+        {
+          "heading": "ACC Players of the Week",
+          "type": "stats",
+          "stats": [
+            {
+              "playerName": "DeVante Keyes (Def.)",
+              "teamId": "miami",
+              "statLine": "7 tkl, 1 TFL, 2 INT, 1 PBU, 1 TD"
+            },
+            {
+              "playerName": "Marquise Davis (Off.)",
+              "teamId": "louisville",
+              "statLine": "19 car, 217 yds (11.4 avg), 2 TD"
+            }
+          ]
+        },
+        {
+          "heading": "Heisman Watch: Chudzinski Is Still There",
+          "content": "A month ago the idea of a tight end leading the Heisman race was a fun September novelty. It is Week 5 and Kaelan Chudzinski is still No. 1 on the board. The Duke junior is up to 55 catches for 969 yards and 10 touchdowns with three drops all season, and he did it again against Syracuse — four grabs for 81 yards at 20.3 a catch in a 22–9 win. He is the only non-quarterback in the top four. What is worth watching is the traffic behind him: Arch Manning, George MacIntyre, and Sam Leavitt are all trending up while Chudzinski's arrow has flattened out. That is what happens when the quarterbacks start piling up conference numbers and a tight end's production stops looking novel and starts looking normal. Duke is 5–0 and leads the ACC with 200 points scored, so the team case is holding. If the Blue Devils win at Clemson this week, the campaign gets a lot harder to ignore.",
+          "type": "highlight"
+        },
+        {
+          "heading": "Poll Check: Four ACC Teams Ranked",
+          "content": "Best week the conference has had with the voters all season. Wake Forest moved up to No. 6, its highest ranking of the year, Miami climbed to No. 9 to give the ACC two teams in the top 10, Louisville jumped to No. 19 after the Pitt win, and Clemson entered at No. 24. That is four ranked teams, up from three a week ago. Duke, at 5–0 with the Heisman leader, is still on the outside — a fifth spot is sitting right there if the Blue Devils win at Clemson. The national board took real damage again: Tennessee fell nine spots to No. 20, Penn State dropped six to No. 11, and Minnesota slid to No. 23, while Boise State surged six to No. 14 and Texas climbed five to No. 18. TCU (22), Clemson (24), and Washington (25) came in; SMU, Texas Tech, and Alabama all fell out. Oklahoma, LSU, Ohio State, and Oregon held the top four.",
+          "type": "text"
+        },
+        {
+          "heading": "From the Orange Sideline",
+          "content": "No sugarcoating this one. Syracuse is 2–3 and 0–2 in the ACC, and the offense has scored 18 points across two conference games — nine at Clemson, nine at Duke. The Orange are dead even on the season at 78 points for and 78 against, which tells you the defense has done its job and the other side of the ball has not. The job security meter still reads Safe For Now, but it moved the wrong way after back-to-back league losses, and everybody in the building can see it. Week 5 is a home date with Old Dominion, a team that just lost 16–7 at NC State. It is the softest landing spot left on this schedule and the Orange need to take it, put points on the board, and go into the California trip at 3–3 instead of 2–4.",
+          "type": "text"
+        },
+        {
+          "heading": "Week 5 Games to Watch",
+          "content": "The headliner is in Death Valley: 5–0 Duke at No. 24 Clemson, unbeaten against unbeaten, the ACC's highest-scoring offense against the league's best defense, with the Heisman front-runner in the middle of it. That game is worth the whole weekend. Right behind it, Pittsburgh visits No. 9 Miami in a game the Panthers need after getting run over by Louisville. No. 6 Wake Forest hosts winless Virginia with a chance to reach 6–0, Virginia Tech heads west to face Stanford in a matchup of teams sitting at the bottom of the standings, and North Carolina travels to Boston College in a 1–4 vs. 1–4 game somebody has to win. Syracuse hosts Old Dominion, California welcomes Troy, and NC State draws Western Kentucky in non-conference play. Georgia Tech and Louisville are on bye.",
+          "type": "text"
+        }
+      ],
+      "tags": [
+        "recap",
+        "week-5",
+        "clemson",
+        "heisman-watch",
+        "poll"
+      ]
     }
   }
 }

@@ -41,8 +41,10 @@ export default function GameOfWeekHero({ game, teamsMap, standings }: GameOfWeek
   const awayColor = away?.primaryColor || "#4B5563";
   const homeColor = home?.primaryColor || "#4B5563";
 
-  const awayName = away?.name || game.awayTeamName.split(" ").slice(0, -1).join(" ");
-  const homeName = home?.name || game.homeTeamName.split(" ").slice(0, -1).join(" ");
+  // Non-conference opponents are stored without a mascot ("Old Dominion", "UAB"),
+  // so fall back to the stored name as-is rather than dropping its last word.
+  const awayName = away?.name || game.awayTeamName;
+  const homeName = home?.name || game.homeTeamName;
 
   const venueName = game.location || home?.stadium || "";
   const venueCity = home?.location?.split(",")[0]?.trim();
