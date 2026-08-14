@@ -789,9 +789,9 @@
           "location": "Wallace Wade Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 22,
+          "awayScore": 9,
           "isFeatured": true
         },
         {
@@ -805,9 +805,9 @@
           "location": "Bobby Dodd Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 15,
+          "awayScore": 14,
           "isFeatured": false
         },
         {
@@ -821,9 +821,9 @@
           "location": "Acrisure Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 8,
+          "awayScore": 30,
           "isFeatured": true
         },
         {
@@ -837,9 +837,9 @@
           "location": "Stanford Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 22,
+          "awayScore": 47,
           "isFeatured": true
         },
         {
@@ -853,9 +853,9 @@
           "location": "Allegacy Federal Credit Union Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 29,
+          "awayScore": 19,
           "isFeatured": false
         },
         {
@@ -869,9 +869,9 @@
           "location": "California Memorial Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 13,
+          "awayScore": 14,
           "isFeatured": false
         },
         {
@@ -885,9 +885,9 @@
           "location": "Carter-Finley Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 16,
+          "awayScore": 7,
           "isFeatured": false
         },
         {
@@ -901,9 +901,9 @@
           "location": "Kenan Memorial Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 24,
+          "awayScore": 38,
           "isFeatured": false
         },
         {
@@ -917,9 +917,9 @@
           "location": "Lane Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 7,
+          "awayScore": 37,
           "isFeatured": false
         }
       ]
@@ -946,7 +946,7 @@
           "status": "upcoming",
           "homeScore": null,
           "awayScore": null,
-          "isFeatured": true
+          "isFeatured": false
         },
         {
           "id": "2027-w5-g2",
@@ -1058,7 +1058,7 @@
           "status": "upcoming",
           "homeScore": null,
           "awayScore": null,
-          "isFeatured": false
+          "isFeatured": true
         }
       ]
     },

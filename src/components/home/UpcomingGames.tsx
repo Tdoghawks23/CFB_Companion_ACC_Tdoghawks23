@@ -33,10 +33,11 @@ export default function UpcomingGames({ games, teamsMap }: UpcomingGamesProps) {
         {alsoGames.map((game) => {
           const away = teamsMap.get(game.awayTeamId);
           const home = teamsMap.get(game.homeTeamId);
-          const awayName =
-            away?.name || game.awayTeamName.split(" ").slice(0, -1).join(" ");
-          const homeName =
-            home?.name || game.homeTeamName.split(" ").slice(0, -1).join(" ");
+          // Non-conference opponents are stored without a mascot ("Old Dominion",
+          // "UAB"), so fall back to the stored name as-is rather than dropping
+          // its last word.
+          const awayName = away?.name || game.awayTeamName;
+          const homeName = home?.name || game.homeTeamName;
 
           return (
             <div
