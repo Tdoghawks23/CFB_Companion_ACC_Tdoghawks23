@@ -1080,9 +1080,9 @@
           "location": "Alumni Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 6,
+          "awayScore": 18,
           "isFeatured": true
         },
         {
@@ -1096,9 +1096,9 @@
           "location": "California Memorial Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 30,
+          "awayScore": 36,
           "isFeatured": false
         },
         {
@@ -1112,9 +1112,9 @@
           "location": "Carter-Finley Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 19,
+          "awayScore": 20,
           "isFeatured": true
         },
         {
@@ -1128,9 +1128,9 @@
           "location": "Kenan Memorial Stadium",
           "isConferenceGame": true,
           "isRivalry": true,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 30,
+          "awayScore": 17,
           "isFeatured": false,
           "rivalryName": "South's Oldest Rivalry"
         },
@@ -1145,9 +1145,9 @@
           "location": "Stanford Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 26,
+          "awayScore": 31,
           "isFeatured": true
         },
         {
@@ -1161,9 +1161,9 @@
           "location": "Lane Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 14,
+          "awayScore": 20,
           "isFeatured": false
         },
         {
@@ -1177,9 +1177,25 @@
           "location": "Wallace Wade Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 42,
+          "awayScore": 21,
+          "isFeatured": false
+        },
+        {
+          "id": "2027-w6-g8",
+          "homeTeamId": "miami",
+          "awayTeamId": "kansas-state",
+          "homeTeamName": "Miami Hurricanes",
+          "awayTeamName": "Kansas State",
+          "gameTime": "",
+          "network": "",
+          "location": "Hard Rock Stadium",
+          "isConferenceGame": false,
+          "isRivalry": false,
+          "status": "final",
+          "homeScore": 28,
+          "awayScore": 33,
           "isFeatured": false
         }
       ]
@@ -1195,13 +1211,13 @@
       "games": [
         {
           "id": "2027-w7-g1",
-          "homeTeamId": "clemson",
-          "awayTeamId": "california",
-          "homeTeamName": "Clemson Tigers",
-          "awayTeamName": "California Golden Bears",
+          "homeTeamId": "syracuse",
+          "awayTeamId": "wake-forest",
+          "homeTeamName": "Syracuse Orange",
+          "awayTeamName": "Wake Forest Demon Deacons",
           "gameTime": "",
           "network": "",
-          "location": "Memorial Stadium",
+          "location": "JMA Wireless Dome",
           "isConferenceGame": true,
           "isRivalry": false,
           "status": "upcoming",
@@ -1227,38 +1243,22 @@
         },
         {
           "id": "2027-w7-g3",
-          "homeTeamId": "pittsburgh",
-          "awayTeamId": "stanford",
-          "homeTeamName": "Pittsburgh Panthers",
-          "awayTeamName": "Stanford Cardinal",
+          "homeTeamId": "clemson",
+          "awayTeamId": "california",
+          "homeTeamName": "Clemson Tigers",
+          "awayTeamName": "California Golden Bears",
           "gameTime": "",
           "network": "",
-          "location": "Acrisure Stadium",
+          "location": "Memorial Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
           "status": "upcoming",
           "homeScore": null,
           "awayScore": null,
-          "isFeatured": false
+          "isFeatured": true
         },
         {
           "id": "2027-w7-g4",
-          "homeTeamId": "syracuse",
-          "awayTeamId": "wake-forest",
-          "homeTeamName": "Syracuse Orange",
-          "awayTeamName": "Wake Forest Demon Deacons",
-          "gameTime": "",
-          "network": "",
-          "location": "JMA Wireless Dome",
-          "isConferenceGame": true,
-          "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
-          "isFeatured": false
-        },
-        {
-          "id": "2027-w7-g5",
           "homeTeamId": "virginia",
           "awayTeamId": "louisville",
           "homeTeamName": "Virginia Cavaliers",
@@ -1272,6 +1272,22 @@
           "homeScore": null,
           "awayScore": null,
           "isFeatured": true
+        },
+        {
+          "id": "2027-w7-g5",
+          "homeTeamId": "pittsburgh",
+          "awayTeamId": "stanford",
+          "homeTeamName": "Pittsburgh Panthers",
+          "awayTeamName": "Stanford Cardinal",
+          "gameTime": "",
+          "network": "",
+          "location": "Acrisure Stadium",
+          "isConferenceGame": true,
+          "isRivalry": false,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "isFeatured": false
         },
         {
           "id": "2027-w7-g6",
