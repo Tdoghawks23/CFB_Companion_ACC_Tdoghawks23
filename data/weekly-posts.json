@@ -362,6 +362,65 @@
         "heisman-watch",
         "poll"
       ]
+    },
+    "7": {
+      "title": "Week 7: Three Unbeatens, One Ranking Problem",
+      "subtitle": "Duke is 7–0, Wake Forest is up to No. 3, Louisville is 6–0 and somehow fell a spot — the ACC has never had more perfect teams or less agreement about them",
+      "author": "Tdoghawks23",
+      "publishDate": "2027-10-13",
+      "sections": [
+        {
+          "heading": "Week 6 Recap",
+          "content": "Nobody at the top blinked, and the league picked up a third unbeaten along the way. Duke made it seven straight, running Eastern Michigan off the field 42–21 behind three touchdown catches from Kaelan Chudzinski, and the Blue Devils are now the only 7–0 team in the conference. Louisville turned its trip to Chestnut Hill into a defensive clinic, holding Boston College to six points in an 18–6 win that pushed the Cardinals to 6–0 and 3–0 in league play. Wake Forest sat on a bye and still had the best week of anyone — the Demon Deacons woke up Sunday at No. 3 in the country. The one chance the ACC had at a marquee national win got away: No. 1 Kansas State came into Hard Rock Stadium and beat Miami 33–28, a five-point loss that cost the Hurricanes seven spots in the poll. Clemson steadied itself out west, beating Stanford 31–26 to get back to 4–1. Georgia Tech pulled off the week's escape act, surviving 20–19 at NC State to climb to 2–1 in the ACC despite a 2–4 overall record. Pittsburgh got off the mat at Lane Stadium 20–14, dropping Virginia Tech to 0–6. North Carolina snapped a four-game skid in the South's Oldest Rivalry, handling Virginia 30–17 to send the Cavaliers to 0–7. And Syracuse went across the country and came home with something real — a 36–30 win at California for the Orange's first conference win of the season.",
+          "type": "text"
+        },
+        {
+          "heading": "Three Unbeatens, Three Different Realities",
+          "content": "Same league. Same zero in the loss column. Wildly different treatment. Wake Forest is 6–0 and No. 3 in the country, its highest perch of the season, with a ranked road win already banked. Louisville is 6–0 with the best scoring defense in the conference — 53 points allowed all year, 20 in three ACC games — and it somehow slid from No. 17 to No. 18 in a week it won. And Duke is 7–0, the most wins of anybody in the ACC, and isn't ranked at all. Here's what makes the math genuinely strange: Louisville and Wake Forest never play each other. It's not on the schedule. The Cardinals get their one shot at a fellow unbeaten in Week 11 at home against Duke, and Wake gets its shot in Durham in Week 9. If all three are still standing when the dust settles, the only place this actually gets sorted out is Charlotte in December — and somebody with a perfect record is going to be left out of it.",
+          "type": "highlight"
+        },
+        {
+          "heading": "ACC Players of the Week",
+          "type": "stats",
+          "stats": [
+            {
+              "playerName": "Nazir Ward (Def.)",
+              "teamId": "syracuse",
+              "statLine": "5 tkl, 1 INT, 3 PBU"
+            },
+            {
+              "playerName": "Kaelan Chudzinski (Off.)",
+              "teamId": "duke",
+              "statLine": "9 rec, 151 yds, 3 TD"
+            }
+          ]
+        },
+        {
+          "heading": "Heisman Watch: A Thousand-Yard Tight End in October",
+          "content": "Seven games into the season, a junior tight end from Needham, Massachusetts has 66 catches for 1,142 yards and 14 touchdowns. That is not a tight end stat line — that's a Biletnikoff stat line with a hand in the dirt. Kaelan Chudzinski put up nine catches for 151 yards and three scores against Eastern Michigan and holds the No. 1 spot in the Heisman race for another week, still the only non-quarterback anywhere near the conversation. Behind him it's the usual crowd under center: Texas's Arch Manning holds at No. 2, Tennessee's George MacIntyre stays at No. 3, and Texas A&M's Marcel Reed climbed into the top four on the back of the Aggies' 6–0 start. Chudzinski will clear 1,200 yards before Halloween at this rate. The only thing his campaign is missing is a stage — and the voters keeping his team out of the Top 25 are the reason he hasn't gotten one.",
+          "type": "highlight"
+        },
+        {
+          "heading": "Poll Check: Duke Still Waiting",
+          "content": "Week two of the snub, and the record just keeps getting better. Duke is 7–0 with a road win at Clemson and the Heisman front-runner, and it received nothing. Meanwhile the rest of the poll went through a blender. Kansas State's win in Miami vaulted the Wildcats all the way to No. 1, and the four teams that opened the week in the top four all lost: Oklahoma fell to No. 5, LSU to No. 6, Ohio State to No. 11, and Oregon all the way to No. 14. Wake Forest was the biggest winner of the chaos, jumping from No. 6 to No. 3 without playing a snap. Miami paid for the Kansas State loss, sliding from No. 8 to No. 15. Louisville went 1–0 and lost a spot anyway, sitting at No. 18. Alabama, Boise State, and SMU joined the poll; TCU, USC, and Missouri fell out. The ACC still has exactly three ranked teams, which is one fewer than it has unbeaten ones.",
+          "type": "text"
+        },
+        {
+          "heading": "Week 7 Games to Watch",
+          "content": "The best ticket in the league is in upstate New York. No. 3 Wake Forest walks into the JMA Wireless Dome to face a Syracuse team that just got its first ACC win of the year at California and has the conference's Defensive Player of the Week in the secondary. The Demon Deacons are two weeks from Durham with everything on the line, and this is exactly the kind of building where a perfect season goes sideways. Duke has its own trap waiting in Atlanta: Georgia Tech is only 2–4, but the Yellow Jackets are 2–1 in the ACC and just won a one-point game at NC State, and Bobby Dodd is the last place an unbeaten team wants to spend a Saturday afternoon two weeks out from the biggest game on its schedule. Clemson hosts California in a game that means everything to the Tigers' one-loss profile, and Louisville should have a comfortable trip to Charlottesville against an 0–7 Virginia team that has been outscored by 148 points. Stanford visits Pittsburgh with both sitting on the wrong side of .500, and Miami looks to steady itself at Virginia Tech. Boston College, NC State, and North Carolina are on bye.",
+          "type": "text"
+        }
+      ],
+      "tags": [
+        "recap",
+        "week-7",
+        "unbeatens",
+        "duke",
+        "wake-forest",
+        "louisville",
+        "heisman-watch",
+        "poll"
+      ]
     }
   }
 }
