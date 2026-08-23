@@ -1,7 +1,7 @@
-import { Flame, Tv, Shield } from "lucide-react";
+import { Star } from "lucide-react";
 import { clsx } from "clsx";
 import type { Game, Team } from "@/lib/types";
-import TeamLogo from "@/components/shared/TeamLogo";
+import TeamTile from "@/components/ui/TeamTile";
 
 interface GameCardProps {
   game: Game;
@@ -15,78 +15,95 @@ export default function GameCard({ game, teamsMap }: GameCardProps) {
   const homeWon = isFinal && game.homeScore !== null && game.awayScore !== null && game.homeScore > game.awayScore;
   const awayWon = isFinal && game.homeScore !== null && game.awayScore !== null && game.awayScore > game.homeScore;
 
-  return (
-    <div className="bg-bg-card rounded-xl border border-acc-blue/10 overflow-hidden hover:bg-bg-card-hover transition-all duration-200 group">
-      {/* Top badges */}
-      <div className="flex items-center justify-between px-4 pt-3">
-        <div className="flex items-center gap-2">
-          {game.isConferenceGame && (
-            <span className="flex items-center gap-1 text-acc-blue text-[10px] font-medium bg-acc-blue/10 px-2 py-0.5 rounded-full">
-              <Shield size={8} /> ACC
-            </span>
-          )}
-          {game.isRivalry && (
-            <span className="flex items-center gap-1 text-featured text-[10px] font-medium bg-featured/10 px-2 py-0.5 rounded-full">
-              <Flame size={8} /> {game.rivalryName || "Rivalry"}
-            </span>
-          )}
-        </div>
-        {isFinal ? (
-          <span className="text-[10px] uppercase tracking-wider text-featured font-bold">
-            Final
-          </span>
-        ) : (
-          game.network && (
-            <div className="flex items-center gap-1 text-text-muted text-[10px]">
-              <Tv size={10} /> {game.network}
-            </div>
-          )
-        )}
-      </div>
+  const venueName = game.location || home?.stadium || "";
+  const venueCity = home?.location?.split(",")[0]?.trim();
+  const venueLine = [venueName, venueCity].filter(Boolean).join(", ");
 
-      {/* Matchup */}
-      <div className="px-4 py-4">
-        {/* Away team */}
-        <div className={clsx("flex items-center gap-3 py-2", awayWon && "font-bold")}>
-          <TeamLogo
+  return (
+    <div
+      className={clsx(
+        "min-w-0 rounded-[14px] border p-[12px_14px] hover:bg-bg-card-hover transition-colors",
+        game.isFeatured
+          ? "border-acc-gold/40 bg-bg-card"
+          : "border-acc-blue/12 bg-bg-card"
+      )}
+      style={
+        game.isFeatured
+          ? { backgroundImage: "linear-gradient(90deg, rgba(201,151,0,0.08), transparent 60%)" }
+          : undefined
+      }
+    >
+      <div className="flex items-center gap-3 min-h-[44px]">
+        {/* Away */}
+        <div className="flex items-center gap-2.5 flex-1 min-w-0">
+          <TeamTile
             abbreviation={away?.abbreviation || game.awayTeamName.substring(0, 3).toUpperCase()}
             primaryColor={away?.primaryColor || "#4B5563"}
-            size={36}
+            size="md"
           />
-          <span className={clsx("flex-1 text-sm", awayWon ? "text-text-primary" : isFinal ? "text-text-secondary" : "text-text-primary")}>
+          <span
+            className={clsx(
+              "font-[family-name:var(--font-oswald)] text-[15px] font-semibold truncate min-w-0",
+              isFinal && !awayWon && "text-text-secondary"
+            )}
+          >
             {game.awayTeamName}
           </span>
-          {isFinal && (
-            <span className={clsx("font-[family-name:var(--font-oswald)] text-xl", awayWon ? "text-text-primary" : "text-text-muted")}>
-              {game.awayScore}
-            </span>
+        </div>
+
+        {/* Center status column */}
+        <div className="min-w-[74px] flex flex-col items-center shrink-0">
+          {isFinal ? (
+            <>
+              <span className="font-[family-name:var(--font-oswald)] text-[15px] font-bold">
+                {game.awayScore}–{game.homeScore}
+              </span>
+              <span className="text-[10px] uppercase tracking-wider text-featured font-bold mt-0.5">
+                Final
+              </span>
+            </>
+          ) : (
+            <>
+              <span className="font-[family-name:var(--font-oswald)] text-[13px] text-text-secondary text-center">
+                {game.gameTime || "TBD"}
+              </span>
+              <span className="text-[10px] uppercase tracking-wider text-text-muted mt-0.5">
+                Upcoming
+              </span>
+            </>
           )}
         </div>
 
-        <div className="border-t border-white/5 my-1" />
-
-        {/* Home team */}
-        <div className={clsx("flex items-center gap-3 py-2", homeWon && "font-bold")}>
-          <TeamLogo
-            abbreviation={home?.abbreviation || game.homeTeamName.substring(0, 3).toUpperCase()}
-            primaryColor={home?.primaryColor || "#4B5563"}
-            size={36}
-          />
-          <span className={clsx("flex-1 text-sm", homeWon ? "text-text-primary" : isFinal ? "text-text-secondary" : "text-text-primary")}>
+        {/* Home */}
+        <div className="flex items-center gap-2.5 flex-1 min-w-0 justify-end">
+          <span
+            className={clsx(
+              "font-[family-name:var(--font-oswald)] text-[15px] font-semibold truncate text-right min-w-0",
+              isFinal && !homeWon && "text-text-secondary"
+            )}
+          >
             {game.homeTeamName}
           </span>
-          {isFinal && (
-            <span className={clsx("font-[family-name:var(--font-oswald)] text-xl", homeWon ? "text-text-primary" : "text-text-muted")}>
-              {game.homeScore}
-            </span>
-          )}
+          <TeamTile
+            abbreviation={home?.abbreviation || game.homeTeamName.substring(0, 3).toUpperCase()}
+            primaryColor={home?.primaryColor || "#4B5563"}
+            size="md"
+          />
         </div>
       </div>
 
-      {/* Bottom info */}
-      {!isFinal && (
-        <div className="px-4 pb-3 text-text-muted text-xs text-center">
-          {[game.gameTime, game.location].filter(Boolean).join(" · ")}
+      {(venueLine || game.isFeatured || game.network || game.isRivalry) && (
+        <div className="flex items-center justify-between gap-2 border-t border-white/[0.04] pt-[9px] mt-[9px]">
+          <span className="text-[11px] text-text-muted truncate min-w-0">
+            {[venueLine, game.isRivalry ? (game.rivalryName || "Rivalry") : null, game.network]
+              .filter(Boolean)
+              .join(" · ")}
+          </span>
+          {game.isFeatured && (
+            <span className="shrink-0 inline-flex items-center gap-1 font-[family-name:var(--font-oswald)] text-[9.5px] font-bold uppercase tracking-[0.08em] text-acc-gold">
+              <Star size={10} className="fill-acc-gold" /> Game of the Week
+            </span>
+          )}
         </div>
       )}
     </div>

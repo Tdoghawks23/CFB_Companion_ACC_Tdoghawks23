@@ -40,7 +40,7 @@ export default function QuickRankings({ rankings, teamsMap }: QuickRankingsProps
             <div
               key={r.rank}
               className={clsx(
-                "flex items-center gap-3.5 px-5 py-2.5 border-t border-white/[0.04] hover:bg-bg-card-hover transition-colors",
+                "flex items-center gap-3.5 min-h-12 px-5 py-2.5 border-t border-white/[0.04] hover:bg-bg-card-hover active:bg-bg-card-hover transition-colors",
                 isTopAcc && "border-l-[3px] border-l-acc-gold"
               )}
               style={
@@ -70,7 +70,7 @@ export default function QuickRankings({ rankings, teamsMap }: QuickRankingsProps
               )}
               <span
                 className={clsx(
-                  "flex-1 text-[13.5px] truncate",
+                  "flex-1 min-w-0 text-[13.5px] truncate",
                   isTopAcc && "font-semibold"
                 )}
               >

@@ -12,15 +12,14 @@ export const colors = {
   win: '#22C55E',
   loss: '#EF4444',
   featured: '#F59E0B',
+  // v2 additions
   bgSkeleton: '#161E2C',
   skeletonSheen: '#232E42',
 } as const;
 
-// Fixed shell chrome sizes used by the mobile-first shell (top bar, bottom
-// tab bar, minimum touch target). Mirrors the --spacing-* tokens in
-// globals.css.
+// v2 additions — mobile-first shell dimensions (px)
 export const shell = {
-  topbarHeight: 54,
   tabbarHeight: 58,
-  touchMin: 44,
+  topbarHeight: 54,
+  touchTargetMin: 44,
 } as const;

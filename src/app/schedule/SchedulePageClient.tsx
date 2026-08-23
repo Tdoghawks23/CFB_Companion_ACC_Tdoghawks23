@@ -1,14 +1,15 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import WeekSelector from "@/components/rankings/WeekSelector";
+import WeekSelector from "@/components/schedule/WeekSelector";
 
 interface SchedulePageClientProps {
-  availableWeeks: number[];
+  weeks: number[];
+  selectedWeek: number;
   currentWeek: number;
 }
 
-export default function SchedulePageClient({ availableWeeks, currentWeek }: SchedulePageClientProps) {
+export default function SchedulePageClient({ weeks, selectedWeek, currentWeek }: SchedulePageClientProps) {
   const router = useRouter();
 
   function handleSelectWeek(week: number) {
@@ -17,7 +18,8 @@ export default function SchedulePageClient({ availableWeeks, currentWeek }: Sche
 
   return (
     <WeekSelector
-      weeks={availableWeeks}
+      weeks={weeks}
+      selectedWeek={selectedWeek}
       currentWeek={currentWeek}
       onSelectWeek={handleSelectWeek}
     />
