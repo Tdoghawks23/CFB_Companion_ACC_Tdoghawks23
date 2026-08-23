@@ -19,6 +19,13 @@
   --color-loss: #EF4444;
   --color-featured: #F59E0B;
 
+  /* v2 mobile-first shell — skeleton states + fixed shell chrome sizes */
+  --color-bg-skeleton: #161E2C;
+  --color-skeleton-sheen: #232E42;
+  --spacing-tabbar-h: 58px;
+  --spacing-topbar-h: 54px;
+  --spacing-touch-min: 44px;
+
   --font-display: "Oswald", ui-sans-serif, system-ui, sans-serif;
   --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
@@ -31,6 +38,14 @@ body {
   background: var(--color-bg-primary);
   color: var(--color-text-primary);
   font-family: var(--font-body);
+  /* Pressed states (`:active`) provide touch feedback instead of the
+     gray flash mobile browsers draw on tap. */
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-acc-blue);
+  outline-offset: 2px;
 }
 
 @keyframes fadeIn {
@@ -43,12 +58,47 @@ body {
   to { opacity: 1; transform: translateX(0); }
 }
 
+@keyframes shimmer {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+
+@keyframes pulseDot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+
 .animate-fade-in {
   animation: fadeIn 0.4s ease-out forwards;
 }
 
 .animate-slide-in {
   animation: slideIn 0.3s ease-out forwards;
+}
+
+/* Loading skeletons — geometry mirrors the real layout per component, only
+   the fill pattern is generic. See src/components/ui/Skeleton.tsx. */
+.skeleton {
+  background: linear-gradient(100deg, var(--color-bg-skeleton) 40%, var(--color-skeleton-sheen) 50%, var(--color-bg-skeleton) 60%);
+  background-size: 200% 100%;
+  animation: shimmer 1.3s linear infinite;
+  border-radius: 8px;
+}
+
+.animate-pulse-dot {
+  animation: pulseDot 1.6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-in,
+  .animate-slide-in,
+  .skeleton,
+  .animate-pulse-dot {
+    animation: none !important;
+  }
+  .skeleton {
+    background: var(--color-bg-skeleton);
+  }
 }
 
 .glass {
@@ -77,4 +127,15 @@ body {
 
 .pb-safe {
   padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Used by horizontally-scrolling rails (week pills, schedule selector) where
+   the scroll affordance is the pills themselves, not a visible scrollbar. */
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }

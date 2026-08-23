@@ -1,7 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Oswald } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/layout/Navbar";
+import TopBar from "@/components/shell/TopBar";
+import BottomTabBar from "@/components/shell/BottomTabBar";
 import Footer from "@/components/layout/Footer";
 import DiscordActivityProvider from "@/components/discord/DiscordActivityProvider";
 
@@ -42,9 +43,15 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${oswald.variable}`}>
       <body className="min-h-screen flex flex-col bg-bg-primary text-text-primary font-[family-name:var(--font-inter)]">
         <DiscordActivityProvider>
-          <Navbar />
-          <main className="flex-1 pb-20 md:pb-0">{children}</main>
+          <TopBar />
+          {/* Bottom padding clears the fixed mobile tab bar (+ safe area);
+              at lg+ the tab bar becomes a floating dock content scrolls
+              beneath, so padding drops back to the normal page rhythm. */}
+          <main className="flex-1 pb-[calc(var(--spacing-tabbar-h)+env(safe-area-inset-bottom,0px)+20px)] lg:pb-10">
+            {children}
+          </main>
           <Footer />
+          <BottomTabBar />
         </DiscordActivityProvider>
       </body>
     </html>

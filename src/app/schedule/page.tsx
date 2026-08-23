@@ -1,7 +1,7 @@
-import { getSeasonMeta, getSchedule, getTeamsMap, getAvailableWeeksForSchedule } from "@/lib/data";
+import { getSeasonMeta, getSchedule, getTeamsMap } from "@/lib/data";
 import PageHeader from "@/components/layout/PageHeader";
 import GameCard from "@/components/schedule/GameCard";
-import TeamLogo from "@/components/shared/TeamLogo";
+import EmptyState from "@/components/ui/EmptyState";
 import SchedulePageClient from "./SchedulePageClient";
 
 export default async function SchedulePage({
@@ -12,57 +12,69 @@ export default async function SchedulePage({
   const params = await searchParams;
   const meta = await getSeasonMeta();
   const teamsMap = await getTeamsMap();
-  const availableWeeks = await getAvailableWeeksForSchedule(meta.currentSeason);
 
   const selectedWeek = params.week ? parseInt(params.week) : meta.currentWeek;
   const schedule = await getSchedule(meta.currentSeason, selectedWeek);
 
+  // Full season range for the pill rail (W0 … W<totalWeeks>), not just the
+  // weeks that already have data — future weeks are still browsable, they
+  // just land on the empty state until they're populated.
+  const weekRange = Array.from({ length: meta.totalWeeks + 1 }, (_, i) => i);
+
+  const hasGames = !!schedule && schedule.games.length > 0;
+
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-6 py-6 md:py-10">
       <PageHeader
-        title={schedule?.weekTitle || `Week ${selectedWeek} Schedule`}
-        subtitle={schedule?.weekDate || `${meta.currentSeason} Season`}
+        eyebrow={`${meta.currentSeason} Season`}
+        title="Schedule"
+        subtitle="All times ET · Default view is the current week"
       />
 
       <SchedulePageClient
-        availableWeeks={availableWeeks}
-        currentWeek={selectedWeek}
+        weeks={weekRange}
+        selectedWeek={selectedWeek}
+        currentWeek={meta.currentWeek}
       />
 
-      {schedule && schedule.games.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {schedule.games.map((game) => (
+      {schedule && (
+        <h2 className="font-[family-name:var(--font-oswald)] text-sm font-semibold uppercase tracking-wide text-text-secondary mb-3">
+          {schedule.weekTitle} <span className="text-text-muted font-normal normal-case">· {schedule.weekDate}</span>
+        </h2>
+      )}
+
+      {hasGames ? (
+        <div className="grid grid-cols-1 gap-[10px]">
+          {schedule!.games.map((game) => (
             <GameCard key={game.id} game={game} teamsMap={teamsMap} />
           ))}
         </div>
       ) : (
-        <p className="text-text-muted">No games scheduled for Week {selectedWeek}.</p>
+        <EmptyState
+          title="No games scheduled"
+          description={
+            schedule
+              ? "Every ACC team is on bye this week."
+              : `Week ${selectedWeek} hasn't been simulated yet.`
+          }
+          ctaLabel={selectedWeek !== meta.currentWeek ? `Jump to Week ${meta.currentWeek} ›` : undefined}
+          ctaHref={selectedWeek !== meta.currentWeek ? `/schedule?week=${meta.currentWeek}` : undefined}
+        />
       )}
 
       {schedule && schedule.byeTeamIds && schedule.byeTeamIds.length > 0 && (
-        <div className="mt-8">
-          <h2 className="font-[family-name:var(--font-oswald)] text-sm font-semibold uppercase tracking-wide text-text-muted mb-3">
-            On Bye
-          </h2>
-          <div className="flex flex-wrap gap-2">
-            {schedule.byeTeamIds.map((teamId) => {
-              const team = teamsMap.get(teamId);
-              return (
-                <span
-                  key={teamId}
-                  className="flex items-center gap-2 bg-bg-card border border-acc-blue/10 rounded-lg pl-2 pr-3 py-1.5 text-sm text-text-secondary"
-                >
-                  <TeamLogo
-                    abbreviation={team?.abbreviation || teamId.substring(0, 3).toUpperCase()}
-                    primaryColor={team?.primaryColor || "#4B5563"}
-                    size={22}
-                  />
-                  {team?.name || teamId}
-                </span>
-              );
-            })}
-          </div>
-        </div>
+        <p className="mt-6 text-[11.5px] text-text-muted">
+          On bye:{" "}
+          {schedule.byeTeamIds.map((teamId, i) => {
+            const team = teamsMap.get(teamId);
+            return (
+              <span key={teamId}>
+                <strong className="text-text-secondary font-medium">{team?.name || teamId}</strong>
+                {i < schedule.byeTeamIds!.length - 1 && ", "}
+              </span>
+            );
+          })}
+        </p>
       )}
     </div>
   );

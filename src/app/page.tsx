@@ -6,6 +6,7 @@ import QuickStandings from "@/components/home/QuickStandings";
 import QuickRankings from "@/components/home/QuickRankings";
 import UpcomingGames from "@/components/home/UpcomingGames";
 import RecentPost from "@/components/home/RecentPost";
+import EmptyState from "@/components/ui/EmptyState";
 
 // Optional layout flags from the design handoff — both default on.
 const showRibbon = true;
@@ -27,6 +28,21 @@ export default async function HomePage() {
   }
 
   const heroGame = schedule?.games.find((g) => g.isFeatured);
+
+  // Nothing simulated yet this season — the whole page would otherwise
+  // render as a stack of blank sections.
+  if (!heroGame && !standings) {
+    return (
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-10">
+        <EmptyState
+          title="Season data warming up"
+          description="Stats and standings appear here once Week 1 has been simulated."
+          ctaLabel="View Schedule ›"
+          ctaHref="/schedule"
+        />
+      </div>
+    );
+  }
 
   return (
     <div>

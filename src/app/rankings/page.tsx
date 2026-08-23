@@ -1,6 +1,7 @@
 import { getSeasonMeta, getRankings, getTeamsMap, getAvailableWeeksForRankings } from "@/lib/data";
 import PageHeader from "@/components/layout/PageHeader";
-import RankingsBoard from "@/components/rankings/RankingsBoard";
+import FullPoll from "@/components/rankings/FullPoll";
+import EmptyState from "@/components/ui/EmptyState";
 import RankingsPageClient from "./RankingsPageClient";
 
 export default async function RankingsPage({
@@ -19,8 +20,9 @@ export default async function RankingsPage({
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-6 py-6 md:py-10">
       <PageHeader
-        title="Dynasty Poll — Top 25"
-        subtitle={`${meta.currentSeason} Season — Week ${selectedWeek}`}
+        eyebrow="Dynasty Poll"
+        title="Top 25"
+        subtitle={`Week ${selectedWeek} · Released every Tuesday`}
       />
 
       <RankingsPageClient
@@ -29,13 +31,16 @@ export default async function RankingsPage({
       />
 
       {rankings ? (
-        <RankingsBoard
+        <FullPoll
           rankings={rankings.rankings}
           othersReceivingVotes={rankings.othersReceivingVotes}
           teamsMap={teamsMap}
         />
       ) : (
-        <p className="text-text-muted">No rankings data available for Week {selectedWeek}.</p>
+        <EmptyState
+          title="Poll not released"
+          description="The Dynasty Poll drops Tuesdays, once that week's games have been played."
+        />
       )}
     </div>
   );

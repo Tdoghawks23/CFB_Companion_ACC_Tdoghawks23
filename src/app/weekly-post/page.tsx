@@ -1,7 +1,8 @@
 import { getSeasonMeta, getWeeklyPost, getTeamsMap, getAvailableWeeksForPosts } from "@/lib/data";
 import PageHeader from "@/components/layout/PageHeader";
 import PostViewer from "@/components/weekly-post/PostViewer";
-import WeekArchive from "@/components/weekly-post/WeekArchive";
+import WeekArchive, { type ArchiveEntry } from "@/components/weekly-post/WeekArchive";
+import EmptyState from "@/components/ui/EmptyState";
 
 export default async function WeeklyPostPage({
   searchParams,
@@ -19,27 +20,37 @@ export default async function WeeklyPostPage({
 
   const post = await getWeeklyPost(meta.currentSeason, selectedWeek);
 
+  const archiveEntries: ArchiveEntry[] = (
+    await Promise.all(
+      availableWeeks.map(async (week) => {
+        const weekPost = await getWeeklyPost(meta.currentSeason, week);
+        return weekPost ? { week, title: weekPost.title, publishDate: weekPost.publishDate } : null;
+      })
+    )
+  ).filter((e): e is ArchiveEntry => e !== null);
+
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-6 py-6 md:py-10">
       <PageHeader
+        eyebrow={`${meta.currentSeason} Season`}
         title="Weekly Post"
-        subtitle={`${meta.currentSeason} Season`}
       />
 
-      <div className="grid grid-cols-1 lg:grid-cols-[1fr_220px] gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_220px] gap-6 lg:gap-8">
         <div>
           {post ? (
-            <PostViewer post={post} teamsMap={teamsMap} />
+            <PostViewer post={post} week={selectedWeek} teamsMap={teamsMap} />
           ) : (
-            <div className="bg-bg-card rounded-xl border border-acc-blue/10 p-8 text-center">
-              <p className="text-text-muted">No weekly post available for Week {selectedWeek}.</p>
-            </div>
+            <EmptyState
+              title="No posts yet"
+              description="Weekly recaps land here after each week is simulated."
+            />
           )}
         </div>
 
-        {availableWeeks.length > 0 && (
+        {archiveEntries.length > 0 && (
           <div className="order-first lg:order-last">
-            <WeekArchive weeks={availableWeeks} currentWeek={selectedWeek} />
+            <WeekArchive entries={archiveEntries} currentWeek={selectedWeek} />
           </div>
         )}
       </div>

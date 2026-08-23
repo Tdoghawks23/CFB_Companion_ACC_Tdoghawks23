@@ -1,10 +1,10 @@
-import { clsx } from "clsx";
 import { Quote, BarChart3, User } from "lucide-react";
 import type { WeeklyPost, Team, PostSection } from "@/lib/types";
 import TeamLogo from "@/components/shared/TeamLogo";
 
 interface PostViewerProps {
   post: WeeklyPost;
+  week: number;
   teamsMap: Map<string, Team>;
 }
 
@@ -14,7 +14,7 @@ function TextSection({ section }: { section: PostSection }) {
       <h3 className="font-[family-name:var(--font-oswald)] text-xl font-semibold mb-3 text-text-primary uppercase tracking-wide">
         {section.heading}
       </h3>
-      <p className="text-text-secondary leading-relaxed">{section.content}</p>
+      <p className="text-text-muted text-[13.5px] md:text-[14px] leading-[1.65]">{section.content}</p>
     </div>
   );
 }
@@ -66,7 +66,7 @@ function HighlightSection({ section }: { section: PostSection }) {
             <h3 className="font-[family-name:var(--font-oswald)] text-lg font-semibold mb-2 text-acc-gold uppercase">
               {section.heading}
             </h3>
-            <p className="text-text-secondary leading-relaxed">{section.content}</p>
+            <p className="text-text-muted text-[13.5px] md:text-[14px] leading-[1.65]">{section.content}</p>
           </div>
         </div>
       </div>
@@ -74,18 +74,22 @@ function HighlightSection({ section }: { section: PostSection }) {
   );
 }
 
-export default function PostViewer({ post, teamsMap }: PostViewerProps) {
+export default function PostViewer({ post, week, teamsMap }: PostViewerProps) {
   return (
-    <div>
+    <div className="bg-bg-card rounded-2xl border border-acc-blue/12 overflow-hidden p-5 md:p-[26px_28px]">
       <div className="mb-8">
-        <h2 className="font-[family-name:var(--font-oswald)] text-3xl md:text-4xl font-bold tracking-wide text-text-primary">
+        <div className="flex items-center gap-2.5 mb-3">
+          <span className="bg-acc-gold/[0.16] text-acc-gold text-[10px] font-bold px-2.5 py-0.5 rounded-full uppercase tracking-[0.08em]">
+            Week {week}
+          </span>
+          <span className="text-text-muted text-xs">{post.publishDate}</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-oswald)] text-[21px] md:text-[24px] font-semibold leading-[1.2] tracking-wide text-text-primary">
           {post.title}
         </h2>
-        <p className="text-text-secondary text-lg mt-2">{post.subtitle}</p>
+        <p className="text-text-secondary text-[13.5px] md:text-[14.5px] mt-2 leading-relaxed">{post.subtitle}</p>
         <div className="flex items-center gap-4 mt-4 text-text-muted text-sm">
           <span>By {post.author}</span>
-          <span>&middot;</span>
-          <span>{post.publishDate}</span>
         </div>
         {post.tags.length > 0 && (
           <div className="flex flex-wrap gap-2 mt-3">

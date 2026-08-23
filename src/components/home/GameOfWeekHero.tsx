@@ -14,10 +14,8 @@ interface HeroTeamTileProps {
 function HeroTeamTile({ abbreviation, primaryColor }: HeroTeamTileProps) {
   return (
     <div
-      className="flex items-center justify-center rounded-2xl font-[family-name:var(--font-oswald)] font-bold text-white text-[22px] shrink-0"
+      className="flex items-center justify-center rounded-2xl font-[family-name:var(--font-oswald)] font-bold text-white text-[19px] sm:text-[22px] shrink-0 w-16 h-16 sm:w-[76px] sm:h-[76px]"
       style={{
-        width: 76,
-        height: 76,
         backgroundColor: primaryColor,
         boxShadow: "0 12px 30px -8px rgba(0,0,0,0.6)",
       }}
@@ -70,7 +68,7 @@ export default function GameOfWeekHero({ game, teamsMap, standings }: GameOfWeek
         }}
       />
 
-      <div className="relative max-w-7xl mx-auto px-4 md:px-6 py-8">
+      <div className="relative max-w-7xl mx-auto px-4 md:px-6 py-[22px] sm:py-[30px]">
         {/* Header row */}
         <div className="flex items-center justify-between gap-4 mb-6 md:mb-8">
           <div>
@@ -78,50 +76,54 @@ export default function GameOfWeekHero({ game, teamsMap, standings }: GameOfWeek
               Game of the Week · ACC Conference
             </div>
             {venueLine && (
-              <div className="font-[family-name:var(--font-oswald)] text-[14px] tracking-[0.04em] text-white/70 mt-1">
+              <div className="font-[family-name:var(--font-oswald)] text-[13px] tracking-[0.04em] text-white/70 mt-1">
                 Saturday · {venueLine}
               </div>
             )}
           </div>
-          <span className="font-[family-name:var(--font-oswald)] text-[12px] tracking-[0.12em] uppercase font-bold bg-featured/90 text-bg-primary px-3 py-1 rounded-md shrink-0">
+          <span className="font-[family-name:var(--font-oswald)] text-[11px] tracking-[0.12em] uppercase font-bold bg-featured/90 text-bg-primary px-3 py-1 rounded-md shrink-0">
             {statusLabel}
           </span>
         </div>
 
-        {/* Matchup row */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12">
+        {/* Matchup — stacks vertically below sm, horizontal from sm up */}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-5 sm:gap-12">
           {/* Away block */}
-          <div className="flex items-center gap-5 flex-1 justify-center md:justify-end">
-            <div className="text-center md:text-right order-2 md:order-1">
-              <div className="font-[family-name:var(--font-oswald)] text-[12px] tracking-[0.1em] uppercase text-white/65">
+          <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-5 sm:flex-1 sm:justify-end">
+            <div className="text-center sm:text-right order-2 sm:order-1">
+              <div className="font-[family-name:var(--font-oswald)] text-[11px] sm:text-[12px] tracking-[0.1em] uppercase text-white/65">
                 Away · {recordFor(game.awayTeamId)}
               </div>
-              <div className="font-[family-name:var(--font-oswald)] text-[32px] font-bold leading-[1.05] text-white">
+              <div className="font-[family-name:var(--font-oswald)] text-[25px] sm:text-[32px] font-bold leading-[1.05] text-white">
                 {awayName}
               </div>
-              <div className="text-[13px] text-white/60">{away?.mascot}</div>
+              <div className="text-[12px] sm:text-[13px] text-white/60">{away?.mascot}</div>
             </div>
-            <div className="order-1 md:order-2">
+            <div className="order-1 sm:order-2">
               <HeroTeamTile abbreviation={awayAbbr} primaryColor={awayColor} />
             </div>
           </div>
 
-          {/* VS */}
-          <div className="font-[family-name:var(--font-oswald)] text-[26px] font-semibold text-white/50 tracking-[0.1em]">
-            VS
+          {/* VS — hairline rules either side on mobile only */}
+          <div className="flex items-center gap-3 w-full sm:w-auto">
+            <div className="h-px flex-1 bg-white/15 sm:hidden" />
+            <div className="font-[family-name:var(--font-oswald)] text-[19px] sm:text-[26px] font-semibold text-white/50 tracking-[0.1em] shrink-0">
+              VS
+            </div>
+            <div className="h-px flex-1 bg-white/15 sm:hidden" />
           </div>
 
           {/* Home block */}
-          <div className="flex items-center gap-5 flex-1 justify-center md:justify-start">
+          <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-5 sm:flex-1 sm:justify-start">
             <HeroTeamTile abbreviation={homeAbbr} primaryColor={homeColor} />
-            <div className="text-center md:text-left">
-              <div className="font-[family-name:var(--font-oswald)] text-[12px] tracking-[0.1em] uppercase text-white/65">
+            <div className="text-center sm:text-left">
+              <div className="font-[family-name:var(--font-oswald)] text-[11px] sm:text-[12px] tracking-[0.1em] uppercase text-white/65">
                 Home · {recordFor(game.homeTeamId)}
               </div>
-              <div className="font-[family-name:var(--font-oswald)] text-[32px] font-bold leading-[1.05] text-white">
+              <div className="font-[family-name:var(--font-oswald)] text-[25px] sm:text-[32px] font-bold leading-[1.05] text-white">
                 {homeName}
               </div>
-              <div className="text-[13px] text-white/60">{home?.mascot}</div>
+              <div className="text-[12px] sm:text-[13px] text-white/60">{home?.mascot}</div>
             </div>
           </div>
         </div>

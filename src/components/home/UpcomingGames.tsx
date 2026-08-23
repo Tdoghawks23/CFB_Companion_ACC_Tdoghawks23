@@ -24,12 +24,15 @@ export default function UpcomingGames({ games, teamsMap }: UpcomingGamesProps) {
         <h2 className="font-[family-name:var(--font-oswald)] text-[15px] font-semibold uppercase tracking-[0.14em] text-text-secondary">
           Also This Week
         </h2>
-        <Link href="/schedule" className="text-acc-blue text-[13px] hover:underline">
+        <Link
+          href="/schedule"
+          className="min-h-[44px] p-2 -m-2 flex items-center text-acc-blue text-[13px] hover:underline"
+        >
           Full Schedule ›
         </Link>
       </div>
 
-      <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-4">
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-[repeat(auto-fit,minmax(290px,1fr))] sm:gap-4">
         {alsoGames.map((game) => {
           const away = teamsMap.get(game.awayTeamId);
           const home = teamsMap.get(game.homeTeamId);
@@ -42,7 +45,7 @@ export default function UpcomingGames({ games, teamsMap }: UpcomingGamesProps) {
           return (
             <div
               key={game.id}
-              className="flex items-center gap-4 bg-bg-card border border-acc-blue/12 rounded-2xl px-5 py-4 hover:bg-bg-card-hover transition-colors"
+              className="flex items-center gap-4 bg-bg-card border border-acc-blue/12 rounded-[14px] px-4 py-[14px] min-h-[56px] hover:bg-bg-card-hover active:bg-bg-card-hover active:scale-[0.985] transition-colors transition-transform"
             >
               <div className="flex items-center gap-2.5 flex-1 min-w-0">
                 <TeamLogo
@@ -53,7 +56,7 @@ export default function UpcomingGames({ games, teamsMap }: UpcomingGamesProps) {
                   primaryColor={away?.primaryColor || "#4B5563"}
                   size={40}
                 />
-                <span className="font-[family-name:var(--font-oswald)] text-[17px] font-semibold truncate">
+                <span className="font-[family-name:var(--font-oswald)] text-[15px] font-semibold truncate min-w-0">
                   {awayName}
                 </span>
               </div>
@@ -63,7 +66,7 @@ export default function UpcomingGames({ games, teamsMap }: UpcomingGamesProps) {
               </span>
 
               <div className="flex items-center gap-2.5 flex-1 min-w-0 justify-end">
-                <span className="font-[family-name:var(--font-oswald)] text-[17px] font-semibold truncate text-right">
+                <span className="font-[family-name:var(--font-oswald)] text-[15px] font-semibold truncate text-right min-w-0">
                   {homeName}
                 </span>
                 <TeamLogo
@@ -82,7 +85,7 @@ export default function UpcomingGames({ games, teamsMap }: UpcomingGamesProps) {
         {moreCount > 0 && (
           <Link
             href="/schedule"
-            className="flex items-center justify-center gap-2 bg-bg-card border border-dashed border-acc-blue/25 rounded-2xl px-5 py-4 font-[family-name:var(--font-oswald)] text-[14px] font-semibold tracking-[0.06em] uppercase text-acc-blue hover:bg-bg-card-hover transition-colors"
+            className="flex items-center justify-center gap-2 bg-bg-card border border-dashed border-acc-blue/25 rounded-[14px] px-4 py-[14px] min-h-[56px] font-[family-name:var(--font-oswald)] text-[14px] font-semibold tracking-[0.06em] uppercase text-acc-blue hover:bg-bg-card-hover active:bg-bg-card-hover active:scale-[0.985] transition-colors transition-transform"
           >
             +{moreCount} More This Week ›
           </Link>

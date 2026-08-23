@@ -42,7 +42,7 @@ export default function QuickStandings({ standings, teamsMap }: QuickStandingsPr
           return (
             <div
               key={s.teamId}
-              className="flex items-center gap-3.5 px-5 py-3 border-t border-white/5 hover:bg-bg-card-hover transition-colors"
+              className="flex items-center gap-3.5 min-h-12 px-5 py-3 border-t border-white/5 hover:bg-bg-card-hover active:bg-bg-card-hover transition-colors"
               style={{ borderLeft: `3px solid ${team.primaryColor}` }}
             >
               <span className="flex items-center justify-center w-[22px] h-[22px] rounded-full bg-white/5 font-[family-name:var(--font-oswald)] text-[12px] font-semibold text-text-secondary shrink-0">
@@ -53,7 +53,7 @@ export default function QuickStandings({ standings, teamsMap }: QuickStandingsPr
                 primaryColor={team.primaryColor}
                 size={32}
               />
-              <span className="flex-1 font-medium text-sm truncate">{team.name}</span>
+              <span className="flex-1 min-w-0 font-medium text-sm truncate">{team.name}</span>
               <span className="font-[family-name:var(--font-oswald)] text-[15px] font-bold w-9 text-right">
                 {s.overallWins}-{s.overallLosses}
               </span>

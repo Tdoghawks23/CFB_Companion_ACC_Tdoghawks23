@@ -44,7 +44,7 @@ export default function CoachRoster({ coaches, teamsMap }: CoachRosterProps) {
           return (
             <div
               key={coach.teamId}
-              className={`${hiddenOnMobile ? "hidden md:flex" : "flex"} items-center gap-3 px-5 py-3 hover:bg-bg-card-hover transition-colors`}
+              className={`${hiddenOnMobile ? "hidden md:flex" : "flex"} items-center gap-3 min-h-12 px-5 py-3 hover:bg-bg-card-hover active:bg-bg-card-hover transition-colors`}
               style={{ borderLeft: `3px solid ${team.primaryColor}` }}
             >
               <TeamLogo
@@ -52,7 +52,7 @@ export default function CoachRoster({ coaches, teamsMap }: CoachRosterProps) {
                 primaryColor={team.primaryColor}
                 size={32}
               />
-              <span className="flex-1 font-medium text-sm truncate">{team.name}</span>
+              <span className="flex-1 min-w-0 font-medium text-sm truncate">{team.name}</span>
               <span
                 className={`text-sm ${isCpu ? "text-text-muted italic" : "text-text-secondary"}`}
               >

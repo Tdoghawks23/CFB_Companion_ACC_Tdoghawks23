@@ -23,7 +23,7 @@ export default function RecentPost({ post, week }: RecentPostProps) {
           Read Full Post <ChevronRight size={14} />
         </Link>
       </div>
-      <div className="px-5 py-6">
+      <div className="p-5 md:p-[26px_28px]">
         <div className="flex items-center gap-2.5 mb-2.5">
           <span className="bg-acc-gold/[0.16] text-acc-gold text-[10px] font-bold px-2.5 py-0.5 rounded-full uppercase tracking-[0.08em]">
             Week {week}
