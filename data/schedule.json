@@ -1220,9 +1220,9 @@
           "location": "JMA Wireless Dome",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 6,
+          "awayScore": 12,
           "isFeatured": true
         },
         {
@@ -1236,9 +1236,9 @@
           "location": "Bobby Dodd Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 0,
+          "awayScore": 39,
           "isFeatured": true
         },
         {
@@ -1252,9 +1252,9 @@
           "location": "Memorial Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 45,
+          "awayScore": 17,
           "isFeatured": true
         },
         {
@@ -1268,9 +1268,9 @@
           "location": "Scott Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 0,
+          "awayScore": 34,
           "isFeatured": true
         },
         {
@@ -1284,9 +1284,9 @@
           "location": "Acrisure Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 20,
+          "awayScore": 8,
           "isFeatured": false
         },
         {
@@ -1300,9 +1300,9 @@
           "location": "Lane Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 27,
+          "awayScore": 34,
           "isFeatured": false
         }
       ]

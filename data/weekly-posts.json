@@ -421,6 +421,64 @@
         "heisman-watch",
         "poll"
       ]
+    },
+    "8": {
+      "title": "Week 8: Duke's In, Wake's No. 1, and Now They Play",
+      "subtitle": "Three weeks of arguing about an unranked unbeaten ended the moment the poll dropped — and the reward is No. 1 at No. 22 in Durham on Halloween weekend",
+      "author": "Tdoghawks23",
+      "publishDate": "2027-10-20",
+      "sections": [
+        {
+          "heading": "Week 7 Recap",
+          "content": "All three unbeatens are still unbeaten, but only one of them had to sweat. Wake Forest walked into the JMA Wireless Dome as the highest-ranked team in the conference and walked out with a 12–6 rock fight — twelve points, no touchdowns for Syracuse, and the Demon Deacons' lowest output of the season by a mile. It was six points from being the upset of the year. Duke had no such trouble, burying Georgia Tech 39–0 in Atlanta behind three more touchdown catches from Kaelan Chudzinski, and the Yellow Jackets have now been shut out while scoring just 81 points across seven games. Louisville did the same thing to Virginia, 34–0, and the Cardinals' season ledger is getting silly: 53 points allowed in seven games, 20 in four conference games. Clemson kept climbing, hammering California 45–17 to reach 5–1. Pittsburgh made it two straight with a 20–8 win over Stanford, keyed by a Jayden Bonsu pick-six. And Miami survived at Lane Stadium 34–27, sending Virginia Tech to 0–7. Boston College, NC State, and North Carolina were idle.",
+          "type": "text"
+        },
+        {
+          "heading": "The Snub Is Over",
+          "content": "It took 8–0. It took a road shutout. It took the Heisman front-runner scoring three touchdowns for the second week in a row. But Duke is finally ranked, and the Blue Devils enter the poll at No. 22. Savor the timing, because the schedule has a sense of humor: the reward for finally getting voted in is Wake Forest, now the No. 1 team in the country, coming to Wallace Wade next Saturday. Twenty-one spots separate them in the poll. Nothing separates them in the standings — both 4–0 in the ACC, both perfect overall, both with everything to lose. Duke has a bye this week to get ready for it, which feels like the least the schedule could do. Three weeks ago the argument was whether Duke belonged in the Top 25. Next Saturday it gets to argue for the top of it instead, and it only needs sixty minutes to do it.",
+          "type": "highlight"
+        },
+        {
+          "heading": "ACC Players of the Week",
+          "type": "stats",
+          "stats": [
+            {
+              "playerName": "Jayden Bonsu (Def.)",
+              "teamId": "pittsburgh",
+              "statLine": "4 tkl, 2 TFL, 1 INT, 1 PBU, 1 TD"
+            },
+            {
+              "playerName": "Kaelan Chudzinski (Off.)",
+              "teamId": "duke",
+              "statLine": "7 rec, 95 yds, 3 TD"
+            }
+          ]
+        },
+        {
+          "heading": "Heisman Watch: Seventeen Touchdowns, Eight Games",
+          "content": "Kaelan Chudzinski has 17 receiving touchdowns. It is October. He is a tight end. Three more against Georgia Tech pushed him to 73 catches for 1,237 yards on the season, and he has now scored three times in back-to-back weeks — a full slate of touchdowns most receiving corps would take for the year. He holds the top spot in the Heisman race for a fourth straight week and remains the only non-quarterback in the conversation. Behind him, the order shuffled: Texas A&M's Marcel Reed jumped to No. 2 on the back of the Aggies' 7–0 start, pushing Arch Manning to No. 3 and Tennessee's George MacIntyre to No. 4. What Chudzinski has been missing all season is a stage, and next week he finally gets one — the No. 1 team in America, at home, with a conference title race on the line. If he does this against Wake Forest, the argument is over.",
+          "type": "highlight"
+        },
+        {
+          "heading": "Poll Check: Five Ranked, Three Perfect",
+          "content": "The ACC has a No. 1 team. Wake Forest climbed from No. 3 to the top of the country, which is a strange thing to earn by scoring twelve points, but the four teams ahead of the Deacons kept losing and Wake kept not losing. That is how it works. The bigger story is the league's depth: the ACC went from three ranked teams to five in a single week. Wake Forest at No. 1, Miami at No. 13, Louisville at No. 14, Clemson back in at No. 20, and Duke at No. 22. Kansas State's reign at the top lasted exactly seven days, tumbling from No. 1 to No. 12. Ohio State slid to No. 16, Georgia to No. 19, and Tennessee all the way to No. 24. Nebraska moved up to No. 2, 7–0 Texas A&M sits at No. 8, and 6–0 Washington is up to No. 15. Auburn joined the poll alongside Clemson and Duke; Baylor, South Carolina, and SMU fell out. Three of the league's five ranked teams have zero losses, and two of them play each other next Saturday.",
+          "type": "text"
+        },
+        {
+          "heading": "Week 8 Games to Watch",
+          "content": "This is a holding pattern, and everybody knows it. The headline act is on bye: Duke sits out, resting for Wake Forest. The most consequential game belongs to the unbeaten nobody is talking about — No. 14 Louisville hosts NC State, and if the Cardinals' defense turns in another performance like the last two, they will have allowed fewer than 60 points through eight games. No. 20 Clemson has the toughest trip, heading to Pittsburgh against a Panthers team that has won two in a row and just held Stanford to eight points. No. 13 Miami hosts Boston College looking to make it two straight, and California visits a Georgia Tech team that has now been shut out and is averaging under twelve points a game. North Carolina comes to the Dome to face a Syracuse squad that just went toe-to-toe with the best team in the country and has a real shot to get back over .500. And No. 1 Wake Forest gets San Jose State — a tune-up, a chance to rest, and a week to think about Durham. Stanford, Virginia, and Virginia Tech are also idle.",
+          "type": "text"
+        }
+      ],
+      "tags": [
+        "recap",
+        "week-8",
+        "duke",
+        "wake-forest",
+        "poll",
+        "heisman-watch",
+        "unbeatens"
+      ]
     }
   }
 }
