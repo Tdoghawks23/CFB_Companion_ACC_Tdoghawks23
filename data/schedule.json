@@ -1328,9 +1328,9 @@
           "location": "Bobby Dodd Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 8,
+          "awayScore": 37,
           "isFeatured": false
         },
         {
@@ -1344,9 +1344,9 @@
           "location": "L&N Federal Credit Union Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 44,
+          "awayScore": 6,
           "isFeatured": true
         },
         {
@@ -1360,9 +1360,9 @@
           "location": "Hard Rock Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 13,
+          "awayScore": 14,
           "isFeatured": true
         },
         {
@@ -1376,9 +1376,9 @@
           "location": "Acrisure Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 10,
+          "awayScore": 42,
           "isFeatured": true
         },
         {
@@ -1392,9 +1392,9 @@
           "location": "JMA Wireless Dome",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 9,
+          "awayScore": 12,
           "isFeatured": false
         },
         {
@@ -1408,9 +1408,9 @@
           "location": "Allegacy Federal Credit Union Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 35,
+          "awayScore": 21,
           "isFeatured": false
         }
       ]
@@ -1426,22 +1426,6 @@
       "games": [
         {
           "id": "2027-w9-g1",
-          "homeTeamId": "clemson",
-          "awayTeamId": "georgia-tech",
-          "homeTeamName": "Clemson Tigers",
-          "awayTeamName": "Georgia Tech Yellow Jackets",
-          "gameTime": "",
-          "network": "",
-          "location": "Memorial Stadium",
-          "isConferenceGame": true,
-          "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
-          "isFeatured": true
-        },
-        {
-          "id": "2027-w9-g2",
           "homeTeamId": "duke",
           "awayTeamId": "wake-forest",
           "homeTeamName": "Duke Blue Devils",
@@ -1454,10 +1438,10 @@
           "status": "upcoming",
           "homeScore": null,
           "awayScore": null,
-          "isFeatured": false
+          "isFeatured": true
         },
         {
-          "id": "2027-w9-g3",
+          "id": "2027-w9-g2",
           "homeTeamId": "louisville",
           "awayTeamId": "syracuse",
           "homeTeamName": "Louisville Cardinals",
@@ -1465,6 +1449,22 @@
           "gameTime": "",
           "network": "",
           "location": "L&N Federal Credit Union Stadium",
+          "isConferenceGame": true,
+          "isRivalry": false,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "isFeatured": true
+        },
+        {
+          "id": "2027-w9-g3",
+          "homeTeamId": "clemson",
+          "awayTeamId": "georgia-tech",
+          "homeTeamName": "Clemson Tigers",
+          "awayTeamName": "Georgia Tech Yellow Jackets",
+          "gameTime": "",
+          "network": "",
+          "location": "Memorial Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
           "status": "upcoming",
@@ -1486,7 +1486,7 @@
           "status": "upcoming",
           "homeScore": null,
           "awayScore": null,
-          "isFeatured": true
+          "isFeatured": false
         },
         {
           "id": "2027-w9-g5",
