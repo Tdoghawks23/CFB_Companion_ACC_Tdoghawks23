@@ -479,6 +479,65 @@
         "heisman-watch",
         "unbeatens"
       ]
+    },
+    "9": {
+      "title": "Week 9: Finally, Wake Forest at Duke",
+      "subtitle": "The game the last three weeks have been building toward is here — No. 1 at No. 14, both 8–0 — and it's one of three unbeaten ACC teams all in action on the same Saturday",
+      "author": "Tdoghawks23",
+      "publishDate": "2027-10-27",
+      "sections": [
+        {
+          "heading": "Week 8 Recap",
+          "content": "The top of the ACC stayed perfect, but the middle of the poll took a hit. The headline was in Miami, where 3–5 Boston College walked into Hard Rock Stadium and stole one 14–13, a pick-six and a fumble recovery from cornerback Ashton Cunningham doing most of the damage. It knocked the Hurricanes clean out of the Top 25 and gave the Eagles their most surprising win of the year. The unbeatens, meanwhile, kept humming: Louisville hammered NC State 44–6 to reach 8–0, No. 1 Wake Forest handled San Jose State 35–21 in a tune-up, and Duke sat on a bye, resting for what comes next. Clemson kept its late-season charge going, burying Pittsburgh 42–10 to run its win streak to three. California blew out Georgia Tech 37–8 behind a 133-yard, three-touchdown afternoon from Bryson Donelson, and the Yellow Jackets slid to 2–6. And Syracuse's rough stretch continued in a 12–9 loss at home to North Carolina — a field-goal game the Orange couldn't quite close, dropping them to 4–5 and into a tie near the bottom of the league.",
+          "type": "text"
+        },
+        {
+          "heading": "Finally: Wake Forest at Duke",
+          "content": "Three weeks ago the argument was whether Duke belonged in the Top 25 at all. Now the Blue Devils are 8–0, ranked No. 14, and hosting the No. 1 team in the country with everything on the line. This is the one the schedule has been pointing at since September. Wake Forest brings the nation's top ranking, a 4–0 league record, and a defense that just needs to keep doing what it's done all year. Duke brings the ACC's most explosive offense, the Heisman front-runner at tight end, and a building — Wallace Wade on Halloween weekend — that has watched this team win every time out. Both are 8–0. Both are 4–0 in the ACC. The winner takes sole control of its path to Charlotte and a spot near the top of the national picture; the loser watches its perfect season and a lot of its margin for error disappear in an afternoon. Twenty-one spots separate them in the poll. Sixty minutes in Durham will say how real that gap ever was.",
+          "type": "highlight"
+        },
+        {
+          "heading": "ACC Players of the Week",
+          "type": "stats",
+          "stats": [
+            {
+              "playerName": "Ashton Cunningham (Def.)",
+              "teamId": "boston-college",
+              "statLine": "4 tkl, 1 INT, 1 PBU, 1 FR, 1 TD"
+            },
+            {
+              "playerName": "Bryson Donelson (Off.)",
+              "teamId": "california",
+              "statLine": "18 car, 133 yds, 1 TD; 6 rec, 65 yds, 2 TD"
+            }
+          ]
+        },
+        {
+          "heading": "Heisman Watch: Chudzinski Rests, and Holds",
+          "content": "Duke's bye meant a quiet week for Kaelan Chudzinski, and it didn't cost him a thing — he holds the top spot in the Heisman race for a fifth straight week, still the lone non-quarterback in the top four. His season line remains absurd for the position: 73 catches, 1,237 yards, and 17 touchdowns in eight games. Behind him the quarterbacks held serve, with Texas A&M's Marcel Reed at No. 2, Texas's Arch Manning at No. 3, and Tennessee's George MacIntyre at No. 4. Everyone has spent the season waiting for Chudzinski to get a real stage. He gets it Saturday — the No. 1 team in America, prime real estate on the schedule, a conference race in the balance. Three touchdowns against Wake Forest and the campaign stops being a curiosity and starts being a favorite.",
+          "type": "highlight"
+        },
+        {
+          "heading": "Poll Check: Four Ranked, Three Perfect",
+          "content": "The ACC's poll presence took a step back and a step up in the same week. Miami's loss to Boston College dropped the Hurricanes out entirely, cutting the league from five ranked teams to four — but the four that remain are serious. Wake Forest holds at No. 1. Louisville, quietly 8–0 with a defense that has allowed 59 points in eight games, climbed to No. 9. Clemson is up to No. 12 on its three-game surge, and Duke jumped from No. 22 to No. 14 after finally cracking the poll a week ago. Three of those four have zero losses. Nationally it was a week of churn near the top: Oklahoma tumbled from No. 4 to No. 13, Kansas State kept sliding to No. 19, and Ole Miss fell from No. 7 to No. 16, while Colorado, Minnesota, Baylor, and Kansas all climbed back into the rankings. Nebraska, Utah, and 8–0 Texas A&M sit just behind Wake at the top of the board.",
+          "type": "text"
+        },
+        {
+          "heading": "Week 9 Games to Watch",
+          "content": "Everything orbits Durham, but all three ACC unbeatens are on the field this weekend — and if the standings are going to untangle, this is the Saturday it starts. No. 1 Wake Forest at No. 14 Duke is the main event, winner-take-the-inside-track for the conference. The third unbeaten doesn't get a weekend off: No. 9 Louisville hosts Syracuse, and the Orange draw the toughest possible assignment as they try to steady a season that has slipped to 4–5 — a road date with the stingiest defense in the league. No. 12 Clemson looks to make it four straight when it hosts Georgia Tech, and Miami will try to climb back toward the poll it just left with a trip to an 0–8 Virginia team. Boston College carries its upset momentum to Virginia Tech, Pittsburgh hosts Temple, and Stanford draws North Texas. California, NC State, and North Carolina are on bye. By Sunday, at least one of the ACC's three unbeatens will almost certainly still be standing — the question is how many.",
+          "type": "text"
+        }
+      ],
+      "tags": [
+        "recap",
+        "week-9",
+        "wake-forest",
+        "duke",
+        "louisville",
+        "unbeatens",
+        "heisman-watch",
+        "poll"
+      ]
     }
   }
 }
