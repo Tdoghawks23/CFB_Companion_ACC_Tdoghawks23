@@ -1435,9 +1435,9 @@
           "location": "Wallace Wade Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 31,
+          "awayScore": 14,
           "isFeatured": true
         },
         {
@@ -1451,9 +1451,9 @@
           "location": "L&N Federal Credit Union Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 20,
+          "awayScore": 3,
           "isFeatured": true
         },
         {
@@ -1467,9 +1467,9 @@
           "location": "Memorial Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 20,
+          "awayScore": 7,
           "isFeatured": true
         },
         {
@@ -1483,9 +1483,9 @@
           "location": "Scott Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 8,
+          "awayScore": 23,
           "isFeatured": false
         },
         {
@@ -1499,9 +1499,9 @@
           "location": "Lane Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 18,
+          "awayScore": 43,
           "isFeatured": false
         },
         {
@@ -1515,9 +1515,9 @@
           "location": "Acrisure Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 7,
+          "awayScore": 15,
           "isFeatured": false
         },
         {
@@ -1531,9 +1531,9 @@
           "location": "Stanford Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 21,
+          "awayScore": 7,
           "isFeatured": false
         }
       ]
@@ -1550,22 +1550,6 @@
       "games": [
         {
           "id": "2027-w10-g1",
-          "homeTeamId": "boston-college",
-          "awayTeamId": "stanford",
-          "homeTeamName": "Boston College Eagles",
-          "awayTeamName": "Stanford Cardinal",
-          "gameTime": "",
-          "network": "",
-          "location": "Alumni Stadium",
-          "isConferenceGame": true,
-          "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
-          "isFeatured": true
-        },
-        {
-          "id": "2027-w10-g2",
           "homeTeamId": "duke",
           "awayTeamId": "north-carolina",
           "homeTeamName": "Duke Blue Devils",
@@ -1580,6 +1564,22 @@
           "awayScore": null,
           "isFeatured": true,
           "rivalryName": "Victory Bell"
+        },
+        {
+          "id": "2027-w10-g2",
+          "homeTeamId": "wake-forest",
+          "awayTeamId": "california",
+          "homeTeamName": "Wake Forest Demon Deacons",
+          "awayTeamName": "California Golden Bears",
+          "gameTime": "",
+          "network": "",
+          "location": "Allegacy Federal Credit Union Stadium",
+          "isConferenceGame": true,
+          "isRivalry": false,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "isFeatured": true
         },
         {
           "id": "2027-w10-g3",
@@ -1599,13 +1599,13 @@
         },
         {
           "id": "2027-w10-g4",
-          "homeTeamId": "wake-forest",
-          "awayTeamId": "california",
-          "homeTeamName": "Wake Forest Demon Deacons",
-          "awayTeamName": "California Golden Bears",
+          "homeTeamId": "boston-college",
+          "awayTeamId": "stanford",
+          "homeTeamName": "Boston College Eagles",
+          "awayTeamName": "Stanford Cardinal",
           "gameTime": "",
           "network": "",
-          "location": "Allegacy Federal Credit Union Stadium",
+          "location": "Alumni Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
           "status": "upcoming",
