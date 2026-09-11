@@ -1559,9 +1559,9 @@
           "location": "Wallace Wade Stadium",
           "isConferenceGame": true,
           "isRivalry": true,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 21,
+          "awayScore": 20,
           "isFeatured": true,
           "rivalryName": "Victory Bell"
         },
@@ -1576,9 +1576,9 @@
           "location": "Allegacy Federal Credit Union Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 28,
+          "awayScore": 8,
           "isFeatured": true
         },
         {
@@ -1592,9 +1592,9 @@
           "location": "Carter-Finley Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 34,
+          "awayScore": 26,
           "isFeatured": true
         },
         {
@@ -1608,9 +1608,9 @@
           "location": "Alumni Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 21,
+          "awayScore": 17,
           "isFeatured": false
         },
         {
@@ -1624,9 +1624,9 @@
           "location": "Scott Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 3,
+          "awayScore": 16,
           "isFeatured": false
         },
         {
@@ -1640,9 +1640,25 @@
           "location": "Notre Dame Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 27,
+          "awayScore": 7,
+          "isFeatured": false
+        },
+        {
+          "id": "2027-w10-g7",
+          "homeTeamId": "clemson",
+          "awayTeamId": "georgia-state",
+          "homeTeamName": "Clemson Tigers",
+          "awayTeamName": "Georgia State",
+          "gameTime": "",
+          "network": "",
+          "location": "Memorial Stadium",
+          "isConferenceGame": false,
+          "isRivalry": false,
+          "status": "final",
+          "homeScore": 37,
+          "awayScore": 14,
           "isFeatured": false
         }
       ]
@@ -1656,22 +1672,6 @@
       "games": [
         {
           "id": "2027-w11-g1",
-          "homeTeamId": "california",
-          "awayTeamId": "north-carolina",
-          "homeTeamName": "California Golden Bears",
-          "awayTeamName": "North Carolina Tar Heels",
-          "gameTime": "",
-          "network": "",
-          "location": "California Memorial Stadium",
-          "isConferenceGame": true,
-          "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
-          "isFeatured": false
-        },
-        {
-          "id": "2027-w11-g2",
           "homeTeamId": "louisville",
           "awayTeamId": "duke",
           "homeTeamName": "Louisville Cardinals",
@@ -1687,7 +1687,7 @@
           "isFeatured": true
         },
         {
-          "id": "2027-w11-g3",
+          "id": "2027-w11-g2",
           "homeTeamId": "miami",
           "awayTeamId": "syracuse",
           "homeTeamName": "Miami Hurricanes",
@@ -1703,7 +1703,39 @@
           "isFeatured": true
         },
         {
+          "id": "2027-w11-g3",
+          "homeTeamId": "wake-forest",
+          "awayTeamId": "georgia-tech",
+          "homeTeamName": "Wake Forest Demon Deacons",
+          "awayTeamName": "Georgia Tech Yellow Jackets",
+          "gameTime": "",
+          "network": "",
+          "location": "Allegacy Federal Credit Union Stadium",
+          "isConferenceGame": true,
+          "isRivalry": false,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "isFeatured": true
+        },
+        {
           "id": "2027-w11-g4",
+          "homeTeamId": "california",
+          "awayTeamId": "north-carolina",
+          "homeTeamName": "California Golden Bears",
+          "awayTeamName": "North Carolina Tar Heels",
+          "gameTime": "",
+          "network": "",
+          "location": "California Memorial Stadium",
+          "isConferenceGame": true,
+          "isRivalry": false,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "isFeatured": false
+        },
+        {
+          "id": "2027-w11-g5",
           "homeTeamId": "nc-state",
           "awayTeamId": "virginia-tech",
           "homeTeamName": "NC State Wolfpack",
@@ -1716,10 +1748,10 @@
           "status": "upcoming",
           "homeScore": null,
           "awayScore": null,
-          "isFeatured": true
+          "isFeatured": false
         },
         {
-          "id": "2027-w11-g5",
+          "id": "2027-w11-g6",
           "homeTeamId": "virginia",
           "awayTeamId": "stanford",
           "homeTeamName": "Virginia Cavaliers",
@@ -1727,22 +1759,6 @@
           "gameTime": "",
           "network": "",
           "location": "Scott Stadium",
-          "isConferenceGame": true,
-          "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
-          "isFeatured": false
-        },
-        {
-          "id": "2027-w11-g6",
-          "homeTeamId": "wake-forest",
-          "awayTeamId": "georgia-tech",
-          "homeTeamName": "Wake Forest Demon Deacons",
-          "awayTeamName": "Georgia Tech Yellow Jackets",
-          "gameTime": "",
-          "network": "",
-          "location": "Allegacy Federal Credit Union Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
           "status": "upcoming",
