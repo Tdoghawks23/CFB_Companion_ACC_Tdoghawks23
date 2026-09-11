@@ -634,6 +634,45 @@
         "heisman-watch",
         "poll"
       ]
+    },
+    "12": {
+      "title": "Week 12: One Crown, One Toilet",
+      "subtitle": "Louisville doesn't just beat Duke, they flip a switch and bury them 34-14 to sit alone at 10-0 — and with two weeks left, the race for the ACC's basement is the best theater in the league",
+      "author": "Tdoghawks23",
+      "publishDate": "2027-11-17",
+      "sections": [
+        {
+          "heading": "From the Commissioners",
+          "content": "People of the ACC,\n\nTwo weeks left in the regular season, and the picture at the top has never been clearer while the mess at the bottom has never been funnier. Let's get into it.\n\nThe headline this week was #12 Duke traveling to #2 Louisville, and for a half, we had ourselves a real fight. Knotted up 14-14 at the break, this looked like it might be the game that finally knocked the Cardinals off their perch. But then the third quarter turned into the fourth, and Louisville did what Louisville does. They flipped the switch. Once they turned up the heat, Duke had no answer, and what was a dead-even brawl became a 34-14 statement. Jaydin Broadnax put the exclamation point on it with a pick-six and two more pass breakups, while Duke's Jaivon Solomon balled out in a losing effort. With that win, Louisville sits at a perfect 10-0, 7-0 in conference. The sole king of the ACC mountain with everyone else looking up.\n\nAnd make no mistake, the view from up there is crowded with contenders. Wake Forest (10-1) keeps rolling after putting a 36-9 beating on Georgia Tech, and Clemson (9-1) handled Notre Dame 38-17 without breaking much of a sweat. Four ACC teams sit in the Top 12 nationally. The conference is stacked, and the flag is planted.\n\nNow… for the other end of the table. 🚽\n\nPeople, the Toilet Bowl is in FULL effect. With two weeks to go, we've got a genuine race to the basement, and it is glorious. Syracuse, Stanford, and Virginia are all sitting at a single conference win, clinging to whatever dignity they have left. But standing beneath even them, alone in the abyss, is Virginia Tech at 0-6 in conference and 0-10 overall. Winless. Spotless. A perfect season in the worst possible way. There's still time for someone to sink lower, but the Hokies have to actually lose their grip on last place first, and right now they're gripping it like it owes them money.\n\nWhoever finishes at the very bottom earns the punishment. So to the strugglers: these last two weeks aren't about bowl dreams anymore. They're about survival. The pressure is very real.\n\nAs we head into the next slate, keep the games moving and stay on top of your matchups. Every result matters now, both at the top of the standings and in the fight to escape the porcelain throne. And if you want witnesses to your glory (or your suffering), the streaming channel is open and the people are watching.\n\nTwo weeks left. One crown to claim. One toilet to avoid.\n\nSigned,\n\nYour Commissioners",
+          "type": "text"
+        },
+        {
+          "heading": "ACC Players of the Week",
+          "type": "stats",
+          "stats": [
+            {
+              "playerName": "Jaydin Broadnax (Def.)",
+              "teamId": "louisville",
+              "statLine": "9 tkl, 1 TFL, 1 INT, 2 PBU, 1 TD"
+            },
+            {
+              "playerName": "Jaivon Solomon (Off.)",
+              "teamId": "duke",
+              "statLine": "8 rec, 118 yds, 2 TD"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "recap",
+        "week-12",
+        "louisville",
+        "duke",
+        "wake-forest",
+        "clemson",
+        "toilet-bowl",
+        "poll"
+      ]
     }
   }
 }
