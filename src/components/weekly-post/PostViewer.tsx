@@ -8,13 +8,24 @@ interface PostViewerProps {
   teamsMap: Map<string, Team>;
 }
 
+// Section content may hold multiple paragraphs separated by a blank line
+// (\n\n); split them out so long-form narrative posts render as normal
+// paragraphs instead of one run-on block.
+function paragraphsOf(content?: string): string[] {
+  return (content ?? "").split(/\n\s*\n/).filter((p) => p.trim().length > 0);
+}
+
 function TextSection({ section }: { section: PostSection }) {
   return (
     <div className="mb-8">
       <h3 className="font-[family-name:var(--font-oswald)] text-xl font-semibold mb-3 text-text-primary uppercase tracking-wide">
         {section.heading}
       </h3>
-      <p className="text-text-muted text-[13.5px] md:text-[14px] leading-[1.65]">{section.content}</p>
+      {paragraphsOf(section.content).map((para, i) => (
+        <p key={i} className="text-text-muted text-[13.5px] md:text-[14px] leading-[1.65] mb-4 last:mb-0">
+          {para}
+        </p>
+      ))}
     </div>
   );
 }
@@ -66,7 +77,11 @@ function HighlightSection({ section }: { section: PostSection }) {
             <h3 className="font-[family-name:var(--font-oswald)] text-lg font-semibold mb-2 text-acc-gold uppercase">
               {section.heading}
             </h3>
-            <p className="text-text-muted text-[13.5px] md:text-[14px] leading-[1.65]">{section.content}</p>
+            {paragraphsOf(section.content).map((para, i) => (
+              <p key={i} className="text-text-muted text-[13.5px] md:text-[14px] leading-[1.65] mb-3 last:mb-0">
+                {para}
+              </p>
+            ))}
           </div>
         </div>
       </div>
