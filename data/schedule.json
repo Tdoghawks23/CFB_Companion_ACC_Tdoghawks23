@@ -1820,9 +1820,9 @@
           "location": "Memorial Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 24,
+          "awayScore": 14,
           "isFeatured": true
         },
         {
@@ -1836,9 +1836,9 @@
           "location": "L&N Federal Credit Union Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 36,
+          "awayScore": 0,
           "isFeatured": true
         },
         {
@@ -1852,9 +1852,9 @@
           "location": "Carter-Finley Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 35,
+          "awayScore": 14,
           "isFeatured": true
         },
         {
@@ -1868,9 +1868,9 @@
           "location": "Kenan Memorial Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 6,
+          "awayScore": 8,
           "isFeatured": false
         },
         {
@@ -1884,9 +1884,9 @@
           "location": "JMA Wireless Dome",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 34,
+          "awayScore": 26,
           "isFeatured": false
         },
         {
@@ -1900,9 +1900,25 @@
           "location": "Alumni Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 23,
+          "awayScore": 10,
+          "isFeatured": false
+        },
+        {
+          "id": "2027-w12-g7",
+          "homeTeamId": "miami",
+          "awayTeamId": "smu",
+          "homeTeamName": "Miami Hurricanes",
+          "awayTeamName": "SMU",
+          "gameTime": "",
+          "network": "",
+          "location": "Hard Rock Stadium",
+          "isConferenceGame": false,
+          "isRivalry": false,
+          "status": "final",
+          "homeScore": 38,
+          "awayScore": 20,
           "isFeatured": false
         }
       ]
@@ -1918,22 +1934,6 @@
       "games": [
         {
           "id": "2027-w13-g1",
-          "homeTeamId": "boston-college",
-          "awayTeamId": "pittsburgh",
-          "homeTeamName": "Boston College Eagles",
-          "awayTeamName": "Pittsburgh Panthers",
-          "gameTime": "",
-          "network": "",
-          "location": "Alumni Stadium",
-          "isConferenceGame": true,
-          "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
-          "isFeatured": false
-        },
-        {
-          "id": "2027-w13-g2",
           "homeTeamId": "miami",
           "awayTeamId": "duke",
           "homeTeamName": "Miami Hurricanes",
@@ -1949,7 +1949,7 @@
           "isFeatured": true
         },
         {
-          "id": "2027-w13-g3",
+          "id": "2027-w13-g2",
           "homeTeamId": "north-carolina",
           "awayTeamId": "nc-state",
           "homeTeamName": "North Carolina Tar Heels",
@@ -1965,7 +1965,7 @@
           "isFeatured": true
         },
         {
-          "id": "2027-w13-g4",
+          "id": "2027-w13-g3",
           "homeTeamId": "virginia",
           "awayTeamId": "virginia-tech",
           "homeTeamName": "Virginia Cavaliers",
@@ -1980,6 +1980,22 @@
           "awayScore": null,
           "isFeatured": true,
           "rivalryName": "Commonwealth Cup"
+        },
+        {
+          "id": "2027-w13-g4",
+          "homeTeamId": "boston-college",
+          "awayTeamId": "pittsburgh",
+          "homeTeamName": "Boston College Eagles",
+          "awayTeamName": "Pittsburgh Panthers",
+          "gameTime": "",
+          "network": "",
+          "location": "Alumni Stadium",
+          "isConferenceGame": true,
+          "isRivalry": false,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "isFeatured": false
         },
         {
           "id": "2027-w13-g5",

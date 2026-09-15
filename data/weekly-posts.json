@@ -673,6 +673,44 @@
         "toilet-bowl",
         "poll"
       ]
+    },
+    "13": {
+      "title": "Week 13: Rivalry Week and the Race to the Bottom",
+      "subtitle": "Louisville stays untouchable at 11-0 with four ACC teams in the national Top 13, while Virginia Tech's winless season keeps the Toilet Bowl race alive with one week left to decide it",
+      "author": "Tdoghawks23",
+      "publishDate": "2027-11-24",
+      "sections": [
+        {
+          "heading": "From the Commissioners",
+          "content": "This is it. The final week of the regular season, and it's Rivalry Week to close it all out. Everything you've grinded for over these past few months comes down to one last Saturday. Let's take a look at where we stand before the dust settles.\n\nAt the very top, the story hasn't changed. Louisville is untouchable. The Cardinals shut out California 36-0 to move to a spotless 11-0, 8-0 in conference, behind a defense that has now allowed just 43 conference points all year. That's not a typo. Forty-three. They are the undisputed kings of the ACC and one of the scariest teams in the entire country, sitting at #3 nationally.\n\nBut the chase is very real. Clemson made a statement of their own, knocking off #13 Wake Forest 24-14 to climb to 7-1 in league play and #5 in the nation. Wake takes a step back after that one, and Duke sits patiently at 6-1 with a game in hand. The top of this conference is loaded, and four ACC teams remain in the national Top 13. This league has nothing to apologize for.\n\nThe middle got interesting too. Miami handled SMU 38-20, and Boston College, NC State, and the rest of the pack are still jockeying for bowl positioning heading into the finale.\n\nNow… let's talk about the basement. 🚽\n\nThe Toilet Bowl race is coming down to the wire, and it is everything we hoped for. Let's set the scene going into the final week:\n\nVirginia Tech entered as the team to beat (or rather, the team desperate not to lose), sitting winless at 0-7. But then Syracuse throttled them 34-26, sending the Hokies to 0-11 on the year and 0-7 in conference. Winless. Still spotless. Still gripping that last-place spot with everything they've got.\n\nBut don't count anyone out yet. Virginia sits at just 1-6, Stanford at 1-7, and both are teetering right above the abyss. Syracuse clawed out of the danger zone with that rivalry win over the Hokies to reach 2-6, but the teams beneath them are still very much in the fight to avoid the porcelain throne.\n\nOne week left. One winless team clinging to the bottom. A couple of one-win teams hoping not to join them. Whoever finishes dead last earns the punishment, and there is nowhere left to hide. The pressure is very real.\n\nSo play your rivals hard, people. Pride is on the line, bowl bids are on the line, and for a select few, the entire offseason of shame is on the line. Get your final games in, and if you want the league to witness history (or humiliation), the streaming channel is open and ready.\n\nLast week of the regular season. Rivalries renewed. One toilet still waiting for its champion.\n\nSigned,\n\nYour Commissioners",
+          "type": "text"
+        },
+        {
+          "heading": "ACC Players of the Week",
+          "type": "stats",
+          "stats": [
+            {
+              "playerName": "Zechariah Poyser (Def.)",
+              "teamId": "miami",
+              "statLine": "10 tkl, 3 INT, 1 PBU"
+            },
+            {
+              "playerName": "Marquise Davis (Off.)",
+              "teamId": "louisville",
+              "statLine": "12 car, 147 yds, 2 TD"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "recap",
+        "week-13",
+        "rivalry-week",
+        "louisville",
+        "clemson",
+        "toilet-bowl",
+        "poll"
+      ]
     }
   }
 }
