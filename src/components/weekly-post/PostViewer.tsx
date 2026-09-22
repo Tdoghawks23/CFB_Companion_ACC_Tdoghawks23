@@ -15,6 +15,20 @@ function paragraphsOf(content?: string): string[] {
   return (content ?? "").split(/\n\s*\n/).filter((p) => p.trim().length > 0);
 }
 
+// Posts are authored with **bold** for emphasis, so render those spans as
+// <strong> rather than leaking the asterisks into the page.
+function inlineMarkup(text: string) {
+  return text.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
+    part.startsWith("**") && part.endsWith("**") && part.length > 4 ? (
+      <strong key={i} className="font-semibold text-text-secondary">
+        {part.slice(2, -2)}
+      </strong>
+    ) : (
+      part
+    )
+  );
+}
+
 function TextSection({ section }: { section: PostSection }) {
   return (
     <div className="mb-8">
@@ -23,7 +37,7 @@ function TextSection({ section }: { section: PostSection }) {
       </h3>
       {paragraphsOf(section.content).map((para, i) => (
         <p key={i} className="text-text-muted text-[13.5px] md:text-[14px] leading-[1.65] mb-4 last:mb-0">
-          {para}
+          {inlineMarkup(para)}
         </p>
       ))}
     </div>
@@ -79,7 +93,7 @@ function HighlightSection({ section }: { section: PostSection }) {
             </h3>
             {paragraphsOf(section.content).map((para, i) => (
               <p key={i} className="text-text-muted text-[13.5px] md:text-[14px] leading-[1.65] mb-3 last:mb-0">
-                {para}
+                {inlineMarkup(para)}
               </p>
             ))}
           </div>
