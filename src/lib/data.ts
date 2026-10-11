@@ -37,9 +37,16 @@ export async function getTeamsMap(): Promise<Map<string, Team>> {
   return new Map(teams.map((t) => [t.id, t]));
 }
 
-export async function getCoaches(): Promise<TeamCoach[]> {
-  const data = await readJSON<{ coaches: TeamCoach[] }>('coaches.json');
-  return data.coaches;
+export async function getCoaches(season: number): Promise<TeamCoach[]> {
+  const data = await readJSON<Record<string, TeamCoach[]>>('coaches.json');
+  return data[String(season)] ?? [];
+}
+
+/** Season named by a `?season=` param, falling back to the current season
+ * when it's missing or not one the league has data for. */
+export function resolveSeason(param: string | undefined, meta: SeasonMeta): number {
+  const season = param ? parseInt(param) : NaN;
+  return meta.seasons.includes(season) ? season : meta.currentSeason;
 }
 
 export async function getStandings(season: number): Promise<SeasonStandings | null> {

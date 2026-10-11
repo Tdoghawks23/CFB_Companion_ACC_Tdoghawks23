@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { schoolFromPollName } from "@/lib/utils";
 import type { RankedTeam, Team } from "@/lib/types";
 import TrendArrow from "@/components/shared/TrendArrow";
 import { clsx } from "clsx";
@@ -34,7 +35,7 @@ export default function QuickRankings({ rankings, teamsMap }: QuickRankingsProps
           const isTopAcc = r.rank === topAccRank;
           const team = isTopAcc ? teamsMap.get(r.teamId) : undefined;
           const name =
-            team?.name || r.teamName.split(" ").slice(0, -1).join(" ") || r.teamName;
+            team?.name || schoolFromPollName(r.teamName);
 
           return (
             <div

@@ -734,5 +734,34 @@
         "toilet-bowl"
       ]
     }
+  },
+  "2028": {
+    "0": {
+      "title": "2028 Season Preview: Louisville Wears the Crown",
+      "subtitle": "The national champs open at #4, Duke's road to a rematch runs through Alabama, and six ACC teams start the year ranked",
+      "author": "Tdoghawks23",
+      "publishDate": "2028-08-22",
+      "sections": [
+        {
+          "heading": "From the Commissioners",
+          "content": "People of the ACC,\n\nWelcome to Season 2. The trophies have been handed out, the Toilet Bowl punishments have been served, and every team in this conference is back to 0-0. Before Week 0 kicks off, let's get you caught up.\n\n**🏆 THE CHAMPS: LOUISVILLE**\n\nLet's start with the obvious. Last season ended with an all-ACC national championship game, and **Louisville beat Duke convincingly** to finish the job. That's a perfect season, an ACC title, and a national championship, all in Year 1 of this league. The Cardinals didn't just win the conference, they won the whole thing.\n\nAnd their reward? **#4 in the preseason poll**, behind Ohio State, Nebraska, and Alabama. The defending national champions aren't even the top team in the country. You've seen this movie before, Louisville. The poll says thanks, but no. They'll get a chance to argue right away, too: **Week 1 at #10 Texas A&M.**\n\n**🏅 THE RUNNER-UP: DUKE**\n\nDuke came within one game of a ring, brought home the **first Heisman in ACC After Dark history**, and opens at **#8**. Then they got their schedule. Wake Forest in Week 1. Alabama in Week 3. Clemson in Week 6. And on **November 4th, Louisville comes to Durham** for the national championship rematch. Nobody in this conference has a tougher road. Nobody has a better chance to get even.\n\n**📊 THE ACC IS LOADED**\n\n**Six ACC teams** start the year in the Top 25: Louisville (#4), Duke (#8), Clemson (#11), Wake Forest (#14), NC State (#18), and Pittsburgh (#24). Last year this league put two teams in the national championship game. It's starting this year with nothing to apologize for.\n\n**🚽 A FRESH TOILET**\n\nLast year's basement was a three-way tie between **Virginia, Virginia Tech, and Stanford**, and all three paid the price together. The slate is clean now and the porcelain throne is empty again. Somebody is going to sit on it in December. Don't let it be you.\n\nWeek 0 is on deck. Duke opens in primetime at Temple, Wake Forest hosts East Carolina, Cal heads to #23 Minnesota, Boston College visits Notre Dame, and Virginia Tech closes the night at Maryland. Get your games in on time, and the streaming channel is open for business.\n\nOne champion to dethrone. One rematch circled in November. Fifteen teams at 0-0.\n\nSigned,\n\nYour Commissioners",
+          "type": "text"
+        },
+        {
+          "heading": "Circle These Dates",
+          "content": "**Week 1** — Wake Forest at Duke, and Louisville at #10 Texas A&M. Two ranked tests on opening Saturday.\n\n**Week 2** — #6 Penn State at Syracuse.\n\n**Week 3** — #3 Alabama at Duke.\n\n**Week 6** — Clemson at Duke.\n\n**Week 7** — Wake Forest at Louisville, Thursday night.\n\n**Week 8** — Clemson at Louisville.\n\n**Week 10** — **Louisville at Duke.** The national championship rematch.\n\n**Week 12** — Wake Forest at NC State, Thursday night.\n\n**Week 13** — NC State at North Carolina to close out rivalry week.",
+          "type": "highlight"
+        }
+      ],
+      "tags": [
+        "preview",
+        "week-0",
+        "season-2",
+        "louisville",
+        "duke",
+        "national-championship",
+        "poll"
+      ]
+    }
   }
 }

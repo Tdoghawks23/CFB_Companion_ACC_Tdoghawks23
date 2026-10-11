@@ -18,7 +18,7 @@ export default async function HomePage() {
   const standings = await getStandings(meta.currentSeason);
   const rankings = await getRankings(meta.currentSeason, meta.currentWeek);
   const schedule = await getSchedule(meta.currentSeason, meta.currentWeek);
-  const coaches = await getCoaches();
+  const coaches = await getCoaches(meta.currentSeason);
 
   let latestPost = await getWeeklyPost(meta.currentSeason, meta.currentWeek);
   let postWeek = meta.currentWeek;

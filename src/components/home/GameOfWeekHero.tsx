@@ -1,5 +1,10 @@
 import type { Game, Team, TeamStanding } from "@/lib/types";
 
+const DAY_NAMES: Record<string, string> = {
+  Mon: "Monday", Tue: "Tuesday", Wed: "Wednesday", Thu: "Thursday",
+  Fri: "Friday", Sat: "Saturday", Sun: "Sunday",
+};
+
 interface GameOfWeekHeroProps {
   game: Game;
   teamsMap: Map<string, Team>;
@@ -47,6 +52,8 @@ export default function GameOfWeekHero({ game, teamsMap, standings }: GameOfWeek
   const venueName = game.location || home?.stadium || "";
   const venueCity = home?.location?.split(",")[0]?.trim();
   const venueLine = [venueName, venueCity].filter(Boolean).join(", ");
+  // gameTime reads like "Thu 7:00 PM ET"; most games carry no time, so default to Saturday.
+  const gameDay = DAY_NAMES[game.gameTime.split(" ")[0]] ?? "Saturday";
 
   const isFinal = game.status === "final";
   const statusLabel = isFinal ? "Final" : "Upcoming";
@@ -73,11 +80,11 @@ export default function GameOfWeekHero({ game, teamsMap, standings }: GameOfWeek
         <div className="flex items-center justify-between gap-4 mb-6 md:mb-8">
           <div>
             <div className="font-[family-name:var(--font-oswald)] text-[12px] tracking-[0.22em] uppercase text-acc-gold font-semibold">
-              Game of the Week · ACC Conference
+              Game of the Week · {game.isConferenceGame ? "ACC Conference" : "Non-Conference"}
             </div>
             {venueLine && (
               <div className="font-[family-name:var(--font-oswald)] text-[13px] tracking-[0.04em] text-white/70 mt-1">
-                Saturday · {venueLine}
+                {gameDay} · {venueLine}
               </div>
             )}
           </div>

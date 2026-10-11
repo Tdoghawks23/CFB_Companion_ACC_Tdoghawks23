@@ -13,9 +13,11 @@ export interface ArchiveEntry {
 interface WeekArchiveProps {
   entries: ArchiveEntry[];
   currentWeek: number;
+  /** Set only when browsing a past season, so post links keep it. */
+  season?: number;
 }
 
-export default function WeekArchive({ entries, currentWeek }: WeekArchiveProps) {
+export default function WeekArchive({ entries, currentWeek, season }: WeekArchiveProps) {
   const router = useRouter();
 
   return (
@@ -31,7 +33,9 @@ export default function WeekArchive({ entries, currentWeek }: WeekArchiveProps) 
           <button
             key={entry.week}
             type="button"
-            onClick={() => router.push(`/weekly-post?week=${entry.week}`)}
+            onClick={() => router.push(
+              season ? `/weekly-post?season=${season}&week=${entry.week}` : `/weekly-post?week=${entry.week}`
+            )}
             className={clsx(
               "w-full flex items-center gap-3 min-h-[56px] px-4 py-[10px] text-left border-t border-white/5 first:border-t-0 transition-colors hover:bg-bg-card-hover active:bg-bg-card-hover",
               entry.week === currentWeek && "bg-acc-blue/[0.06]"

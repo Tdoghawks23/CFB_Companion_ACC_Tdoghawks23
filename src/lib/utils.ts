@@ -74,3 +74,20 @@ export function sortStandings(teams: TeamStanding[], field: SortField, ascending
     return ascending ? valA - valB : valB - valA;
   });
 }
+
+// Mascots longer than one word, so stripping the mascot off a poll name like
+// "Alabama Crimson Tide" leaves "Alabama" rather than "Alabama Crimson".
+const MULTI_WORD_MASCOTS = [
+  'Crimson Tide', 'Nittany Lions', 'Red Raiders', 'Fighting Irish', 'Golden Gophers',
+  'Horned Frogs', 'Sun Devils', 'Blue Devils', 'Tar Heels', 'Demon Deacons',
+  'Yellow Jackets', 'Golden Bears', 'Fighting Illini', 'Scarlet Knights', 'Mean Green',
+  'Green Wave', 'Golden Hurricane', 'Thundering Herd', 'Rainbow Warriors', 'Black Knights',
+  'Red Wolves', 'Blue Raiders', 'Golden Flashes', 'Golden Eagles', 'Wolf Pack',
+];
+
+/** School name from a poll entry's "School Mascot" team name. */
+export function schoolFromPollName(teamName: string): string {
+  const mascot = MULTI_WORD_MASCOTS.find((m) => teamName.endsWith(` ${m}`));
+  if (mascot) return teamName.slice(0, -mascot.length - 1);
+  return teamName.split(' ').slice(0, -1).join(' ') || teamName;
+}

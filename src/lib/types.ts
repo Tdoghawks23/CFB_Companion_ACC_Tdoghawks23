@@ -82,6 +82,8 @@ export interface Game {
   status: 'upcoming' | 'final';
   homeScore: number | null;
   awayScore: number | null;
+  /** Winner of a final whose score wasn't recorded (scores stay null). */
+  winner?: 'home' | 'away';
   isFeatured: boolean;
 }
 

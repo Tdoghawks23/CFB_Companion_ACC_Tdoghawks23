@@ -7,13 +7,15 @@ interface SchedulePageClientProps {
   weeks: number[];
   selectedWeek: number;
   currentWeek: number;
+  /** Set only when browsing a past season, so week links keep it. */
+  season?: number;
 }
 
-export default function SchedulePageClient({ weeks, selectedWeek, currentWeek }: SchedulePageClientProps) {
+export default function SchedulePageClient({ weeks, selectedWeek, currentWeek, season }: SchedulePageClientProps) {
   const router = useRouter();
 
   function handleSelectWeek(week: number) {
-    router.push(`/schedule?week=${week}`);
+    router.push(season ? `/schedule?season=${season}&week=${week}` : `/schedule?week=${week}`);
   }
 
   return (

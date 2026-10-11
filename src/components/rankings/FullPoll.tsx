@@ -1,4 +1,5 @@
 import { clsx } from "clsx";
+import { schoolFromPollName } from "@/lib/utils";
 import type { RankedTeam, OtherReceivingVotes, Team } from "@/lib/types";
 import TrendArrow from "@/components/shared/TrendArrow";
 import TeamTile from "@/components/ui/TeamTile";
@@ -22,7 +23,7 @@ export default function FullPoll({ rankings, othersReceivingVotes, teamsMap }: F
           const isTopAcc = r.rank === topAccRank;
           const team = r.isACC ? teamsMap.get(r.teamId) : undefined;
           const name =
-            team?.name || r.teamName.split(" ").slice(0, -1).join(" ") || r.teamName;
+            team?.name || schoolFromPollName(r.teamName);
 
           return (
             <div

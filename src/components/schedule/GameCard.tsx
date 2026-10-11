@@ -12,8 +12,9 @@ export default function GameCard({ game, teamsMap }: GameCardProps) {
   const home = teamsMap.get(game.homeTeamId);
   const away = teamsMap.get(game.awayTeamId);
   const isFinal = game.status === "final";
-  const homeWon = isFinal && game.homeScore !== null && game.awayScore !== null && game.homeScore > game.awayScore;
-  const awayWon = isFinal && game.homeScore !== null && game.awayScore !== null && game.awayScore > game.homeScore;
+  const hasScore = game.homeScore !== null && game.awayScore !== null;
+  const homeWon = isFinal && (hasScore ? game.homeScore! > game.awayScore! : game.winner === "home");
+  const awayWon = isFinal && (hasScore ? game.awayScore! > game.homeScore! : game.winner === "away");
 
   const venueName = game.location || home?.stadium || "";
   const venueCity = home?.location?.split(",")[0]?.trim();
@@ -56,7 +57,11 @@ export default function GameCard({ game, teamsMap }: GameCardProps) {
           {isFinal ? (
             <>
               <span className="font-[family-name:var(--font-oswald)] text-[15px] font-bold">
-                {game.awayScore}–{game.homeScore}
+                {hasScore
+                  ? `${game.awayScore}–${game.homeScore}`
+                  : game.winner
+                    ? `${(game.winner === "home" ? home?.abbreviation || game.homeTeamName : away?.abbreviation || game.awayTeamName)} W`
+                    : "—"}
               </span>
               <span className="text-[10px] uppercase tracking-wider text-featured font-bold mt-0.5">
                 Final
