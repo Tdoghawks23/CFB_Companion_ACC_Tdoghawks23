@@ -1,11 +1,18 @@
-import { getSeasonMeta, getStandings, getTeamsMap } from "@/lib/data";
+import { getSeasonMeta, getStandings, getTeamsMap, resolveSeason } from "@/lib/data";
 import PageHeader from "@/components/layout/PageHeader";
 import StandingsTable from "@/components/standings/StandingsTable";
 import EmptyState from "@/components/ui/EmptyState";
+import SeasonSelector from "@/components/shared/SeasonSelector";
 
-export default async function StandingsPage() {
+export default async function StandingsPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ season?: string }>;
+}) {
+  const params = await searchParams;
   const meta = await getSeasonMeta();
-  const standings = await getStandings(meta.currentSeason);
+  const season = resolveSeason(params.season, meta);
+  const standings = await getStandings(season);
   const teamsMap = await getTeamsMap();
 
   return (
@@ -13,7 +20,14 @@ export default async function StandingsPage() {
       <PageHeader
         eyebrow="ACC Conference"
         title="Standings"
-        subtitle={`${meta.currentSeason} Season · Sorted by conference record`}
+        subtitle={`${season} Season · Sorted by conference record`}
+      />
+
+      <SeasonSelector
+        seasons={meta.seasons}
+        selectedSeason={season}
+        currentSeason={meta.currentSeason}
+        basePath="/standings"
       />
       {standings && standings.teams.length > 0 ? (
         <div className="bg-bg-card rounded-2xl border border-acc-blue/12 overflow-hidden">

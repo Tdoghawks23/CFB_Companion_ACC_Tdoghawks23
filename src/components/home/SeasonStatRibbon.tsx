@@ -1,4 +1,5 @@
 import { clsx } from "clsx";
+import { schoolFromPollName } from "@/lib/utils";
 import type { RankedTeam, Team, TeamStanding } from "@/lib/types";
 
 interface SeasonStatRibbonProps {
@@ -59,7 +60,7 @@ export default function SeasonStatRibbon({ standings, rankings, teamsMap }: Seas
   // 1. Highest-ranked ACC team in the poll.
   const topRankedAcc = rankings.find((r) => r.isACC);
   const topRankedName = topRankedAcc
-    ? teamName(topRankedAcc.teamId, topRankedAcc.teamName.split(" ").slice(0, -1).join(" ") || topRankedAcc.teamName)
+    ? teamName(topRankedAcc.teamId, schoolFromPollName(topRankedAcc.teamName))
     : "—";
 
   // 2. Count of ranked ACC teams out of the full ACC field.

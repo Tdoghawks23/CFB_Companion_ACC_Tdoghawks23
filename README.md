@@ -35,6 +35,7 @@ All league data lives in the `/data` directory as JSON files:
 |------|---------|
 | `season-meta.json` | Current season, week, and phase |
 | `teams.json` | All 15 ACC team metadata (colors, names, stadiums) |
+| `coaches.json` | League coaches by season |
 | `standings.json` | Conference standings by season |
 | `rankings.json` | Top 25 poll by season and week |
 | `schedule.json` | Game schedule by season and week |
@@ -47,6 +48,18 @@ After each simulated week:
 4. Update `schedule.json` with scores and next week's matchups
 5. Write the weekly recap in `weekly-posts.json`
 6. Commit and push — Vercel auto-deploys
+
+### Starting a new season
+
+Every data file is keyed by season, so past seasons stay in place and remain
+browsable through the season picker on Schedule, Rankings, Standings, and
+Weekly Post.
+
+1. In `season-meta.json`, set `currentSeason`, reset `currentWeek` to `0` and
+   `seasonPhase` to `preseason`, and add the year to `seasons`
+2. Add the new season's key to `coaches.json`, `standings.json` (all teams
+   0-0), `schedule.json`, `rankings.json` (preseason poll as week `0`), and
+   `weekly-posts.json` (season preview as week `0`)
 
 ## Deployment
 
