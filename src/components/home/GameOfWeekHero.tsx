@@ -36,7 +36,8 @@ export default function GameOfWeekHero({ game, teamsMap, standings }: GameOfWeek
 
   const recordFor = (teamId: string) => {
     const s = standings.find((t) => t.teamId === teamId);
-    return s ? `${s.overallWins}-${s.overallLosses}` : "0-0";
+    // Only ACC teams have a standings row; non-ACC opponents show no record.
+    return s ? ` · ${s.overallWins}-${s.overallLosses}` : "";
   };
 
   const awayAbbr = away?.abbreviation || game.awayTeamName.substring(0, 4).toUpperCase();
@@ -99,7 +100,7 @@ export default function GameOfWeekHero({ game, teamsMap, standings }: GameOfWeek
           <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-5 sm:flex-1 sm:justify-end">
             <div className="text-center sm:text-right order-2 sm:order-1">
               <div className="font-[family-name:var(--font-oswald)] text-[11px] sm:text-[12px] tracking-[0.1em] uppercase text-white/65">
-                Away · {recordFor(game.awayTeamId)}
+                Away{recordFor(game.awayTeamId)}
               </div>
               <div className="font-[family-name:var(--font-oswald)] text-[25px] sm:text-[32px] font-bold leading-[1.05] text-white">
                 {awayName}
@@ -115,7 +116,9 @@ export default function GameOfWeekHero({ game, teamsMap, standings }: GameOfWeek
           <div className="flex items-center gap-3 w-full sm:w-auto">
             <div className="h-px flex-1 bg-white/15 sm:hidden" />
             <div className="font-[family-name:var(--font-oswald)] text-[19px] sm:text-[26px] font-semibold text-white/50 tracking-[0.1em] shrink-0">
-              VS
+              {isFinal && game.awayScore !== null && game.homeScore !== null
+                ? `${game.awayScore} – ${game.homeScore}`
+                : "VS"}
             </div>
             <div className="h-px flex-1 bg-white/15 sm:hidden" />
           </div>
@@ -125,7 +128,7 @@ export default function GameOfWeekHero({ game, teamsMap, standings }: GameOfWeek
             <HeroTeamTile abbreviation={homeAbbr} primaryColor={homeColor} />
             <div className="text-center sm:text-left">
               <div className="font-[family-name:var(--font-oswald)] text-[11px] sm:text-[12px] tracking-[0.1em] uppercase text-white/65">
-                Home · {recordFor(game.homeTeamId)}
+                Home{recordFor(game.homeTeamId)}
               </div>
               <div className="font-[family-name:var(--font-oswald)] text-[25px] sm:text-[32px] font-bold leading-[1.05] text-white">
                 {homeName}

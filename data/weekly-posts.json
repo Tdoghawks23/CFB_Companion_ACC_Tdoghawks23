@@ -762,6 +762,84 @@
         "national-championship",
         "poll"
       ]
+    },
+    "1": {
+      "title": "Week 1: A Perfect Week 0, and Boston College Wins 3-0 in South Bend",
+      "subtitle": "Five ACC teams played, five ACC teams won. Cal takes down a ranked Minnesota, Wake Forest survives a scare, and Virginia Tech already has a win",
+      "author": "Tdoghawks23",
+      "publishDate": "2028-08-30",
+      "sections": [
+        {
+          "heading": "From the Commissioners",
+          "content": "People of the ACC,\n\nWeek 0 is in the books, and Season 2 is officially underway. Only five ACC teams took the field, but they made it count. **Five games, five wins.** A perfect opening weekend for the conference. Let's get into it.\n\n**California** set the tone. The Golden Bears went on the road to **#23 Minnesota** and came home with a **27-20** win, the first ranked scalp of the year for anyone in this league. Kylen Evans was the difference with 115 yards and a score. Not a bad way to say hello.\n\n**Duke** shook off the national championship hangover with a businesslike **28-17** win at Temple. Nothing flashy, nothing scary. Just a ranked team handling business on the road before the real season starts next week.\n\n**Wake Forest**, on the other hand, nearly gave us a heart attack. The Demon Deacons survived East Carolina **22-20** at home. A win is a win, but that one was way too close for a Top 15 team. File that away.\n\nThen there's **Boston College**, who went into South Bend and beat Notre Dame **3-0**. Yes, you read that right. Three to nothing. One field goal and sixty minutes of the Eagles' defense telling the Irish no. We may have our first defensive identity of the season.\n\nAnd now for the fun one. 🚽\n\n**Virginia Tech won a football game.** The Hokies went to Maryland and came away with a **21-16** win, and Sheldon Robinson was everywhere with two interceptions and a pick-six. For context: Virginia Tech didn't win a single game last season until the regular-season finale. One week into Season 2, they've already matched last year's win total. Last year's Toilet Bowl trio is looking to rewrite the script.\n\nNow for **Week 1**, and it is LOADED:\n\n**#14 Wake Forest at #8 Duke**, the Game of the Week. Duke gets its first chance at revenge, and Wake gets to prove last week was a fluke.\n\n**#4 Louisville at #10 Texas A&M**. The defending national champs open on the road against a Top 10 team. No warmup.\n\n**Boston College at #11 Clemson**. The Eagles' defense gets a much bigger test.\n\n**Miami at Notre Dame** and **North Carolina at South Carolina** round out the big non-conference slate, while **NC State** heads to East Carolina, the same team that just took Wake Forest to the wire.\n\nGet your games in on time, and the streaming channel is open.\n\nSigned,\n\nYour Commissioners",
+          "type": "text"
+        },
+        {
+          "heading": "ACC Players of the Week",
+          "type": "stats",
+          "stats": [
+            {
+              "playerName": "Sheldon Robinson (Def.)",
+              "teamId": "virginia-tech",
+              "statLine": "5 tkl, 2 INT, 1 PBU, 1 TD"
+            },
+            {
+              "playerName": "Kylen Evans (Off.)",
+              "teamId": "california",
+              "statLine": "6 rec, 115 yds, 1 TD"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "recap",
+        "week-0",
+        "week-1",
+        "california",
+        "boston-college",
+        "virginia-tech",
+        "toilet-bowl"
+      ]
+    },
+    "2": {
+      "title": "Week 2: Wake Forest Flattens Duke as the Champs Win at Texas A&M",
+      "subtitle": "Wake rolls in Durham and climbs to #7, Louisville passes its first road test, Boston College still hasn't allowed a point, and #6 Penn State visits Syracuse",
+      "author": "Tdoghawks23",
+      "publishDate": "2028-09-06",
+      "sections": [
+        {
+          "heading": "From the Commissioners",
+          "content": "People of the ACC,\n\nWeek 1 is final, and the ACC delivered upsets, shutouts, and a statement in Durham. Let's go.\n\n**🔥 WAKE FOREST 39, #8 DUKE 6**\n\nThe Game of the Week wasn't a game. Wake Forest walked into Durham and **demolished** the national runner-up **39-6**. After that sloppy Week 0 escape against East Carolina, the Deacons answered every question in one afternoon. They're **2-0**, 1-0 in league play, and up to **#7 in the country**. Duke falls to 1-1 and #15, and that one is going to sting for a while.\n\n**The champs passed their test.** **Louisville** went to College Station and beat **#10 Texas A&M 28-10**. That was the defending national champions' first road test of the year, and they made it look routine. The Cardinals are **#3 nationally**.\n\n**Boston College is not normal.** After shutting out Notre Dame in Week 0, the Eagles went to **#11 Clemson** and won **17-0**. Two road games against brand-name programs. **Zero points allowed.** Clemson slid to #23, and BC heads to **#21 Pittsburgh** next with a defense nobody has solved yet.\n\nAround the league:\n\n**California** knocked off USC **42-30** and is **2-0** after beating a ranked Minnesota in Week 0.\n\n**Syracuse** opened with a **42-0** win over FCS Southeast. AK Dear ran for **204 yards and three touchdowns** on just 20 carries.\n\n**North Carolina** won at South Carolina **14-3**. **Pitt** handled Northern Illinois **21-10**. **Georgia Tech** blanked Arkansas State **21-0** behind a monster day from Damion Hester. **Stanford** won at Fresno State **21-16**, **Virginia Tech** edged Liberty **20-18**, and **Virginia** held off FCS East **28-21**.\n\n**Miami** got rolled at Notre Dame **38-19**, and **NC State** had a nightmare, losing **34-21** at East Carolina.\n\n**🚽 THE BASEMENT HAS MOVED**\n\nRemember last year's Toilet Bowl trio? **Virginia, Virginia Tech, and Stanford** are a combined **4-0.** Virginia Tech is already 2-0. The script has flipped.\n\nThat leaves **Clemson** and **Duke** at 0-1 in conference play, with **NC State** and **Miami** still looking for their first win of the season. It's early, but the porcelain throne has new candidates.\n\n**Week 2 is on deck:**\n\n**#6 Penn State at Syracuse**, the Game of the Week. A Top 10 team comes to the Dome, and the Orange get their first real test.\n\n**Boston College at #21 Pittsburgh**. Can anyone score on the Eagles?\n\n**NC State at Stanford** opens league play for both. NC State needs a win badly.\n\n**Virginia at #19 Florida State** and **Georgia Tech at Virginia Tech** round out the slate, while Louisville, Duke, Wake Forest, and Cal tune up against non-conference opponents.\n\nGet your games in on time, and the streaming channel is open.\n\nSigned,\n\nYour Commissioners",
+          "type": "text"
+        },
+        {
+          "heading": "ACC Players of the Week",
+          "type": "stats",
+          "stats": [
+            {
+              "playerName": "Damion Hester (Def.)",
+              "teamId": "georgia-tech",
+              "statLine": "8 tkl, 5 TFL, 1 INT, 1 PBU"
+            },
+            {
+              "playerName": "AK Dear (Off.)",
+              "teamId": "syracuse",
+              "statLine": "20 car, 204 yds, 3 TD"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "recap",
+        "week-1",
+        "week-2",
+        "wake-forest",
+        "louisville",
+        "boston-college",
+        "syracuse",
+        "toilet-bowl",
+        "poll"
+      ]
     }
   }
 }
