@@ -2622,9 +2622,9 @@
           "location": "JMA Wireless Dome",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "final",
-          "homeScore": 17,
-          "awayScore": 0,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
           "isFeatured": true
         },
         {
@@ -2638,9 +2638,9 @@
           "location": "Allegacy Federal Credit Union Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "final",
-          "homeScore": 30,
-          "awayScore": 14,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
           "isFeatured": false
         },
         {
@@ -2654,9 +2654,9 @@
           "location": "Doak Campbell Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "final",
-          "homeScore": 14,
-          "awayScore": 20,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
           "isFeatured": false
         },
         {
@@ -2718,9 +2718,9 @@
           "location": "Stanford Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "final",
-          "homeScore": 26,
-          "awayScore": 8,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
           "isFeatured": false
         },
         {
@@ -2734,9 +2734,9 @@
           "location": "Wallace Wade Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "final",
-          "homeScore": 56,
-          "awayScore": 14,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
           "isFeatured": false
         },
         {
@@ -2766,9 +2766,9 @@
           "location": "California Memorial Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "final",
-          "homeScore": 52,
-          "awayScore": 14,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
           "isFeatured": false
         },
         {
@@ -2782,9 +2782,9 @@
           "location": "L&N Federal Credit Union Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "final",
-          "homeScore": 42,
-          "awayScore": 6,
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
           "isFeatured": false
         }
       ]
