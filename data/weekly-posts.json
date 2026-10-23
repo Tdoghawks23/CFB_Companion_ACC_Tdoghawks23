@@ -840,6 +840,45 @@
         "toilet-bowl",
         "poll"
       ]
+    },
+    "3": {
+      "title": "Week 3: Syracuse Shuts Out Penn State, and Pitt Ends Boston College's Run",
+      "subtitle": "The Orange blank a Top 10 team, Wake climbs to #5, Duke's Grayson Purdon accounts for eight touchdowns, and Miami falls to USF",
+      "author": "Tdoghawks23",
+      "publishDate": "2028-09-13",
+      "sections": [
+        {
+          "heading": "From the Commissioners",
+          "content": "People of the ACC,\n\nWeek 2 is final, and it was a wild one. A Top 10 team got shut out, a perfect defense finally cracked, a quarterback accounted for eight touchdowns, and Miami lost to USF. Let's get into it.\n\n**🍊 SYRACUSE 17, #6 PENN STATE 0**\n\nThe Game of the Week belonged to the Orange. **#6 Penn State** came to the Dome, and Syracuse **shut them out 17-0**. A Top 10 team, held scoreless for sixty minutes. Two games into the season, Syracuse has scored 59 points and allowed **zero**. It's time to start taking the Orange seriously.\n\n**Wake Forest keeps rolling.** The Deacons handled Purdue **30-14** to move to **3-0**, and they've climbed to **#5 in the country**. **Louisville** took care of FCS West **42-6** on Monday night and stays at **#3**.\n\n**The streak is over.** Boston College came into Week 2 without allowing a single point all season. Then they went to **#21 Pittsburgh**, and the Panthers won **28-8**. Darion Jones picked off two passes and took one back for a touchdown. Pitt is **2-0**, 1-0 in league play, and up to **#18**. BC falls to 2-1.\n\n**Grayson Purdon went off.** Duke's quarterback threw for **459 yards and six touchdowns**, then ran for **114 yards and two more** in a 56-14 win over FCS West. Eight total touchdowns in one game. Duke is 2-1 and up to #13.\n\nAround the league:\n\n**Virginia** went into Tallahassee and beat **#19 Florida State 20-14**. That's a ranked road win, and the Cavaliers are 2-0.\n\n**Georgia Tech** went to Blacksburg and beat **Virginia Tech 34-14** to open league play at 1-0. The Hokies take their first loss.\n\n**Stanford** handled **NC State 26-8** and is 2-0, 1-0 in conference.\n\n**California** hung 52 on San Jose State and is **3-0**, with 121 points scored. **North Carolina** beat Kennesaw State 35-23 to move to 2-0.\n\n**Clemson** got its first win of the year, but just barely, surviving Troy **24-21**.\n\n**🚽 THE BASEMENT**\n\nAnd then there's **Miami**. The Hurricanes lost to **USF 11-10** at home. Eleven to ten. Miami is **0-2**, and so is **NC State**, who has now lost to East Carolina and Stanford. Two winless teams, two weeks in. The Toilet Bowl race has its early frontrunners.\n\nMeanwhile, last year's basement trio of **Virginia, Stanford, and Virginia Tech** is a combined **6-1**.\n\n**Week 3 is on deck:**\n\n**#12 Alabama at #13 Duke**, the Game of the Week. Purdon gets a much bigger stage.\n\n**California at #3 Louisville**. The 3-0 Bears get a shot at the national champs.\n\n**Miami at Syracuse**. The Orange open league play against a Miami team searching for its first win.\n\n**Virginia Tech at #18 Pittsburgh**, **North Carolina at #22 Clemson**, and **Boston College at #24 BYU** round out a big weekend.\n\nGet your games in on time, and the streaming channel is open.\n\nSigned,\n\nYour Commissioners",
+          "type": "text"
+        },
+        {
+          "heading": "ACC Players of the Week",
+          "type": "stats",
+          "stats": [
+            {
+              "playerName": "Darion Jones (Def.)",
+              "teamId": "pittsburgh",
+              "statLine": "2 tkl, 2 INT, 1 TD"
+            },
+            {
+              "playerName": "Grayson Purdon (Off.)",
+              "teamId": "duke",
+              "statLine": "21/37, 459 yds, 6 TD, 1 INT · 15 car, 114 yds, 2 TD"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "recap",
+        "week-2",
+        "week-3",
+        "syracuse",
+        "pittsburgh",
+        "duke",
+        "toilet-bowl",
+        "poll"
+      ]
     }
   }
 }
