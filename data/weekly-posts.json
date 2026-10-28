@@ -879,6 +879,47 @@
         "toilet-bowl",
         "poll"
       ]
+    },
+    "4": {
+      "title": "Week 4: The Champs Fall, and Six ACC Teams Are Still Unbeaten",
+      "subtitle": "California stuns #3 Louisville, Duke survives Alabama by a point, Pitt takes the lead in the league, and Syracuse is 3-0 with three points allowed and no ranking",
+      "author": "Tdoghawks23",
+      "publishDate": "2028-09-20",
+      "sections": [
+        {
+          "heading": "From the Commissioners",
+          "content": "People of the ACC,\n\nWeek 3 is final, and the top of this conference just got turned upside down. The national champs lost at home, Duke survived by a single point, and six ACC teams are still unbeaten. Let's get into it.\n\n**🚨 CALIFORNIA 25, #3 LOUISVILLE 14**\n\nThe headline is in Louisville. The Cardinals came into Week 3 as the highest-ranked team in the ACC, and California walked into their building and won **25-14**. It's the first loss of the Louisville era in this league, and it dropped the defending national champions ten spots to **#13**. Cal is now **4-0** with **146 points scored**, a win over the #3 team in the country, and still no spot in the Top 25. The poll can only ignore the Golden Bears for so long.\n\n**Wake Forest is the new top dog.** The Deacons rolled UConn **45-9** to move to **4-0**, and they're up to **#4**, the highest-ranked team in the conference. Ny Carr was unstoppable, catching six passes for **200 yards and three touchdowns**.\n\n**Duke survives.** The Blue Devils hung on against Alabama **25-24** to climb to **#10**, and the Crimson Tide fall to 1-2 and out of the top 15. One point. Duke is 3-1 and picked up a signature win after that rough Week 1.\n\n**Pitt is in the driver's seat.** The Panthers held off Virginia Tech **25-22** to move to **3-0**, and they're **2-0 in conference play**, the best league record in the ACC. They're up to **#16**. Virginia Tech's Clyde Samuel did everything he could, with **seven tackles, a sack, and two interceptions**, but the Hokies fall to 2-2 and 0-2 in the league.\n\n**🍊 SYRACUSE 35, MIAMI 3**\n\nThe Orange took care of Miami at the Dome and are now **3-0** with **94 points scored and just three allowed all season**. That's a +91 point differential, the best in the conference, just ahead of Wake Forest. And they still don't have a ranking. Let that sink in.\n\nAround the league:\n\n**Clemson** survived North Carolina **27-26** in a one-point game to move to 2-1 and stay at **#22**. The Tar Heels fall to 2-1 and 0-1 in conference play.\n\n**Boston College** bounced back from the Pitt loss with a **17-7** win at BYU, who came in ranked #24. The Eagles are **3-1**, and BYU is out of the Top 25.\n\n**Georgia Tech** beat FCS West **27-6**, and **Stanford** handled Sacramento State **33-8**. Both are **3-0**.\n\n**Virginia** went to SMU and lost **27-6**. The Cavaliers are 2-1.\n\n**🚽 THE BASEMENT**\n\nTwo winless teams remain. **Miami** is **0-3** after that 35-3 beating, and **NC State** is **0-3** after dropping a **13-10** game at home to Vanderbilt. That's three straight losses for the Wolfpack, and neither team has a conference win. The Toilet Bowl race is officially on, and Virginia Tech's 0-2 league record has them looking over their shoulder.\n\n**Week 4 is on deck:**\n\n**Pittsburgh at California**, the Game of the Week. **Two unbeaten teams.** The Panthers are #16, and the Golden Bears are still waiting on their ranking.\n\n**Boston College at #13 Louisville**. The champs need a bounce-back, and the Eagles are coming off a road win.\n\n**Stanford at Syracuse**. A matchup of two 3-0 teams, and a chance for the Orange to keep the zero in the points-allowed column.\n\n**North Carolina at #4 Wake Forest** and **Duke at Virginia** headline the rest of the slate, while **Virginia Tech at NC State** might be the most important game of the weekend for anyone watching the basement.\n\nGet your games in on time, and the streaming channel is open.\n\nSigned,\n\nYour Commissioners",
+          "type": "text"
+        },
+        {
+          "heading": "ACC Players of the Week",
+          "type": "stats",
+          "stats": [
+            {
+              "playerName": "Clyde Samuel (Def.)",
+              "teamId": "virginia-tech",
+              "statLine": "7 tkl, 1 sack, 2 TFL, 2 INT"
+            },
+            {
+              "playerName": "Ny Carr (Off.)",
+              "teamId": "wake-forest",
+              "statLine": "6 rec, 200 yds, 3 TD"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "recap",
+        "week-3",
+        "week-4",
+        "california",
+        "louisville",
+        "duke",
+        "pittsburgh",
+        "syracuse",
+        "toilet-bowl",
+        "poll"
+      ]
     }
   }
 }

@@ -4635,6 +4635,262 @@
         }
       ],
       "othersReceivingVotes": []
+    },
+    "4": {
+      "pollName": "Dynasty Poll",
+      "rankings": [
+        {
+          "rank": 1,
+          "teamId": "",
+          "teamName": "Ohio State Buckeyes",
+          "record": "3-0",
+          "previousRank": 1,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 2,
+          "teamId": "",
+          "teamName": "Nebraska Cornhuskers",
+          "record": "3-0",
+          "previousRank": 2,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 3,
+          "teamId": "",
+          "teamName": "Texas Longhorns",
+          "record": "3-0",
+          "previousRank": 4,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 4,
+          "teamId": "wake-forest",
+          "teamName": "Wake Forest Demon Deacons",
+          "record": "4-0",
+          "previousRank": 5,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": true
+        },
+        {
+          "rank": 5,
+          "teamId": "",
+          "teamName": "Oregon Ducks",
+          "record": "3-0",
+          "previousRank": 6,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 6,
+          "teamId": "",
+          "teamName": "Oklahoma Sooners",
+          "record": "4-0",
+          "previousRank": 7,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 7,
+          "teamId": "",
+          "teamName": "Ole Miss Rebels",
+          "record": "3-0",
+          "previousRank": 8,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 8,
+          "teamId": "",
+          "teamName": "Wisconsin Badgers",
+          "record": "3-0",
+          "previousRank": 11,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 9,
+          "teamId": "",
+          "teamName": "Tennessee Volunteers",
+          "record": "2-0",
+          "previousRank": 9,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 10,
+          "teamId": "duke",
+          "teamName": "Duke Blue Devils",
+          "record": "3-1",
+          "previousRank": 13,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": true
+        },
+        {
+          "rank": 11,
+          "teamId": "",
+          "teamName": "Penn State Nittany Lions",
+          "record": "2-1",
+          "previousRank": 14,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 12,
+          "teamId": "",
+          "teamName": "LSU Tigers",
+          "record": "2-1",
+          "previousRank": 15,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 13,
+          "teamId": "louisville",
+          "teamName": "Louisville Cardinals",
+          "record": "2-1",
+          "previousRank": 3,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": true
+        },
+        {
+          "rank": 14,
+          "teamId": "",
+          "teamName": "Texas A&M Aggies",
+          "record": "1-1",
+          "previousRank": 16,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 15,
+          "teamId": "",
+          "teamName": "Boise State Broncos",
+          "record": "3-0",
+          "previousRank": 17,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 16,
+          "teamId": "pittsburgh",
+          "teamName": "Pittsburgh Panthers",
+          "record": "3-0",
+          "previousRank": 18,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": true
+        },
+        {
+          "rank": 17,
+          "teamId": "",
+          "teamName": "Alabama Crimson Tide",
+          "record": "1-2",
+          "previousRank": 12,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 18,
+          "teamId": "",
+          "teamName": "Utah Utes",
+          "record": "2-1",
+          "previousRank": 10,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 19,
+          "teamId": "",
+          "teamName": "Washington Huskies",
+          "record": "2-1",
+          "previousRank": 20,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 20,
+          "teamId": "",
+          "teamName": "Kansas State Wildcats",
+          "record": "3-0",
+          "previousRank": 21,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 21,
+          "teamId": "",
+          "teamName": "Georgia Bulldogs",
+          "record": "2-0",
+          "previousRank": 23,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 22,
+          "teamId": "clemson",
+          "teamName": "Clemson Tigers",
+          "record": "2-1",
+          "previousRank": 22,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": true
+        },
+        {
+          "rank": 23,
+          "teamId": "",
+          "teamName": "UCLA Bruins",
+          "record": "2-0",
+          "previousRank": null,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 24,
+          "teamId": "",
+          "teamName": "App St. Mountaineers",
+          "record": "3-0",
+          "previousRank": null,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        },
+        {
+          "rank": 25,
+          "teamId": "",
+          "teamName": "Minnesota Golden Gophers",
+          "record": "2-1",
+          "previousRank": null,
+          "points": 0,
+          "firstPlaceVotes": 0,
+          "isACC": false
+        }
+      ],
+      "othersReceivingVotes": []
     }
   }
 }
