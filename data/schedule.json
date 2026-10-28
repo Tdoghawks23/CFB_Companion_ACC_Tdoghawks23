@@ -2805,9 +2805,9 @@
           "location": "Acrisure Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 25,
+          "awayScore": 22,
           "isFeatured": false
         },
         {
@@ -2821,9 +2821,9 @@
           "location": "L&N Federal Credit Union Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 14,
+          "awayScore": 25,
           "isFeatured": false
         },
         {
@@ -2837,9 +2837,9 @@
           "location": "JMA Wireless Dome",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 35,
+          "awayScore": 3,
           "isFeatured": false
         },
         {
@@ -2853,9 +2853,9 @@
           "location": "Bobby Dodd Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 27,
+          "awayScore": 6,
           "isFeatured": false
         },
         {
@@ -2869,9 +2869,9 @@
           "location": "Memorial Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 27,
+          "awayScore": 26,
           "isFeatured": false
         },
         {
@@ -2885,9 +2885,9 @@
           "location": "Gerald J. Ford Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 27,
+          "awayScore": 6,
           "isFeatured": false
         },
         {
@@ -2901,9 +2901,9 @@
           "location": "Carter-Finley Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 10,
+          "awayScore": 13,
           "isFeatured": false
         },
         {
@@ -2917,9 +2917,9 @@
           "location": "Stanford Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 33,
+          "awayScore": 8,
           "isFeatured": false
         },
         {
@@ -2933,9 +2933,9 @@
           "location": "Wallace Wade Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 25,
+          "awayScore": 24,
           "isFeatured": true
         },
         {
@@ -2949,9 +2949,9 @@
           "location": "Allegacy Federal Credit Union Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 45,
+          "awayScore": 9,
           "isFeatured": false
         },
         {
@@ -2965,9 +2965,9 @@
           "location": "LaVell Edwards Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 7,
+          "awayScore": 17,
           "isFeatured": false
         }
       ]
@@ -3023,7 +3023,7 @@
           "status": "upcoming",
           "homeScore": null,
           "awayScore": null,
-          "isFeatured": false
+          "isFeatured": true
         },
         {
           "id": "2028-w4-g4",
@@ -3055,7 +3055,7 @@
           "status": "upcoming",
           "homeScore": null,
           "awayScore": null,
-          "isFeatured": true
+          "isFeatured": false
         },
         {
           "id": "2028-w4-g6",
