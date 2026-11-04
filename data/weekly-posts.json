@@ -997,6 +997,46 @@
         "toilet-bowl",
         "poll"
       ]
+    },
+    "7": {
+      "title": "Week 7: Clemson Stuns Duke, and Syracuse Finally Cracks the Poll",
+      "subtitle": "Wake Forest escapes Virginia by a point, the Orange hang 48 on NC State on the way to #23, Pitt and Louisville both roll, and Wake and Louisville meet Thursday night",
+      "author": "Tdoghawks23",
+      "publishDate": "2028-10-11",
+      "sections": [
+        {
+          "heading": "From the Commissioners",
+          "content": "People of the ACC,\n\nWeek 6 is final, and it had a little of everything. A one-point escape at the top, a Top 10 team on the wrong end of an upset, and a ranking that was a long time coming. Let's get into it.\n\n**😰 WAKE FOREST 31, VIRGINIA 30**\n\nThe #2 team in the country nearly got knocked off at home. **Virginia**, still looking for its first conference win, took Wake Forest to the final whistle before falling **31-30**. Dillon Newton-Short had a monster day for the Cavaliers, catching **11 passes for 146 yards and two touchdowns**, and it still wasn't enough. Wake survives to move to **6-0**, 3-0 in the league, and stays at **#2**. They are the **only unbeaten team left in the ACC**, and Deshonne Redeaux is sitting at #2 in the Heisman race. Still, that one was way too close.\n\n**🐯 CLEMSON 27, DUKE 24**\n\nThe Game of the Week went to the road team. **Clemson** went into Durham and beat the Blue Devils **27-24**, its **fifth straight win**, and the Tigers jump seven spots to **#12** at 5-1. Duke drops from #5 to **#10** and takes its first loss since Week 1. At 5-2 and 2-2 in conference play, the Blue Devils have work to do.\n\n**🍊 SYRACUSE 48, NC STATE 0**\n\nThe Orange answered the loss to Duke in the loudest way possible. Syracuse shut out NC State **48-0**, and they've finally been rewarded with a spot at **#23** in the country. Look at the season so far: **185 points scored, just 23 allowed, and a +162 point differential**, the best in the conference by **34 points**. The Orange are 5-1 and 3-1 in the league. Not bad for a team that was left out of the poll all season.\n\n**Louisville keeps rolling.** The Cardinals blanked East Carolina **35-0** for their third straight win since the Cal loss, and they're up to **#5**. **Pitt** is back too. The Panthers beat North Carolina **35-9** and jumped nine spots to **#16**, and they're now **4-0 in conference play**, the best league record in the ACC.\n\nAround the league:\n\n**California** edged Miami **34-29** to get back to 5-2. Miami's Tremaine Balogh did everything he could in the loss, with **seven tackles, an interception, two pass breakups, and a touchdown**.\n\n**Boston College** beat Georgia Tech **16-8** to move to 5-2, and **Stanford** beat Virginia Tech **20-14** to improve to 4-1.\n\n**🚽 THE BASEMENT**\n\n**Virginia Tech** has now lost **five straight** and is **0-5 in conference play**, the worst league record in the ACC. **North Carolina** is 0-4 after losing at Pitt, and **Virginia** is 0-3 after coming within a point of Wake. The Hokies are on a bye in Week 7, so at least they can't lose.\n\n**Week 7 is on deck:**\n\n**#2 Wake Forest at #5 Louisville**, the Game of the Week, and it's a **Thursday night**. The only unbeaten team in the ACC against a Cardinals team that has won three straight. This is the biggest game in the league this season.\n\n**Duke at UConn**. The Blue Devils need a bounce-back.\n\n**Miami at Boston College** and **California at NC State** are two more league games, while **#16 Pitt at Virginia** pits the conference's best league record against the Cavaliers, who just took Wake Forest to the wire.\n\n**Syracuse at Western Kentucky**, **James Madison at North Carolina**, and **Stanford at Notre Dame** for the Legends Trophy round out the weekend. Clemson, Georgia Tech, and Virginia Tech are off.\n\nGet your games in on time, and the streaming channel is open.\n\nSigned,\n\nYour Commissioners",
+          "type": "text"
+        },
+        {
+          "heading": "ACC Players of the Week",
+          "type": "stats",
+          "stats": [
+            {
+              "playerName": "Tremaine Balogh (Def.)",
+              "teamId": "miami",
+              "statLine": "7 tkl, 1 INT, 2 PBU, 1 TD"
+            },
+            {
+              "playerName": "Dillon Newton-Short (Off.)",
+              "teamId": "virginia",
+              "statLine": "11 rec, 146 yds, 2 TD"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "recap",
+        "week-6",
+        "week-7",
+        "clemson",
+        "duke",
+        "syracuse",
+        "wake-forest",
+        "toilet-bowl",
+        "poll"
+      ]
     }
   }
 }
