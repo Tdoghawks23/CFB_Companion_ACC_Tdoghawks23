@@ -1010,6 +1010,11 @@
           "type": "text"
         },
         {
+          "heading": "Heisman Watch: Redeaux Moves Up to No. 2",
+          "content": "The 2028 Heisman race is taking shape, and an ACC running back is right in the middle of it. Oklahoma quarterback Keisean Henderson, a redshirt sophomore, holds the top spot, unchanged from last week. Right behind him is Wake Forest's Deshonne Redeaux, who moved up and now sits at No. 2.\n\nRedeaux is the league's best shot at making it back-to-back Heisman winners for the ACC. He has run for 1,066 yards and 13 touchdowns on 110 carries, better than nine yards a carry, and he added 157 yards and a score on 24 carries in that one-point escape against Virginia. LSU's Bryce Underwood, a senior quarterback, slipped to No. 3, while Kansas State's Noah Grubbs moved up to No. 4.\n\nThe Deacons play #5 Louisville on Thursday night, and a big game on that stage would give Redeaux a case nobody could ignore.",
+          "type": "highlight"
+        },
+        {
           "heading": "ACC Players of the Week",
           "type": "stats",
           "stats": [
@@ -1035,7 +1040,8 @@
         "syracuse",
         "wake-forest",
         "toilet-bowl",
-        "poll"
+        "poll",
+        "heisman"
       ]
     }
   }
