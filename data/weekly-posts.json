@@ -1010,6 +1010,11 @@
           "type": "text"
         },
         {
+          "heading": "Heisman Watch: Redeaux Moves Up to No. 2",
+          "content": "The 2028 Heisman race is taking shape, and an ACC running back is right in the middle of it. Oklahoma quarterback Keisean Henderson, a redshirt sophomore, holds the top spot, unchanged from last week. Right behind him is Wake Forest's Deshonne Redeaux, who moved up and now sits at No. 2.\n\nRedeaux is the league's best shot at making it back-to-back Heisman winners for the ACC. He has run for 1,066 yards and 13 touchdowns on 110 carries, better than nine yards a carry, and he added 157 yards and a score on 24 carries in that one-point escape against Virginia. LSU's Bryce Underwood, a senior quarterback, slipped to No. 3, while Kansas State's Noah Grubbs moved up to No. 4.\n\nThe Deacons play #5 Louisville on Thursday night, and a big game on that stage would give Redeaux a case nobody could ignore.",
+          "type": "highlight"
+        },
+        {
           "heading": "ACC Players of the Week",
           "type": "stats",
           "stats": [
@@ -1035,6 +1040,46 @@
         "syracuse",
         "wake-forest",
         "toilet-bowl",
+        "poll",
+        "heisman"
+      ]
+    },
+    "8": {
+      "title": "Week 8: Louisville Routs Wake, and Pitt Takes Over the ACC",
+      "subtitle": "The Cardinals jump to #2 behind a near-perfect Mendoza, Wake Forest takes its first loss, Pitt is the lone team without a league loss, and Clemson visits Louisville",
+      "author": "Tdoghawks23",
+      "publishDate": "2028-10-18",
+      "sections": [
+        {
+          "heading": "From the Commissioners",
+          "content": "People of the ACC,\n\nWeek 7 is final, and the Thursday night showdown settled the top of the conference. Let's get into it.\n\n**🔥 LOUISVILLE 44, WAKE FOREST 23**\n\nThe Game of the Week wasn't close. **Louisville** crushed the Demon Deacons **44-23** and handed Wake Forest its **first loss of the season**. Quarterback **Alberto Mendoza** was close to perfect, going **16 of 18 for 300 yards and four touchdowns**, and he added **48 yards and two more scores on the ground**. That's our Offensive Player of the Week. The Cardinals jump from #5 to **#2** at 6-1 and have now won **four straight** since the Cal loss. Wake Forest falls from #2 to **#9**, and with that, there are **no unbeaten teams left in the ACC**.\n\n**🐼 PITT 24, VIRGINIA 14**\n\nWhile the big boys were beating each other up, **Pitt** quietly took control of the league. The Panthers won at Virginia **24-14** and are now **5-0 in conference play**, the only team in the ACC without a league loss. They climb four spots to **#12** at 6-1. Virginia drops to **0-4** in the league and has lost five straight.\n\n**🍊 SYRACUSE 28, WESTERN KENTUCKY 7**\n\nThe Orange keep stacking wins. Syracuse went to Bowling Green and beat Western Kentucky **28-7** to improve to **6-1** and 3-1 in the ACC, and the poll noticed again, moving them up seven spots to **#16**. Look at the numbers: **213 points scored, just 30 allowed, and a +183 point differential**, the best in the conference by **34 points** over Louisville. That's four and a third points allowed per game.\n\n**🦆 DUKE 35, UCONN 0**\n\nThe bounce-back came right on time. Duke shut out UConn **35-0** to get to **6-2** after the loss to Clemson, and the Blue Devils hold at **#10**. They're still just 2-2 in the league, so conference play is where they have ground to make up.\n\nAround the league:\n\n**Boston College** beat Miami **14-7** for its third straight win and moves to 6-2. TJ Green had a huge day for the Eagles, with **two tackles, an interception, a pass breakup, and a touchdown**, and he's our Defensive Player of the Week. Miami falls to 2-5.\n\n**California** beat NC State **35-26** for its second straight win and moves to 6-2. NC State drops to 2-5.\n\n**North Carolina** beat James Madison **24-17** to snap a four-game losing streak and get to 3-4, though the Tar Heels are still 0-4 in conference play. **Stanford** was shut out at Notre Dame **23-0** and drops to 4-2.\n\n**🚽 THE BASEMENT**\n\n**Virginia Tech** was on a bye and is still **0-5 in conference play** with five straight losses, so the Hokies stay put. **Virginia** is also 0-4 in the league and lost its fifth in a row, and North Carolina is 0-4 even with the non-conference win.\n\n**Week 8 is on deck:**\n\n**#11 Clemson at #2 Louisville**, the Game of the Week. The Tigers are coming off a bye with five straight wins, and they get the hottest team in the league on the road. Both teams are 3-1 in conference play, so this one matters in the race behind Pitt.\n\n**#12 Pitt at #9 Wake Forest**. The only team without a league loss goes on the road against a Wake team looking to respond to its first defeat.\n\n**#16 Syracuse at Virginia Tech**, **Duke at Stanford**, **Georgia Tech at Virginia**, **North Carolina at Miami**, and **NC State at Boston College** are the rest of the league games, and **UCLA at California** rounds out the slate. Every team is in action this week.\n\nGet your games in on time, and the streaming channel is open.\n\nSigned,\n\nYour Commissioners",
+          "type": "text"
+        },
+        {
+          "heading": "ACC Players of the Week",
+          "type": "stats",
+          "stats": [
+            {
+              "playerName": "TJ Green (Def.)",
+              "teamId": "boston-college",
+              "statLine": "2 tkl, 1 INT, 1 PBU, 1 TD"
+            },
+            {
+              "playerName": "Alberto Mendoza (Off.)",
+              "teamId": "louisville",
+              "statLine": "16/18, 300 yds, 4 TD; 48 rush yds, 2 TD"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "recap",
+        "week-7",
+        "week-8",
+        "louisville",
+        "wake-forest",
+        "pitt",
+        "syracuse",
         "poll"
       ]
     }

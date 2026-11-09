@@ -3416,9 +3416,9 @@
           "location": "L&N Federal Credit Union Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 44,
+          "awayScore": 23,
           "isFeatured": true
         },
         {
@@ -3432,9 +3432,9 @@
           "location": "Rentschler Field",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 0,
+          "awayScore": 35,
           "isFeatured": false
         },
         {
@@ -3448,9 +3448,9 @@
           "location": "Alumni Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 14,
+          "awayScore": 7,
           "isFeatured": false
         },
         {
@@ -3464,9 +3464,9 @@
           "location": "Houchens Industries-L.T. Smith Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 7,
+          "awayScore": 28,
           "isFeatured": false
         },
         {
@@ -3480,9 +3480,9 @@
           "location": "Scott Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 14,
+          "awayScore": 24,
           "isFeatured": false
         },
         {
@@ -3496,9 +3496,9 @@
           "location": "Carter-Finley Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 26,
+          "awayScore": 35,
           "isFeatured": false
         },
         {
@@ -3512,9 +3512,9 @@
           "location": "Kenan Memorial Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 24,
+          "awayScore": 17,
           "isFeatured": false
         },
         {
@@ -3529,9 +3529,9 @@
           "isConferenceGame": false,
           "isRivalry": true,
           "rivalryName": "Legends Trophy",
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 23,
+          "awayScore": 0,
           "isFeatured": false
         }
       ]
