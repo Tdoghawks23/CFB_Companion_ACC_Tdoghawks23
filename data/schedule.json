@@ -3552,9 +3552,9 @@
           "location": "California Memorial Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 21,
+          "awayScore": 14,
           "isFeatured": false
         },
         {
@@ -3568,9 +3568,9 @@
           "location": "L&N Federal Credit Union Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 30,
+          "awayScore": 0,
           "isFeatured": true
         },
         {
@@ -3584,9 +3584,9 @@
           "location": "Scott Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 26,
+          "awayScore": 3,
           "isFeatured": false
         },
         {
@@ -3600,9 +3600,9 @@
           "location": "Hard Rock Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 10,
+          "awayScore": 24,
           "isFeatured": false
         },
         {
@@ -3616,9 +3616,9 @@
           "location": "Allegacy Federal Credit Union Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 56,
+          "awayScore": 18,
           "isFeatured": false
         },
         {
@@ -3632,9 +3632,9 @@
           "location": "Stanford Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 27,
+          "awayScore": 24,
           "isFeatured": false
         },
         {
@@ -3648,9 +3648,9 @@
           "location": "Lane Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 8,
+          "awayScore": 9,
           "isFeatured": false
         },
         {
@@ -3664,9 +3664,9 @@
           "location": "Alumni Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 16,
+          "awayScore": 23,
           "isFeatured": false
         }
       ]
@@ -3692,9 +3692,9 @@
           "location": "Alumni Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 34,
+          "awayScore": 16,
           "isFeatured": false
         },
         {
@@ -3708,9 +3708,9 @@
           "location": "Carter-Finley Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 6,
+          "awayScore": 16,
           "isFeatured": true
         },
         {
@@ -3724,9 +3724,9 @@
           "location": "Memorial Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 27,
+          "awayScore": 13,
           "isFeatured": false
         },
         {
@@ -3740,9 +3740,9 @@
           "location": "Hard Rock Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 30,
+          "awayScore": 0,
           "isFeatured": false
         },
         {
@@ -3756,9 +3756,9 @@
           "location": "Allegacy Federal Credit Union Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 19,
+          "awayScore": 18,
           "isFeatured": false
         },
         {
@@ -3772,9 +3772,9 @@
           "location": "California Memorial Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 14,
+          "awayScore": 45,
           "isFeatured": false
         }
       ]
