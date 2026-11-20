@@ -1165,6 +1165,56 @@
         "poll",
         "heisman"
       ]
+    },
+    "11": {
+      "title": "Week 11: Syracuse Wins the Commissioners Classic and Takes Sole Possession of the ACC Lead",
+      "subtitle": "The Orange beat Boston College 25-8, Louisville drops 50 on Duke, Wake Forest needs overtime, and five ACC teams are ranked as Clemson visits Notre Dame",
+      "author": "Tdoghawks23",
+      "publishDate": "2028-11-08",
+      "sections": [
+        {
+          "heading": "From the Commissioners",
+          "content": "People of the ACC,\n\nWeek 10 is final, and the race at the top of the league just got a clear leader. The Cardinals put on a show, the Deacons needed overtime, and the Orange won the first ever Commissioners Classic. Let's get into it.\n\n**🍊 THE COMMISSIONERS CLASSIC: SYRACUSE 25, BOSTON COLLEGE 8**\n\nWelcome to a new tradition. The matchup between the two commissioners' programs now has a name, and **Syracuse** made the first one count. The Orange went to Chestnut Hill and beat Boston College **25-8** for their **fifth straight win**. At **9-1** and **6-1 in the ACC**, Syracuse is now **alone at the top of the standings**, a game clear of Louisville and Wake Forest, and the Orange climb a spot to **#6** in the country. The season numbers are ridiculous: **292 points scored, just 60 allowed, and a +232 point differential**, the best in the conference by **23 points** over Louisville. **Boston College** falls to 7-4 and 4-4 in the league.\n\n**🔥 LOUISVILLE 50, DUKE 20**\n\nThe Game of the Week was a statement. **Louisville** went into Durham and beat Duke **50-20** for its **sixth straight win**, and the Cardinals are **8-1** and **5-1 in the league** at **#4**. It was a Louisville sweep of the weekly awards. Safety **Ross Terrill** was everywhere with **five tackles, two interceptions, a pass breakup, a fumble recovery, and two touchdowns**, and running back **Marquise Davis** had **95 yards and a touchdown on nine carries, plus three catches for 95 more and another score**. **Duke** has lost two straight and is 6-4 and 2-4 in conference play.\n\n**🦌 WAKE FOREST 31, ARKANSAS 28 (OT)**\n\nThat was close. **Wake Forest** needed overtime to get past Arkansas at home, and the Deacons move to **9-1** and stay at **#5**. It's a third straight win, and they're tied with Louisville at **5-1 in the conference**, one game behind Syracuse.\n\n**🐼 Pitt is back.** The Panthers beat UConn **10-3** to get to 7-3 and 5-2 in the league, and they return to the poll at **#22**.\n\n**🐯 Clemson stumbles.** The Tigers lost at Georgia Tech **7-3** and fall to 6-3 and 4-3 in the conference, and they drop from #13 to **#24**. Georgia Tech moves to 5-4.\n\nAround the league:\n\n**Stanford** beat North Carolina **35-33** in overtime to move to 6-3 and 4-2. The Tar Heels fall to 4-5 and 1-5.\n\n**Virginia** beat NC State **22-15** to get to 4-6, and **Miami** survived at Vanderbilt **17-16** to improve to 4-6.\n\n**🚽 THE BASEMENT**\n\n**Virginia Tech** finally won a game, beating Toledo **31-28** to snap a six-game losing streak. It was a non-conference game, though, so the Hokies are still **0-6 in the ACC** and the only winless team in the league. **NC State** has lost two straight and is 3-7, and **North Carolina** is 1-5 in the conference.\n\n**Week 11 is on deck:**\n\n**#24 Clemson at Notre Dame**, the Game of the Week. The Tigers need a win in a big way after the loss to Georgia Tech.\n\n**#4 Louisville at Georgia Tech** is the league game with the most on the line. **#5 Wake Forest at Miami** is another one the Deacons can't overlook, and **Duke at Virginia Tech** and **Stanford at Virginia** round out the conference slate.\n\n**UConn at #6 Syracuse**, **Arkansas State at #22 Pitt**, and **North Carolina at Louisiana Tech** are the non-conference games. Boston College, California, and NC State are off.\n\nGet your games in on time, and the streaming channel is open.\n\nSigned,\n\nYour Commissioners",
+          "type": "text"
+        },
+        {
+          "heading": "ACC in the Top 25",
+          "content": "Five ACC teams are in the poll this week, and three of them are in the top six.\n\n**#4 Louisville** (8-1), unchanged from last week.\n**#5 Wake Forest** (9-1), unchanged from last week.\n**#6 Syracuse** (9-1), up one spot from #7.\n**#22 Pittsburgh** (7-3), back in the poll after falling out two weeks ago.\n**#24 Clemson** (6-3), down 11 spots from #13.\n\n**Ohio State** is still #1, with **LSU** at #2 and **Tennessee** at #3.",
+          "type": "highlight"
+        },
+        {
+          "heading": "Heisman Watch: Redeaux Holds at No. 2",
+          "content": "Oklahoma quarterback Keisean Henderson, a redshirt sophomore, still holds the No. 1 spot, and Wake Forest's Deshonne Redeaux stays right behind him at No. 2. Utah's Treston McMillan, a redshirt junior quarterback, moved up to No. 3, and LSU's Bryce Underwood, a senior quarterback, slipped to No. 4.\n\nRedeaux had a quiet one against Arkansas, running 15 times for 72 yards in the overtime win, and he didn't score a rushing touchdown. He still has **1,586 yards and 21 touchdowns on 181 carries**, an average of 8.0 yards a carry, and the Deacons have three games left to make his case.",
+          "type": "highlight"
+        },
+        {
+          "heading": "ACC Players of the Week",
+          "type": "stats",
+          "stats": [
+            {
+              "playerName": "Ross Terrill (Def.)",
+              "teamId": "louisville",
+              "statLine": "5 tkl, 2 INT, 1 PBU, 1 FR, 2 TD"
+            },
+            {
+              "playerName": "Marquise Davis (Off.)",
+              "teamId": "louisville",
+              "statLine": "9 car, 95 yds, 1 TD; 3 rec, 95 yds, 1 TD"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "recap",
+        "week-10",
+        "week-11",
+        "commissioners-classic",
+        "syracuse",
+        "louisville",
+        "wake-forest",
+        "poll",
+        "heisman"
+      ]
     }
   }
 }

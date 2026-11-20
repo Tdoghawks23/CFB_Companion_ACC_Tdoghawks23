@@ -3797,9 +3797,9 @@
           "location": "Allegacy Federal Credit Union Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 31,
+          "awayScore": 28,
           "isFeatured": false
         },
         {
@@ -3812,11 +3812,12 @@
           "network": "",
           "location": "Alumni Stadium",
           "isConferenceGame": true,
-          "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
-          "isFeatured": false
+          "isRivalry": true,
+          "status": "final",
+          "homeScore": 8,
+          "awayScore": 25,
+          "isFeatured": false,
+          "rivalryName": "Commissioners Classic"
         },
         {
           "id": "2028-w10-g3",
@@ -3829,9 +3830,9 @@
           "location": "Bobby Dodd Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 7,
+          "awayScore": 3,
           "isFeatured": false
         },
         {
@@ -3845,9 +3846,9 @@
           "location": "Rentschler Field",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 3,
+          "awayScore": 10,
           "isFeatured": false
         },
         {
@@ -3861,9 +3862,9 @@
           "location": "Carter-Finley Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 15,
+          "awayScore": 22,
           "isFeatured": false
         },
         {
@@ -3877,9 +3878,9 @@
           "location": "FirstBank Stadium",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 16,
+          "awayScore": 17,
           "isFeatured": false
         },
         {
@@ -3893,9 +3894,9 @@
           "location": "Glass Bowl",
           "isConferenceGame": false,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 28,
+          "awayScore": 31,
           "isFeatured": false
         },
         {
@@ -3909,9 +3910,9 @@
           "location": "Kenan Memorial Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 33,
+          "awayScore": 35,
           "isFeatured": false
         },
         {
@@ -3925,9 +3926,9 @@
           "location": "Wallace Wade Stadium",
           "isConferenceGame": true,
           "isRivalry": false,
-          "status": "upcoming",
-          "homeScore": null,
-          "awayScore": null,
+          "status": "final",
+          "homeScore": 20,
+          "awayScore": 50,
           "isFeatured": true
         }
       ]
